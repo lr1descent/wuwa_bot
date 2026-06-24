@@ -1,0 +1,99 @@
+{
+    "HelpMode": {
+        "type": "GsStrConfig",
+        "title": "帮助模式",
+        "desc": "帮助模式",
+        "data": "dark",
+        "options": [
+            "light",
+            "dark"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "AtSenderPos": {
+        "type": "GsStrConfig",
+        "title": "@发送者位置",
+        "desc": "消息@发送者的位置",
+        "data": "消息最前",
+        "options": [
+            "消息最前",
+            "消息最后"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "SameUserEventCD": {
+        "type": "GsIntConfig",
+        "title": "启用同个人触发命令CD(0为不启用)",
+        "desc": "启用同个人触发命令CD(0为不启用)",
+        "data": 0,
+        "max_value": 3600,
+        "options": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            10,
+            15,
+            30
+        ],
+        "secret": false
+    },
+    "BlackList": {
+        "type": "GsListStrConfig",
+        "title": "黑名单",
+        "desc": "黑名单用户/群, 不会触发任何命令",
+        "data": [],
+        "options": [],
+        "secret": false
+    },
+    "ShieldQQBot": {
+        "type": "GsListStrConfig",
+        "title": "含@该ID时消息禁止响应",
+        "desc": "当消息中包含@QQ机器人时禁止Core响应其他平台",
+        "data": [
+            "38890",
+            "28541",
+            "28542"
+        ],
+        "options": [
+            "38890",
+            "28541",
+            "28542"
+        ],
+        "secret": false
+    },
+    "EnableForwardMessage": {
+        "type": "GsStrConfig",
+        "title": "是否允许发送合并转发",
+        "desc": "可选循环发送、合并消息、合并转发、禁止",
+        "data": "允许",
+        "options": [
+            "允许",
+            "禁止(不发送任何消息)",
+            "合并为一条消息",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "全部拆成单独消息"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "CommandSemaphore": {
+        "type": "GsIntConfig",
+        "title": "允许命令并发数量",
+        "desc": "允许命令同时并发数量, 过高可能挤占CPU",
+        "data": 25,
+        "max_value": 500,
+        "options": [],
+        "secret": false
+    }
+}

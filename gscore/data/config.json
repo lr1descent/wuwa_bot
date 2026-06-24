@@ -1,0 +1,28 @@
+{
+    "HOST": "0.0.0.0",
+    "PORT": "8765",
+    "ENABLE_HTTP": false,
+    "WS_TOKEN": "",
+    "TRUSTED_IPS": [
+        "localhost",
+        "::1",
+        "127.0.0.1"
+    ],
+    "masters": [],
+    "superusers": [],
+    "REGISTER_CODE": "ee44fae3f7f61a20ec54c00a77cf2b0a",
+    "misfire_grace_time": 90,
+    "log": {
+        "level": "INFO",
+        "output": [
+            "stdout",
+            "stderr",
+            "file"
+        ],
+        "module": false
+    },
+    "enable_empty_start": true,
+    "command_start": [],
+    "buffered_user_writes": false,
+    "sv": {}
+}

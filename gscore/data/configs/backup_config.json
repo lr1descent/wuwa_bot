@@ -1,0 +1,65 @@
+{
+    "backup_method": {
+        "type": "GsListStrConfig",
+        "title": "备份方式",
+        "desc": "指定备份方式",
+        "data": [
+            "file"
+        ],
+        "options": [
+            "file",
+            "web_dav"
+        ],
+        "secret": false
+    },
+    "backup_time": {
+        "type": "GsTimeRConfig",
+        "title": "备份时间",
+        "desc": "指定每日的备份时间",
+        "data": [
+            0,
+            55
+        ],
+        "secret": false
+    },
+    "backup_dir": {
+        "type": "GsListStrConfig",
+        "title": "备份目录",
+        "desc": "指定需要备份的目录",
+        "data": [
+            "/gsuid_core/data/GsData.db"
+        ],
+        "options": [],
+        "secret": false
+    },
+    "webdav_url": {
+        "type": "GsStrConfig",
+        "title": "WebDAV URL",
+        "desc": "WebDAV 服务器地址",
+        "data": "",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "webdav_username": {
+        "type": "GsStrConfig",
+        "title": "WebDAV 用户名",
+        "desc": "WebDAV 服务器用户名",
+        "data": "",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "webdav_password": {
+        "type": "GsStrConfig",
+        "title": "WebDAV 密码",
+        "desc": "WebDAV 服务器密码",
+        "data": "",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    }
+}

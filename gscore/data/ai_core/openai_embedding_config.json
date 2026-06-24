@@ -1,0 +1,82 @@
+{
+    "base_url": {
+        "type": "GsStrConfig",
+        "title": "嵌入模型API基础URL",
+        "desc": "指定OpenAI兼容格式的嵌入模型API基础URL, 注意一般是以 /v1 结尾",
+        "data": "https://api.openai.com/v1",
+        "options": [
+            "https://api.openai.com/v1",
+            "https://api.siliconflow.cn/v1",
+            "https://dashscope.aliyuncs.com/compatible-mode/v1",
+            "https://api.deepseek.com",
+            "http://localhost:3000",
+            "http://127.0.0.1:3000"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "api_key": {
+        "type": "GsListStrConfig",
+        "title": "嵌入模型API密钥",
+        "desc": "指定OpenAI兼容格式的嵌入模型API密钥, 支持添加多个",
+        "data": [
+            "sk-"
+        ],
+        "options": [
+            "sk-"
+        ],
+        "secret": false
+    },
+    "embedding_model": {
+        "type": "GsStrConfig",
+        "title": "嵌入模型名称",
+        "desc": "指定嵌入模型名称, 该模型将会用于处理文本嵌入",
+        "data": "text-embedding-3-small",
+        "options": [
+            "text-embedding-3-small",
+            "text-embedding-3-large",
+            "text-embedding-ada-002",
+            "BAAI/bge-m3",
+            "BAAI/bge-large-zh-v1.5",
+            "Pro/BAAI/bge-m3"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "dimension": {
+        "type": "GsIntConfig",
+        "title": "嵌入向量维度",
+        "desc": "指定嵌入模型输出的向量维度。0 表示自动推断（OpenAI 官方模型可自动识别, 其它模型将在首次调用 API 时从响应推断）。切换到不同维度的模型时建议手动指定, 以确保向量库维度正确",
+        "data": 0,
+        "max_value": null,
+        "options": [
+            0,
+            256,
+            512,
+            768,
+            1024,
+            1536,
+            2048,
+            3072,
+            4096
+        ],
+        "secret": false
+    },
+    "embedding_modalities": {
+        "type": "GsListStrConfig",
+        "title": "嵌入模型支持的模态",
+        "desc": "声明该 OpenAI 兼容嵌入模型支持的内容类型(持久化进配置)。text 走标准 /embeddings; image 走多模态 input(Jina 风格, 如 jina-clip-v2, 可文搜图); audio/video 暂无通用 OpenAI 兼容协议, 声明也会在调用时报未实现",
+        "data": [
+            "text"
+        ],
+        "options": [
+            "text",
+            "image",
+            "audio",
+            "video"
+        ],
+        "secret": false
+    }
+}

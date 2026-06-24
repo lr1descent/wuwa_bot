@@ -1,0 +1,143 @@
+{
+    "db_type": {
+        "type": "GsStrConfig",
+        "title": "数据库类型",
+        "desc": "设置喜欢的数据库类型",
+        "data": "SQLite",
+        "options": [
+            "SQLite",
+            "MySql",
+            "PostgreSQL",
+            "自定义"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "db_driver": {
+        "type": "GsStrConfig",
+        "title": "MySQL驱动",
+        "desc": "设置喜欢的MySQL驱动",
+        "data": "aiomysql",
+        "options": [
+            "aiomysql",
+            "asyncmy"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "db_custom_url": {
+        "type": "GsStrConfig",
+        "title": "自定义数据库连接地址 (一般无需填写)",
+        "desc": "设置自定义数据库连接",
+        "data": "",
+        "options": [
+            "sqlite+aiosqlite:///E://GenshinUID//gsdata.db"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "db_host": {
+        "type": "GsStrConfig",
+        "title": "数据库地址",
+        "desc": "设置数据库地址",
+        "data": "localhost",
+        "options": [
+            "localhost"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "db_port": {
+        "type": "GsStrConfig",
+        "title": "数据库端口",
+        "desc": "设置数据库端口",
+        "data": "3306",
+        "options": [
+            "3306"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "db_user": {
+        "type": "GsStrConfig",
+        "title": "数据库用户名",
+        "desc": "设置数据库用户名",
+        "data": "root",
+        "options": [
+            "root",
+            "admin",
+            "postgres"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "db_password": {
+        "type": "GsStrConfig",
+        "title": "数据库密码",
+        "desc": "设置数据库密码",
+        "data": "root",
+        "options": [
+            "root",
+            "123456"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "db_name": {
+        "type": "GsStrConfig",
+        "title": "数据库名称",
+        "desc": "设置数据库名称",
+        "data": "GsData",
+        "options": [
+            "GsData"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "db_pool_size": {
+        "type": "GsIntConfig",
+        "title": "数据库连接池大小",
+        "desc": "设置数据库连接池大小",
+        "data": 5,
+        "max_value": null,
+        "options": [
+            5,
+            10,
+            20,
+            30,
+            40,
+            50
+        ],
+        "secret": false
+    },
+    "db_echo": {
+        "type": "GsBoolConfig",
+        "title": "数据库调试模式",
+        "desc": "设置数据库调试模式",
+        "data": false,
+        "secret": false
+    },
+    "db_pool_recycle": {
+        "type": "GsIntConfig",
+        "title": "数据库连接池回收时间",
+        "desc": "设置数据库连接池回收时间",
+        "data": 1500,
+        "max_value": null,
+        "options": [
+            1500,
+            3600,
+            7200,
+            14400,
+            28800
+        ],
+        "secret": false
+    }
+}

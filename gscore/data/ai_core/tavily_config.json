@@ -1,0 +1,37 @@
+{
+    "api_key": {
+        "type": "GsListStrConfig",
+        "title": "Tavily API密钥",
+        "desc": "指定 Tavily API 的密钥，用于启用 web 搜索功能，请前往 https://tavily.com 获取 API Key",
+        "data": [],
+        "options": [],
+        "secret": false
+    },
+    "max_results": {
+        "type": "GsIntConfig",
+        "title": "最大搜索结果数",
+        "desc": "指定每次搜索的最大返回结果数量",
+        "data": 10,
+        "max_value": null,
+        "options": [
+            5,
+            10,
+            15,
+            20
+        ],
+        "secret": false
+    },
+    "search_depth": {
+        "type": "GsStrConfig",
+        "title": "搜索深度",
+        "desc": "指定搜索深度，basic 速度更快但结果较少，advanced 更详细但速度较慢",
+        "data": "basic",
+        "options": [
+            "basic",
+            "advanced"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    }
+}

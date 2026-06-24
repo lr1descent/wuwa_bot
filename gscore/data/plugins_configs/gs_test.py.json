@@ -1,0 +1,23 @@
+{
+    "name": "gs_test.py",
+    "pm": 6,
+    "priority": 5,
+    "enabled": true,
+    "area": "SV",
+    "black_list": [],
+    "white_list": [],
+    "prefix": [],
+    "force_prefix": [],
+    "disable_force_prefix": false,
+    "allow_empty_prefix": false,
+    "sv": {
+        "测试开关": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        }
+    }
+}

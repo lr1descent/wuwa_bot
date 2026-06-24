@@ -1,0 +1,242 @@
+{"event": "🧠 [GsCore] 切换HF地址，地址: https://hf-mirror.com", "level": "info", "timestamp": "06-24 12:33:03"}
+{"event": "📀 [数据库] 开始初始化...", "level": "info", "timestamp": "06-24 12:33:03"}
+{"event": "💖 [早柚核心]开始加载插件...", "level": "info", "timestamp": "06-24 12:33:03"}
+{"event": "🔍 [早柚核心] 插件发现与依赖检查完成, 耗时: 0.00秒", "level": "info", "timestamp": "06-24 12:33:03"}
+{"event": "✅ 插件core_command导入成功! 耗时: 0.01秒", "level": "success", "timestamp": "06-24 12:33:03"}
+{"event": "✅ 插件gs_test导入成功! 耗时: 0.00秒", "level": "success", "timestamp": "06-24 12:33:04"}
+{"event": "📥 [早柚核心] 插件模块导入完成, 耗时: 0.68秒", "level": "info", "timestamp": "06-24 12:33:04"}
+{"event": "🐢 [早柚核心] 共导入 13 个模块, 累计 0.66秒, 最慢 Top 10:", "level": "info", "timestamp": "06-24 12:33:04"}
+{"event": "    ⏱️   0.43秒  auto_update", "level": "info", "timestamp": "06-24 12:33:04"}
+{"event": "    ⏱️   0.13秒  user_login", "level": "info", "timestamp": "06-24 12:33:04"}
+{"event": "    ⏱️   0.06秒  core_user", "level": "info", "timestamp": "06-24 12:33:04"}
+{"event": "    ⏱️   0.01秒  core_command", "level": "info", "timestamp": "06-24 12:33:04"}
+{"event": "    ⏱️   0.01秒  core_ai_control", "level": "info", "timestamp": "06-24 12:33:04"}
+{"event": "    ⏱️   0.01秒  core_config_cmd", "level": "info", "timestamp": "06-24 12:33:04"}
+{"event": "    ⏱️   0.01秒  core_backup", "level": "info", "timestamp": "06-24 12:33:04"}
+{"event": "    ⏱️   0.00秒  core_update", "level": "info", "timestamp": "06-24 12:33:04"}
+{"event": "    ⏱️   0.00秒  install_plugins", "level": "info", "timestamp": "06-24 12:33:04"}
+{"event": "    ⏱️   0.00秒  core_help", "level": "info", "timestamp": "06-24 12:33:04"}
+{"event": "💖 [早柚核心] 插件加载完成! 总耗时: 0.94秒", "level": "success", "timestamp": "06-24 12:33:04"}
+{"event": "\n.------..------..------..------..------..------..------.\n|G.--. ||S.--. ||-.--. ||C.--. ||O.--. ||R.--. ||E.--. |\n| :/\\: || :/\\: || (\\/) || :/\\: || :/\\: || :(): || (\\/) |\n| :\\/: || :\\/: || :\\/: || :\\/: || :\\/: || ()() || :\\/: |\n| '--'G|| '--'S|| '--'-|| '--'C|| '--'O|| '--'R|| '--'E|\n`------'`------'`------'`------'`------'`------'`------'\n\n          🌱 [早柚核心] 已启动! 版本 0.10.5 ！\n", "level": "success", "timestamp": "06-24 12:33:04"}
+{"event": "🚀 [GsCore] 启动完成, 耗时: 2.89s, 版本: 0.10.5", "level": "success", "timestamp": "06-24 12:33:04"}
+{"event": "📦 插件: 2 | 🛠️ 服务: 18 | ⚡ 触发器: 26", "level": "success", "timestamp": "06-24 12:33:04"}
+{"event": "Started server process [75]", "level": "info", "timestamp": "06-24 12:33:04"}
+{"event": "Waiting for application startup.", "level": "info", "timestamp": "06-24 12:33:04"}
+{"positional_args": [["move_database", "create_core_tables", "trans_adapter", "load_global_val"]], "event": "♻ [GsCore] 执行启动前Hook函数中！", "level": "info", "timestamp": "06-24 12:33:04"}
+{"event": "OperationalError('(sqlite3.OperationalError) index idx_group_id already exists')", "level": "error", "timestamp": "06-24 12:33:07", "exception": "Traceback (most recent call last):\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py\", line 1967, in _exec_single_context\n    self.dialect.do_execute(\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/engine/default.py\", line 952, in do_execute\n    cursor.execute(statement, parameters)\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/dialects/sqlite/aiosqlite.py\", line 182, in execute\n    self._adapt_connection._handle_exception(error)\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/dialects/sqlite/aiosqlite.py\", line 342, in _handle_exception\n    raise error\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/dialects/sqlite/aiosqlite.py\", line 164, in execute\n    self.await_(_cursor.execute(operation, parameters))\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/util/_concurrency_py3k.py\", line 132, in await_only\n    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/util/_concurrency_py3k.py\", line 196, in greenlet_spawn\n    value = await result\n            ^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/aiosqlite/cursor.py\", line 40, in execute\n    await self._execute(self._cursor.execute, sql, parameters)\n  File \"/venv/lib/python3.12/site-packages/aiosqlite/cursor.py\", line 32, in _execute\n    return await self._conn._execute(fn, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/aiosqlite/core.py\", line 160, in _execute\n    return await future\n           ^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/aiosqlite/core.py\", line 63, in _connection_worker_thread\n    result = function()\n             ^^^^^^^^^^\nsqlite3.OperationalError: index idx_group_id already exists\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/gsuid_core/gsuid_core/server.py\", line 164, in core_start_before_execute\n    await asyncio.gather(\n  File \"/gsuid_core/gsuid_core/utils/database/startup.py\", line 156, in create_core_tables\n    await ensure_core_database_tables()\n  File \"/gsuid_core/gsuid_core/utils/database/startup.py\", line 137, in ensure_core_database_tables\n    await conn.run_sync(SQLModel.metadata.create_all)\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/ext/asyncio/engine.py\", line 888, in run_sync\n    return await greenlet_spawn(\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/util/_concurrency_py3k.py\", line 201, in greenlet_spawn\n    result = context.throw(*sys.exc_info())\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/sql/schema.py\", line 5928, in create_all\n    bind._run_ddl_visitor(\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py\", line 2467, in _run_ddl_visitor\n    ).traverse_single(element)\n      ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py\", line 661, in traverse_single\n    return meth(obj, **kw)\n           ^^^^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/sql/ddl.py\", line 984, in visit_metadata\n    self.traverse_single(\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py\", line 661, in traverse_single\n    return meth(obj, **kw)\n           ^^^^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/sql/ddl.py\", line 1026, in visit_table\n    self.traverse_single(index, create_ok=True)\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/sql/visitors.py\", line 661, in traverse_single\n    return meth(obj, **kw)\n           ^^^^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/sql/ddl.py\", line 1063, in visit_index\n    CreateIndex(index)._invoke_with(self.connection)\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/sql/ddl.py\", line 321, in _invoke_with\n    return bind.execute(self)\n           ^^^^^^^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py\", line 1419, in execute\n    return meth(\n           ^^^^^\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/sql/ddl.py\", line 187, in _execute_on_connection\n    return connection._execute_ddl(\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py\", line 1530, in _execute_ddl\n    ret = self._execute_context(\n          ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py\", line 1846, in _execute_context\n    return self._exec_single_context(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py\", line 1986, in _exec_single_context\n    self._handle_dbapi_exception(\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py\", line 2363, in _handle_dbapi_exception\n    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/engine/base.py\", line 1967, in _exec_single_context\n    self.dialect.do_execute(\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/engine/default.py\", line 952, in do_execute\n    cursor.execute(statement, parameters)\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/dialects/sqlite/aiosqlite.py\", line 182, in execute\n    self._adapt_connection._handle_exception(error)\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/dialects/sqlite/aiosqlite.py\", line 342, in _handle_exception\n    raise error\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/dialects/sqlite/aiosqlite.py\", line 164, in execute\n    self.await_(_cursor.execute(operation, parameters))\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/util/_concurrency_py3k.py\", line 132, in await_only\n    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/sqlalchemy/util/_concurrency_py3k.py\", line 196, in greenlet_spawn\n    value = await result\n            ^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/aiosqlite/cursor.py\", line 40, in execute\n    await self._execute(self._cursor.execute, sql, parameters)\n  File \"/venv/lib/python3.12/site-packages/aiosqlite/cursor.py\", line 32, in _execute\n    return await self._conn._execute(fn, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/aiosqlite/core.py\", line 160, in _execute\n    return await future\n           ^^^^^^^^^^^^\n  File \"/venv/lib/python3.12/site-packages/aiosqlite/core.py\", line 63, in _connection_worker_thread\n    result = function()\n             ^^^^^^^^^^\nsqlalchemy.exc.OperationalError: (sqlite3.OperationalError) index idx_group_id already exists\n[SQL: CREATE INDEX idx_group_id ON coregroup (group_id)]\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"}
+{"event": "⏲ [定时器系统] 定时任务启动成功！", "level": "info", "timestamp": "06-24 12:33:07"}
+{"event": "[GsCore资源下载]测速中...", "level": "info", "timestamp": "06-24 12:33:07"}
+{"positional_args": [["init_ai_core", "_init_plugin_commit_versions", "_start_rm_cleanup"]], "event": "♻ [GsCore] 执行启动Hook函数中！", "level": "info", "timestamp": "06-24 12:33:07"}
+{"event": "Application startup complete.", "level": "info", "timestamp": "06-24 12:33:07"}
+{"event": "🧠 [AI Core] AI总开关已关闭，跳过 AI 重依赖导入与子系统初始化", "level": "info", "timestamp": "06-24 12:33:07"}
+{"event": "[Git Async] 执行命令: git rev-parse --short HEAD @ /gsuid_core", "level": "info", "timestamp": "06-24 12:33:07"}
+{"event": "Uvicorn running on http://0.0.0.0:8765 (Press CTRL+C to quit)", "level": "info", "timestamp": "06-24 12:33:07"}
+{"event": "[Git Async] 命令成功: git rev-parse --short HEAD @ /gsuid_core", "level": "success", "timestamp": "06-24 12:33:07"}
+{"event": "[Git] 已初始化插件 commit 版本信息，共 1 个", "level": "info", "timestamp": "06-24 12:33:07"}
+{"event": "🗑️ [ResourceManager] TTL 清理任务已启动 (TTL: 1800s, 间隔: 300s)", "level": "info", "timestamp": "06-24 12:33:07"}
+{"event": "[数据库] 核心数据库表创建成功!", "level": "info", "timestamp": "06-24 12:33:07"}
+{"event": "🔒️ [网页控制台] 认证加密密钥已生成 key_id=782d865015de6d14 pubkey_fingerprint=01c5583801d018b2", "level": "info", "timestamp": "06-24 12:33:07"}
+{"event": "🔒️ [网页控制台] 认证密钥轮换定时任务已注册（每 12h）", "level": "info", "timestamp": "06-24 12:33:07"}
+{"event": "💻 [网页控制台] AI 总开关已关闭，跳过 AI 相关 API 路由导入（节省约 150MB 内存）", "level": "info", "timestamp": "06-24 12:33:07"}
+{"event": "💻 [网页控制台] 使用前端路径: /gsuid_core/gsuid_core/webconsole/dist, 版本: 0.0.15", "level": "info", "timestamp": "06-24 12:33:07"}
+{"event": "💻 [网页控制台] 准备挂载前端到 /app, 目录: /gsuid_core/gsuid_core/webconsole/dist", "level": "info", "timestamp": "06-24 12:33:07"}
+{"event": "💻 [网页控制台] 已通过 APIRouter 挂载前端到 /app", "level": "info", "timestamp": "06-24 12:33:07"}
+{"event": "💻 [网页控制台] 尝试挂载WebConsole", "level": "info", "timestamp": "06-24 12:33:07"}
+{"event": "💻 WebConsole挂载成功: http://0.0.0.0:8765/app", "level": "success", "timestamp": "06-24 12:33:07"}
+{"event": "🚀 最快资源站: [Lulu] http://lulush.microgg.cn", "level": "info", "timestamp": "06-24 12:33:12"}
+{"event": "Invalid HTTP request received.", "level": "warning", "timestamp": "06-24 12:35:05"}
+{"event": "Invalid HTTP request received.", "level": "warning", "timestamp": "06-24 12:35:17"}
+{"event": "172.20.0.2:39342 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 12:36:23"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:36:23"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:36:23"}
+{"event": "172.20.0.2:39556 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 12:36:53"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:36:53"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:36:53"}
+{"event": "172.20.0.2:39590 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 12:37:23"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:37:23"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:37:23"}
+{"event": "172.20.0.2:39608 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:37:34"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:37:34"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:37:34"}
+{"event": "172.20.0.2:39630 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:37:53"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:37:53"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:37:53"}
+{"event": "172.20.0.2:39646 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:38:04"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:38:04"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:38:04"}
+{"event": "172.20.0.2:39672 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:38:23"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:38:23"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:38:23"}
+{"event": "172.20.0.2:39690 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:38:34"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:38:34"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:38:34"}
+{"event": "172.20.0.2:39712 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:38:53"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:38:53"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:38:53"}
+{"event": "172.20.0.2:39724 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:39:04"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:39:04"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:39:04"}
+{"event": "172.20.0.2:39746 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:39:23"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:39:23"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:39:23"}
+{"event": "172.20.0.2:39764 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:39:34"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:39:34"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:39:34"}
+{"event": "172.20.0.2:39790 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:39:53"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:39:53"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:39:53"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 12:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 12:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 12:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 12:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 12:40:00"}
+{"event": "172.20.0.2:39802 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:40:04"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:40:04"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:40:04"}
+{"event": "172.20.0.2:39824 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:40:23"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:40:23"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:40:23"}
+{"event": "172.20.0.2:39842 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:40:34"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:40:34"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:40:34"}
+{"event": "172.20.0.2:39864 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:40:53"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:40:53"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:40:53"}
+{"event": "172.20.0.2:39876 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:41:04"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:41:04"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:41:04"}
+{"event": "172.20.0.2:39898 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:41:23"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:41:23"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:41:23"}
+{"event": "172.20.0.2:39920 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:41:34"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:41:34"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:41:34"}
+{"event": "172.20.0.2:39942 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:41:53"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:41:53"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:41:53"}
+{"event": "172.20.0.2:39958 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:42:04"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:42:04"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:42:04"}
+{"event": "172.20.0.2:39984 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:42:23"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:42:23"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:42:23"}
+{"event": "172.20.0.2:40002 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:42:34"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:42:34"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:42:34"}
+{"event": "172.20.0.2:40024 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:42:53"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:42:53"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:42:53"}
+{"event": "172.20.0.2:40036 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:43:04"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:43:04"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:43:04"}
+{"event": "172.20.0.2:40064 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:43:23"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:43:23"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:43:23"}
+{"event": "172.20.0.2:40086 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:43:34"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:43:34"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:43:34"}
+{"event": "172.20.0.2:40108 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:43:53"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:43:53"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:43:53"}
+{"event": "172.20.0.2:40120 - \"WebSocket /\" 403", "level": "info", "timestamp": "06-24 12:44:04"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 12:44:04"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 12:44:04"}
+{"event": "[GsCore] 收到关闭信号，正在设置 shutdown_event...", "level": "info", "timestamp": "06-24 12:45:23"}
+{"event": "Shutting down", "level": "info", "timestamp": "06-24 12:45:23"}
+{"event": "Waiting for application shutdown.", "level": "info", "timestamp": "06-24 12:45:23"}
+{"event": "[GsCore] 开始关闭流程，设置 shutdown_event...", "level": "info", "timestamp": "06-24 12:45:23"}
+{"event": "⌛ [定时器系统] 程序关闭！定时任务结束！", "level": "info", "timestamp": "06-24 12:45:23"}
+{"positional_args": [["save_global_val", "_flush_user_buffer_on_shutdown", "flush_ai_sessions_on_shutdown", "_stop_rm_cleanup", "close_qdrant_client_on_shutdown"]], "event": "♻ [GsCore] 执行启动Hook函数中！", "level": "info", "timestamp": "06-24 12:45:23"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 12:45:23"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 12:45:23"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 12:45:23"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 12:45:23"}
+{"event": "Application shutdown complete.", "level": "info", "timestamp": "06-24 12:45:26"}
+{"event": "Finished server process [75]", "level": "info", "timestamp": "06-24 12:45:26"}
+{"event": "[GsCore] 收到关闭信号，正在设置 shutdown_event...", "level": "info", "timestamp": "06-24 12:45:26"}
+{"event": "🧠 [GsCore] 切换HF地址，地址: https://hf-mirror.com", "level": "info", "timestamp": "06-24 12:45:52"}
+{"event": "📀 [数据库] 开始初始化...", "level": "info", "timestamp": "06-24 12:45:52"}
+{"event": "💖 [早柚核心]开始加载插件...", "level": "info", "timestamp": "06-24 12:45:52"}
+{"event": "🔍 [早柚核心] 插件发现与依赖检查完成, 耗时: 0.00秒", "level": "info", "timestamp": "06-24 12:45:52"}
+{"event": "✅ 插件core_command导入成功! 耗时: 0.01秒", "level": "success", "timestamp": "06-24 12:45:52"}
+{"event": "✅ 插件gs_test导入成功! 耗时: 0.00秒", "level": "success", "timestamp": "06-24 12:45:53"}
+{"event": "📥 [早柚核心] 插件模块导入完成, 耗时: 0.50秒", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "🐢 [早柚核心] 共导入 13 个模块, 累计 0.49秒, 最慢 Top 10:", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "    ⏱️   0.29秒  auto_update", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "    ⏱️   0.13秒  user_login", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "    ⏱️   0.02秒  core_user", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "    ⏱️   0.01秒  core_command", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "    ⏱️   0.01秒  core_update", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "    ⏱️   0.01秒  core_ai_control", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "    ⏱️   0.01秒  core_config_cmd", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "    ⏱️   0.01秒  core_backup", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "    ⏱️   0.00秒  install_plugins", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "    ⏱️   0.00秒  core_help", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "💖 [早柚核心] 插件加载完成! 总耗时: 0.65秒", "level": "success", "timestamp": "06-24 12:45:53"}
+{"event": "\n.------..------..------..------..------..------..------.\n|G.--. ||S.--. ||-.--. ||C.--. ||O.--. ||R.--. ||E.--. |\n| :/\\: || :/\\: || (\\/) || :/\\: || :/\\: || :(): || (\\/) |\n| :\\/: || :\\/: || :\\/: || :\\/: || :\\/: || ()() || :\\/: |\n| '--'G|| '--'S|| '--'-|| '--'C|| '--'O|| '--'R|| '--'E|\n`------'`------'`------'`------'`------'`------'`------'\n\n          🌱 [早柚核心] 已启动! 版本 0.10.5 ！\n", "level": "success", "timestamp": "06-24 12:45:53"}
+{"event": "🚀 [GsCore] 启动完成, 耗时: 1.52s, 版本: 0.10.5", "level": "success", "timestamp": "06-24 12:45:53"}
+{"event": "📦 插件: 2 | 🛠️ 服务: 18 | ⚡ 触发器: 26", "level": "success", "timestamp": "06-24 12:45:53"}
+{"event": "Started server process [65]", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "Waiting for application startup.", "level": "info", "timestamp": "06-24 12:45:53"}
+{"positional_args": [["move_database", "create_core_tables", "trans_adapter", "load_global_val"]], "event": "♻ [GsCore] 执行启动前Hook函数中！", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "[数据库] 核心数据库表创建成功!", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "🔒️ 开始加载全局变量! 今日: 2026-06-24", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "🔒️ 全局变量加载完成!", "level": "success", "timestamp": "06-24 12:45:53"}
+{"event": "🔒️ 开始加载流量统计!", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "🔒️ 流量统计加载完成! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "success", "timestamp": "06-24 12:45:53"}
+{"event": "⏲ [定时器系统] 定时任务启动成功！", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "[GsCore资源下载]测速中...", "level": "info", "timestamp": "06-24 12:45:53"}
+{"positional_args": [["init_ai_core", "_init_plugin_commit_versions", "_start_rm_cleanup"]], "event": "♻ [GsCore] 执行启动Hook函数中！", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "Application startup complete.", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "🧠 [AI Core] AI总开关已关闭，跳过 AI 重依赖导入与子系统初始化", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "[Git Async] 执行命令: git rev-parse --short HEAD @ /gsuid_core", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "Uvicorn running on http://0.0.0.0:8765 (Press CTRL+C to quit)", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "[Git Async] 命令成功: git rev-parse --short HEAD @ /gsuid_core", "level": "success", "timestamp": "06-24 12:45:53"}
+{"event": "[Git] 已初始化插件 commit 版本信息，共 1 个", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "🗑️ [ResourceManager] TTL 清理任务已启动 (TTL: 1800s, 间隔: 300s)", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "[数据库] 核心数据库表创建成功!", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "🔒️ [网页控制台] 认证加密密钥已生成 key_id=3b714b49db73bef9 pubkey_fingerprint=7349bda4ddb335e2", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "🔒️ [网页控制台] 认证密钥轮换定时任务已注册（每 12h）", "level": "info", "timestamp": "06-24 12:45:53"}
+{"event": "💻 [网页控制台] AI 总开关已关闭，跳过 AI 相关 API 路由导入（节省约 150MB 内存）", "level": "info", "timestamp": "06-24 12:45:54"}
+{"event": "💻 [网页控制台] 使用前端路径: /gsuid_core/gsuid_core/webconsole/dist, 版本: 0.0.15", "level": "info", "timestamp": "06-24 12:45:54"}
+{"event": "💻 [网页控制台] 准备挂载前端到 /app, 目录: /gsuid_core/gsuid_core/webconsole/dist", "level": "info", "timestamp": "06-24 12:45:54"}
+{"event": "💻 [网页控制台] 已通过 APIRouter 挂载前端到 /app", "level": "info", "timestamp": "06-24 12:45:54"}
+{"event": "💻 [网页控制台] 尝试挂载WebConsole", "level": "info", "timestamp": "06-24 12:45:54"}
+{"event": "💻 WebConsole挂载成功: http://0.0.0.0:8765/app", "level": "success", "timestamp": "06-24 12:45:54"}
+{"event": "🚀 最快资源站: [Lulu] http://lulush.microgg.cn", "level": "info", "timestamp": "06-24 12:45:57"}
+{"event": "Invalid HTTP request received.", "level": "warning", "timestamp": "06-24 12:46:56"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 12:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 12:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 12:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 12:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 12:50:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 13:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 13:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 13:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 13:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 13:00:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 13:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 13:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 13:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 13:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 13:10:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 13:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 13:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 13:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 13:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 13:20:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 13:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 13:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 13:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 13:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 13:30:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 13:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 13:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 13:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 13:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 13:40:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 13:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 13:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 13:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 13:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 13:50:00"}

@@ -1,0 +1,95 @@
+{
+    "SendMDPlatform": {
+        "type": "GsListStrConfig",
+        "title": "默认发送MD的平台列表",
+        "desc": "发送MD的平台列表",
+        "data": [],
+        "options": [
+            "villa",
+            "kaiheila",
+            "dodo",
+            "discord",
+            "telegram",
+            "qqgroup",
+            "qqguild",
+            "web"
+        ],
+        "secret": false
+    },
+    "ButtonRow": {
+        "type": "GsIntConfig",
+        "title": "按钮默认一行几个",
+        "desc": "除了插件作者特殊设定的按钮排序",
+        "data": 2,
+        "max_value": 5,
+        "options": [],
+        "secret": false
+    },
+    "SendButtonsPlatform": {
+        "type": "GsListStrConfig",
+        "title": "默认发送按钮的平台列表",
+        "desc": "发送按钮的平台列表",
+        "data": [
+            "villa",
+            "kaiheila",
+            "dodo",
+            "discord",
+            "telegram",
+            "web"
+        ],
+        "options": [
+            "villa",
+            "kaiheila",
+            "dodo",
+            "discord",
+            "telegram",
+            "qqgroup",
+            "qqguild",
+            "web"
+        ],
+        "secret": false
+    },
+    "SendTemplatePlatform": {
+        "type": "GsListStrConfig",
+        "title": "默认发送模板按钮/MD的平台列表",
+        "desc": "发送按钮的平台列表",
+        "data": [
+            "qqgroup",
+            "qqguild"
+        ],
+        "options": [
+            "qqgroup",
+            "qqguild",
+            "web"
+        ],
+        "secret": false
+    },
+    "TryTemplateForQQ": {
+        "type": "GsBoolConfig",
+        "title": "启用后尝试读取模板文件并发送",
+        "desc": "发送MD和按钮模板",
+        "data": true,
+        "secret": false
+    },
+    "ForceSendMD": {
+        "type": "GsBoolConfig",
+        "title": "强制使用MD发送图文",
+        "desc": "强制使用MD发送图文",
+        "data": false,
+        "secret": false
+    },
+    "UseCRLFReplaceLFForMD": {
+        "type": "GsBoolConfig",
+        "title": "发送MD时使用CR替换LF",
+        "desc": "发送MD时使用CR替换LF",
+        "data": true,
+        "secret": false
+    },
+    "SplitMDAndButtons": {
+        "type": "GsBoolConfig",
+        "title": "发送MD消息时将按钮分开发送",
+        "desc": "发送MD消息时将按钮分开发送",
+        "data": false,
+        "secret": false
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "CustomBg": {
+        "type": "GsBoolConfig",
+        "title": "是否开启自定义背景",
+        "desc": "开启路径位于GsCore/BG",
+        "data": false,
+        "secret": false
+    },
+    "StatusCacheTTL": {
+        "type": "GsIntConfig",
+        "title": "core信息 缓存秒数",
+        "desc": "0 表示禁用缓存(每次重新渲染); 单位秒, 默认 60",
+        "data": 60,
+        "max_value": null,
+        "options": [],
+        "secret": false
+    },
+    "CustomIcon": {
+        "type": "GsBoolConfig",
+        "title": "是否开启自定义头像",
+        "desc": "开启路径位于GsCore/BG",
+        "data": false,
+        "secret": false
+    },
+    "CustomName": {
+        "type": "GsStrConfig",
+        "title": "自定义名称",
+        "desc": "可自定义名称, 当用户说话开头包括这些词时会被识别为在说机器人",
+        "data": "小柚子",
+        "options": [
+            "机器人小柚子",
+            "早柚Core",
+            "柚子"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "CustomNameAlias": {
+        "type": "GsListStrConfig",
+        "title": "自定义名称别名",
+        "desc": "可自定义名称别名, 当用户说话开头包括这些词时会被识别为在说机器人",
+        "data": [],
+        "options": [
+            "小柚子",
+            "sayu"
+        ],
+        "secret": false
+    },
+    "CustomBgPath": {
+        "type": "GsImageConfig",
+        "title": "自定义背景",
+        "desc": "自定义背景图片",
+        "data": "/gsuid_core/data/GsCore/bg/MsgBg.jpg",
+        "upload_to": "/gsuid_core/data/GsCore/bg",
+        "filename": "MsgBg",
+        "suffix": "jpg",
+        "secret": false
+    },
+    "CustomIconPath": {
+        "type": "GsImageConfig",
+        "title": "自定义头像",
+        "desc": "自定义头像图片",
+        "data": "/gsuid_core/data/GsCore/bg/MsgIcon.png",
+        "upload_to": "/gsuid_core/data/GsCore/bg",
+        "filename": "MsgIcon",
+        "suffix": "png",
+        "secret": false
+    },
+    "CustomTheme": {
+        "type": "GsStrConfig",
+        "title": "自定义主题色",
+        "desc": "可自定义主题色",
+        "data": "#5E4FA9",
+        "options": [
+            "#5E4FA9",
+            "#38A1F3",
+            "#FFC107",
+            "#4CAF50",
+            "#F44336"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "CustomSubtitle": {
+        "type": "GsStrConfig",
+        "title": "自定义副标题",
+        "desc": "可自定义副标题",
+        "data": "祝你拥有美好的一天！",
+        "options": [
+            "祝你拥有美好的一天！",
+            "很不高兴为你服务..."
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    }
+}

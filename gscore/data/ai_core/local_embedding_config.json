@@ -1,0 +1,29 @@
+{
+    "embedding_model_name": {
+        "type": "GsStrConfig",
+        "title": "指定嵌入模型名称",
+        "desc": "指定启用的嵌入模型名称",
+        "data": "BAAI/bge-small-zh-v1.5",
+        "options": [
+            "BAAI/bge-small-zh-v1.5"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "embedding_modalities": {
+        "type": "GsListStrConfig",
+        "title": "嵌入模型支持的模态",
+        "desc": "声明该嵌入模型支持的内容类型(持久化进配置)。内置本地模型(fastembed bge)仅支持文本; 如需图片/音视频的直接向量嵌入, 请使用 STEmbedding 插件(CLIP) 或在 OpenAI 嵌入配置中使用多模态接口",
+        "data": [
+            "text"
+        ],
+        "options": [
+            "text",
+            "image",
+            "audio",
+            "video"
+        ],
+        "secret": false
+    }
+}

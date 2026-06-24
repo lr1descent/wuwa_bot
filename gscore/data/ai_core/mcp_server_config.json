@@ -1,0 +1,46 @@
+{
+    "enable_mcp_server": {
+        "type": "GsBoolConfig",
+        "title": "是否启用MCP Server",
+        "desc": "是否将框架的to_ai触发器对外暴露为MCP Server, 启用后外部MCP客户端可通过SSE/stdio协议连接并调用所有触发器工具",
+        "data": false,
+        "secret": false
+    },
+    "mcp_server_transport": {
+        "type": "GsStrConfig",
+        "title": "MCP Server传输协议",
+        "desc": "指定MCP Server使用的传输协议, sse为HTTP SSE模式(适合远程访问), stdio为标准输入输出模式(适合本地进程间通信)",
+        "data": "sse",
+        "options": [
+            "sse",
+            "stdio"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "mcp_server_port": {
+        "type": "GsIntConfig",
+        "title": "MCP Server监听端口",
+        "desc": "指定MCP Server SSE模式下的监听端口（监听地址复用框架HOST配置）",
+        "data": 8766,
+        "max_value": null,
+        "options": [
+            8766,
+            8767,
+            8768,
+            9000
+        ],
+        "secret": false
+    },
+    "mcp_server_api_key": {
+        "type": "GsStrConfig",
+        "title": "MCP Server API密钥",
+        "desc": "指定Bearer Token认证密钥, 留空则不启用认证。外部客户端连接时需在请求头中携带 Authorization: Bearer <api_key>",
+        "data": "",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    }
+}

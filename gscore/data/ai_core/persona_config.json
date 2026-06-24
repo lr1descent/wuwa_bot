@@ -1,0 +1,19 @@
+{
+    "enable_persona": {
+        "type": "GsListStrConfig",
+        "title": "启用人设服务",
+        "desc": "指定启用某些人设服务",
+        "data": [],
+        "options": [
+            "早柚"
+        ],
+        "secret": false
+    },
+    "persona_for_session": {
+        "type": "GsDictConfig",
+        "title": "人设服务针对群聊",
+        "desc": "指定对某些群聊/用户启用某些人设服务",
+        "data": {},
+        "secret": false
+    }
+}

@@ -1,0 +1,231 @@
+{
+    "enable": {
+        "type": "GsBoolConfig",
+        "title": "是否启用AI服务",
+        "desc": "指定是否启用AI服务",
+        "data": false,
+        "secret": false
+    },
+    "hf_endpoint": {
+        "type": "GsStrConfig",
+        "title": "HuggingFace 服务器地址",
+        "desc": "指定 HuggingFace 服务器地址",
+        "data": "https://hf-mirror.com",
+        "options": [
+            "https://huggingface.co",
+            "https://hf-mirror.com"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "enable_rerank": {
+        "type": "GsBoolConfig",
+        "title": "是否启用Rerank",
+        "desc": "指定是否启用Rerank功能, Rerank可以提升RAG的检索质量, 但会增加一定的响应时间, 该模型较大, 请根据实际情况启用",
+        "data": false,
+        "secret": false
+    },
+    "enable_memory": {
+        "type": "GsBoolConfig",
+        "title": "是否启用记忆",
+        "desc": "指定是否启用记忆功能",
+        "data": true,
+        "secret": false
+    },
+    "high_level_provider_config_name": {
+        "type": "GsStrConfig",
+        "title": "高级任务AI模型配置名称",
+        "desc": "指定用于高级任务(工具调用)的AI配置文件名称，格式为 'provider++config_name'（如 'openai++MiniMAX'）",
+        "data": "",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "low_level_provider_config_name": {
+        "type": "GsStrConfig",
+        "title": "低级任务AI模型配置名称",
+        "desc": "指定用于低级任务(简单问答)的AI配置文件名称，格式为 'provider++config_name'（如 'openai++MiniMAX'）",
+        "data": "",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "embedding_provider": {
+        "type": "GsStrConfig",
+        "title": "嵌入模型服务提供方",
+        "desc": "指定嵌入模型提供方",
+        "data": "local",
+        "options": [
+            "local",
+            "openai"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "rerank_provider": {
+        "type": "GsStrConfig",
+        "title": "Rerank模型服务提供方",
+        "desc": "指定 Rerank 模型提供方。local 使用本地 fastembed 模型；openai 使用 OpenAI兼容 rerank API 的远程服务",
+        "data": "local",
+        "options": [
+            "local",
+            "openai"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "qdrant_provider": {
+        "type": "GsStrConfig",
+        "title": "Qdrant向量库部署方式",
+        "desc": "指定向量库(Qdrant)的部署方式。local 使用本地嵌入式 Qdrant; remote 连接远程 Qdrant 服务(需在 Qdrant配置 中填写 url/api_key)。切换后启动时会自动把历史数据迁移到新后端(保留原后端数据)",
+        "data": "local",
+        "options": [
+            "local",
+            "remote"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "websearch_provider": {
+        "type": "GsStrConfig",
+        "title": "网络搜索服务提供方",
+        "desc": "指定网络搜索服务提供方",
+        "data": "Tavily",
+        "options": [
+            "Tavily",
+            "Exa",
+            "MCP"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "image_understand_provider": {
+        "type": "GsStrConfig",
+        "title": "图片理解服务提供方",
+        "desc": "指定图片理解服务提供方，当LLM模型不支持图片时，使用该服务将图片转述为文本",
+        "data": "MCP",
+        "options": [
+            "MCP"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "lazy_image_read": {
+        "type": "GsBoolConfig",
+        "title": "图片按需读取(惰性投喂)",
+        "desc": "开启后, 用户发送的图片不再自动塞进多模态上下文, 只把图片ID透传给AI; AI需要查看某张图时再调用 read_image(图片ID) 按需读取。群聊图片多时可显著节省Token并减少注意力稀释; 关闭则恢复直接投喂图片本体(旧行为)。",
+        "data": true,
+        "secret": false
+    },
+    "asr_provider": {
+        "type": "GsStrConfig",
+        "title": "语音识别服务提供方",
+        "desc": "指定语音识别（ASR）服务提供方，用于将用户发送的语音消息转为文字",
+        "data": "MCP",
+        "options": [
+            "MCP"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "video_understand_provider": {
+        "type": "GsStrConfig",
+        "title": "视频理解服务提供方",
+        "desc": "指定视频理解服务提供方，用于从视频中提取关键帧并理解内容",
+        "data": "MCP",
+        "options": [
+            "MCP"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "document_extract_provider": {
+        "type": "GsStrConfig",
+        "title": "文档提取服务提供方",
+        "desc": "指定文档内容提取服务提供方，用于将PDF/Word/Excel等文档转为文本",
+        "data": "MCP",
+        "options": [
+            "MCP"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "multi_agent_lenth": {
+        "type": "GsIntConfig",
+        "title": "最多允许AI思考轮数",
+        "desc": "指定多轮思考调用工具的最大递归深度, 注意: 多轮对话会占用更多的token, 请根据实际情况调整",
+        "data": 20,
+        "max_value": null,
+        "options": [
+            9,
+            12,
+            20,
+            30
+        ],
+        "secret": false
+    },
+    "white_list": {
+        "type": "GsListStrConfig",
+        "title": "白名单",
+        "desc": "指定白名单, 只有白名单中的用户才能使用AI服务",
+        "data": [],
+        "options": [],
+        "secret": false
+    },
+    "black_list": {
+        "type": "GsListStrConfig",
+        "title": "黑名单",
+        "desc": "指定黑名单, 黑名单中的用户将不能使用AI服务",
+        "data": [],
+        "options": [],
+        "secret": false
+    },
+    "enable_deepseek_rp": {
+        "type": "GsBoolConfig",
+        "title": "启用DS专属角色扮演模式",
+        "desc": "用于在思考模式下切换思维链风格, [文档](https://github.com/victorchen96/deepseek_v4_rolepaly_instruct/blob/main/README.md)",
+        "data": false,
+        "secret": false
+    },
+    "follow_up_window": {
+        "type": "GsIntConfig",
+        "title": "免唤醒续聊窗口(秒)",
+        "desc": "用户用@/关键词/私聊激活AI后, 在此秒数内该用户的后续群聊消息即使不带触发词也会进入AI(软触发); 窗口从最近一次硬触发起算, 续聊回复不会续期。设为0关闭该功能。软触发消息会先经过沉默门判定(默认偏沉默, 仅明确接续才放行)",
+        "data": 45,
+        "max_value": null,
+        "options": [
+            0,
+            30,
+            45,
+            60,
+            120,
+            180
+        ],
+        "secret": false
+    },
+    "follow_up_max_total": {
+        "type": "GsIntConfig",
+        "title": "免唤醒续聊总时长上限(秒)",
+        "desc": "免唤醒续聊从首次硬触发起算的总时长硬天花板, 即使期间用户反复@也不会无限延续, 超过后必须重新@/关键词唤醒。",
+        "data": 300,
+        "max_value": null,
+        "options": [
+            120,
+            300,
+            600,
+            900
+        ],
+        "secret": false
+    }
+}

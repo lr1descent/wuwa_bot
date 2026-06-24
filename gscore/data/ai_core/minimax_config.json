@@ -1,0 +1,35 @@
+{
+    "api_key": {
+        "type": "GsListStrConfig",
+        "title": "MiniMax API密钥",
+        "desc": "指定 MiniMax API 的密钥，用于启用 web 搜索功能，请前往 https://platform.minimaxi.com 获取 API Key",
+        "data": [],
+        "options": [],
+        "secret": false
+    },
+    "api_host": {
+        "type": "GsStrConfig",
+        "title": "MiniMax API 主机地址",
+        "desc": "指定 MiniMax API 的主机地址",
+        "data": "https://api.minimaxi.com",
+        "options": [
+            "https://api.minimaxi.com"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "resource_mode": {
+        "type": "GsStrConfig",
+        "title": "资源提供方式",
+        "desc": "指定资源提供方式，url 为返回 URL 链接，local 为返回本地文件路径",
+        "data": "url",
+        "options": [
+            "url",
+            "local"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    }
+}

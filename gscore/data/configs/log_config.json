@@ -1,0 +1,19 @@
+{
+    "ScheduledCleanLogDay": {
+        "type": "GsStrConfig",
+        "title": "定时清理几天外的日志",
+        "desc": "定时清理几天外的日志",
+        "data": "8",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "ShowReceive": {
+        "type": "GsBoolConfig",
+        "title": "显示用户普通消息",
+        "desc": "关闭该选项将导致log只记录命令触发！",
+        "data": true,
+        "secret": false
+    }
+}

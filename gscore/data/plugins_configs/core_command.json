@@ -1,0 +1,156 @@
+{
+    "name": "core_command",
+    "pm": 6,
+    "priority": 5,
+    "enabled": true,
+    "area": "SV",
+    "black_list": [],
+    "white_list": [],
+    "prefix": [],
+    "force_prefix": [
+        "core",
+        "Core",
+        "CORE"
+    ],
+    "disable_force_prefix": false,
+    "allow_empty_prefix": false,
+    "sv": {
+        "Core状态": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 0,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "Core管理": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 0,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "core管理插件": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 0,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "Core AI控制": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 0,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "Core帮助": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "Core权限管理": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 0,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "core用户信息": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "core信息确认": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "Core配置命令": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 0,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "用户管理": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 1,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "用户添加": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "扫码登陆": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "添加CK": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "DIRECT",
+            "white_list": []
+        },
+        "用户数据管理": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 0,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "Core清除": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 0,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "Core备份": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 0,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "core网页控制台管理": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 0,
+            "black_list": [],
+            "area": "DIRECT",
+            "white_list": []
+        }
+    },
+    "alias": []
+}

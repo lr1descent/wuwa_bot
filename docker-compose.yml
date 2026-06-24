@@ -1,5 +1,4 @@
 services:
-  # 协议端:挂 QQ 号
   napcat:
     image: mlikiowa/napcat-docker:latest
     container_name: napcat
@@ -8,20 +7,24 @@ services:
       - NAPCAT_UID=${NAPCAT_UID:-1000}
       - NAPCAT_GID=${NAPCAT_GID:-1000}
     ports:
-      - "6099:6099"          # NapCat WebUI(扫码登录用)
+      - "6099:6099"
     volumes:
       - ./napcat/config:/app/napcat/config
+      - ./napcat/plugins:/app/napcat/plugins
       - ./ntqq:/app/.config/QQ
     networks:
       - ww_network
 
-  # 游戏查询核心 + 鸣潮插件
   gsuid_core:
     image: docker.cnb.cool/gscore-mirror/gsuid_core:latest
     container_name: gsuid_core
     restart: always
+    environment:
+      - UV_HTTP_TIMEOUT=300
+      - UV_HTTP_RETRIES=10
+      - UV_DEFAULT_INDEX=https://pypi.tuna.tsinghua.edu.cn/simple
     ports:
-      - "8765:8765"          # gsuid_core 网页控制台 + WS
+      - "8765:8765"
     volumes:
       - ./gscore/data:/gsuid_core/data
       - ./gscore/plugins:/gsuid_core/gsuid_core/plugins

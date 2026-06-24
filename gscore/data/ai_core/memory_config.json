@@ -1,0 +1,362 @@
+{
+    "memory_mode": {
+        "type": "GsListStrConfig",
+        "title": "记忆路径",
+        "desc": "指定启用的记忆路径, 被动感知全部群友会话或只记住自己有参与的聊天记录; 「图片记忆」需与「被动感知」同时开启才生效, 开启后会静默读取群聊图片并转述入记忆(消耗视觉模型Token), 默认关闭",
+        "data": [
+            "被动感知",
+            "主动会话"
+        ],
+        "options": [
+            "被动感知",
+            "主动会话",
+            "图片记忆"
+        ],
+        "secret": false
+    },
+    "memory_session": {
+        "type": "GsStrConfig",
+        "title": "被动感知范围",
+        "desc": "指定被动感知的范围",
+        "data": "按人格配置",
+        "options": [
+            "按人格配置",
+            "全部群聊"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "MemoryRecall": {
+        "type": "GsDivider",
+        "title": "记忆检索设置",
+        "desc": "记忆检索设置",
+        "data": "记忆检索设置"
+    },
+    "retrieval_top_k": {
+        "type": "GsIntConfig",
+        "title": "最终检索数量",
+        "desc": "指定最终检索数量, 可以提高检索精度但会增加性能开销",
+        "data": 15,
+        "max_value": null,
+        "options": [
+            5,
+            10,
+            15,
+            20
+        ],
+        "secret": false
+    },
+    "memory_inject_max_chars": {
+        "type": "GsIntConfig",
+        "title": "记忆注入字符预算",
+        "desc": "单次注入对话上下文的记忆文本最大字符数, 调大可保留更多历史但更费 Token",
+        "data": 2000,
+        "max_value": null,
+        "options": [
+            1000,
+            2000,
+            4000,
+            8000,
+            16000
+        ],
+        "secret": false
+    },
+    "enable_system2get": {
+        "type": "GsBoolConfig",
+        "title": "是否启用 System-2",
+        "desc": "指定是否启用 System-2, 可以提高检索精度但会增加性能开销",
+        "data": false,
+        "secret": false
+    },
+    "MemoryRetrieval": {
+        "type": "GsDivider",
+        "title": "记忆摄取设置",
+        "desc": "记忆摄取设置",
+        "data": "记忆摄取设置"
+    },
+    "background_episode_count": {
+        "type": "GsIntConfig",
+        "title": "抽取背景片段数量",
+        "desc": "实体抽取时注入的近期对话片段(Episode)数量, 用于跨批次指代消解; 调小可显著降低每次抽取的 Token 开销(原始信息仍由 Episode 完整留存), 0 表示不注入背景",
+        "data": 1,
+        "max_value": null,
+        "options": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "secret": false
+    },
+    "background_episode_max_chars": {
+        "type": "GsIntConfig",
+        "title": "抽取背景片段字符上限",
+        "desc": "每条注入的近期对话片段(Episode)在抽取提示词中的最大字符数, 超出部分截断; 调小可降低 Token 开销",
+        "data": 600,
+        "max_value": null,
+        "options": [
+            300,
+            600,
+            1000,
+            2000
+        ],
+        "secret": false
+    },
+    "extraction_value_gate": {
+        "type": "GsStrConfig",
+        "title": "抽取价值门控档位",
+        "desc": "决定哪些消息会触发 LLM 实体抽取(无论档位, 原文都完整存为 Episode, 不丢信息)。宽松: 默认全部抽取(最全, 最费 Token); 均衡: 无实体特征的纯寒暄降级为仅存档不抽取; 严格: 仅含强信号(姓名/承诺/情绪等)的消息才抽取(最省 Token)",
+        "data": "均衡",
+        "options": [
+            "宽松",
+            "均衡",
+            "严格"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "hiergraph_build_mode": {
+        "type": "GsStrConfig",
+        "title": "分层图构建模式",
+        "desc": "分层类目树仅被 System-2 检索消费, 也是记忆重建 Token 的大头(实体/边/原文不受影响)。自动: 仅当启用 System-2 时才构建整棵类目树, 否则只按需刷新群摘要(推荐, 最省); 始终: 总是构建完整类目树(旧行为); 仅摘要: 从不建树, 仅按需刷新群摘要; 关闭: 既不建树也不生成摘要(最省 Token)",
+        "data": "自动",
+        "options": [
+            "自动",
+            "始终",
+            "仅摘要",
+            "关闭"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "hiergraph_batch_size": {
+        "type": "GsIntConfig",
+        "title": "分层图单批节点数",
+        "desc": "建树时每次 LLM 分类的节点数。调大→单轮 LLM 调用更少、每批重发的固定开销(system+现有类目)被摊薄更省 Token; 但过大会拉长单次耗时、逼近超时(超时兜底会让每节点单独成类, 污染类目)。模型较慢时建议保持较小值",
+        "data": 20,
+        "max_value": null,
+        "options": [
+            15,
+            20,
+            30,
+            40
+        ],
+        "secret": false
+    },
+    "hiergraph_vector_assign_threshold": {
+        "type": "GsStrConfig",
+        "title": "分层图向量预分配阈值",
+        "desc": "建树时新实体与已归类近邻的余弦相似度 ≥ 此阈值即直接归类、跳过 LLM。调低→更多实体走零 LLM 的预分配路径、更省 Token, 但误归类风险上升(宁可漏分不可错分)",
+        "data": "0.85",
+        "options": [
+            "0.80",
+            "0.82",
+            "0.85",
+            "0.88",
+            "0.90"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "hiergraph_min_entities": {
+        "type": "GsIntConfig",
+        "title": "分层图最小实体门槛",
+        "desc": "scope 实体数低于此值则整体跳过分层图(含轻量群摘要)。调大→更多小群被整体跳过、更省 Token; 其召回仍由 System-1 向量 + edges 覆盖, 不影响记忆完整性",
+        "data": 30,
+        "max_value": null,
+        "options": [
+            30,
+            50,
+            80,
+            120,
+            200
+        ],
+        "secret": false
+    },
+    "hiergraph_max_existing_cats": {
+        "type": "GsIntConfig",
+        "title": "分层图已有类目上限",
+        "desc": "建树分类时每批最多带入的已有类目数(仅名称)。调小→每批 prompt 更省 Token, 但过小会让 LLM 看不到已有类目而重复造新类目, 反而膨胀后续成本",
+        "data": 50,
+        "max_value": null,
+        "options": [
+            20,
+            30,
+            50,
+            80
+        ],
+        "secret": false
+    },
+    "hiergraph_node_summary_chars": {
+        "type": "GsIntConfig",
+        "title": "分层图节点摘要字符上限",
+        "desc": "建树分类时每个待分类节点附带的实体摘要字符数(名称+标签始终保留)。调小(含 0=不带摘要)更省 Token, 但摘要有助于消歧相近实体, 过小可能降低归类精度",
+        "data": 60,
+        "max_value": null,
+        "options": [
+            0,
+            30,
+            60,
+            100
+        ],
+        "secret": false
+    },
+    "hiergraph_summary_delta": {
+        "type": "GsIntConfig",
+        "title": "群摘要刷新增量阈值",
+        "desc": "自上次重建以来新增实体达此值才重新生成群摘要(Heartbeat/人格群语境消费)。调大→摘要刷新更稀疏、更省 Token, 代价是摘要新鲜度下降",
+        "data": 50,
+        "max_value": null,
+        "options": [
+            50,
+            100,
+            200,
+            500
+        ],
+        "secret": false
+    },
+    "MemoryProcedural": {
+        "type": "GsDivider",
+        "title": "程序性 / 偏好记忆设置",
+        "desc": "程序性 / 偏好记忆设置",
+        "data": "程序性 / 偏好记忆设置"
+    },
+    "enable_preference_memory": {
+        "type": "GsBoolConfig",
+        "title": "启用程序性/偏好记忆",
+        "desc": "开启后, 用户对助手行为/工具调用/输出格式的纠正与偏好(如'以后调画图用竖图')会被蒸馏成程序性规则(SQL-only, 不写向量), 并在后续回复时以强约束语气置顶注入, 让助手遵守。默认开启; 关闭后写入/蒸馏/注入/即时 flush 全部停用, 行为与未启用时一致",
+        "data": true,
+        "secret": false
+    },
+    "preference_max_inject": {
+        "type": "GsIntConfig",
+        "title": "偏好单次注入条数上限",
+        "desc": "单次回复最多注入的偏好规则条数, 防止规则过多挤占注入预算、分散工具调用注意力",
+        "data": 12,
+        "max_value": null,
+        "options": [
+            5,
+            8,
+            12,
+            20
+        ],
+        "secret": false
+    },
+    "preference_max_per_context": {
+        "type": "GsIntConfig",
+        "title": "偏好单能力域保留上限",
+        "desc": "每个 target_context(能力域/工具)保留的活跃规则上限, 生命周期裁剪时超出的非纠错规则软停用",
+        "data": 5,
+        "max_value": null,
+        "options": [
+            3,
+            5,
+            8,
+            12
+        ],
+        "secret": false
+    },
+    "preference_inject_budget_ratio": {
+        "type": "GsFloatConfig",
+        "title": "偏好注入预算占比",
+        "desc": "偏好区块(置顶、强约束)占记忆注入字符预算的比例。调大可注入更多规则但挤占核心事实空间",
+        "data": 0.1,
+        "min_value": 0.0,
+        "max_value": 0.5,
+        "secret": false
+    },
+    "preference_immediate_flush": {
+        "type": "GsBoolConfig",
+        "title": "纠错命中即时写",
+        "desc": "命中纠错意图的 scope 走优先 flush 快路径(带去抖), 让数分钟内的'下一次'请求即可召回纠错偏好, 而非等聚合大窗。关闭则纠错偏好随常规摄入窗口落库",
+        "data": true,
+        "secret": false
+    },
+    "MemoryRFMem": {
+        "type": "GsDivider",
+        "title": "RF-Mem 双过程检索设置(进阶)",
+        "desc": "RF-Mem 双过程检索设置(进阶)",
+        "data": "RF-Mem 双过程检索设置(进阶)"
+    },
+    "enable_familiarity_routing": {
+        "type": "GsBoolConfig",
+        "title": "启用熟悉度路由",
+        "desc": "开启后用一次零 LLM 的向量探针(均分 s̄ + 列表熵)逐查询决定'检索多深', 把 System-2 从全局开关降为'按不确定性触发': 熟悉的查询抑制 System-2 省 Token, 不确定的查询才放行深检索。默认关; 阈值需按嵌入模型标定后再放量(见 MEMORY_SYSTEM 文档)",
+        "data": false,
+        "secret": false
+    },
+    "enable_recollection_path": {
+        "type": "GsBoolConfig",
+        "title": "启用回忆环(仅 remote Qdrant)",
+        "desc": "回忆环是零 LLM 的 KMeans+α-mix 多轮向量深检索, 作为 System-2 关闭时的增召回替代。仅在'启用熟悉度路由'开启、路由判低熟悉、System-2 未触发、且 qdrant_provider=remote 时生效(本地嵌入式 Qdrant 是 O(N) 暴力扫, 多轮回忆会成倍放大检索成本, 故强制 remote)",
+        "data": false,
+        "secret": false
+    },
+    "familiarity_theta_high": {
+        "type": "GsFloatConfig",
+        "title": "熟悉度上阈 θ_high",
+        "desc": "均分 s̄ ≥ 此值直接走浅检索(抑制 System-2)。余弦语义, 须按嵌入模型/语料离线标定(论文英文模型经验值 0.6, 中文本地模型通常需平移; 建议取样本 s̄ 的 P75)",
+        "data": 0.6,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "secret": false
+    },
+    "familiarity_theta_low": {
+        "type": "GsFloatConfig",
+        "title": "熟悉度下阈 θ_low",
+        "desc": "均分 s̄ ≤ 此值直接走深检索。须按嵌入模型标定(论文经验值 0.3; 建议取样本 s̄ 的 P25)",
+        "data": 0.3,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "secret": false
+    },
+    "familiarity_tau": {
+        "type": "GsFloatConfig",
+        "title": "列表熵阈 τ",
+        "desc": "s̄ 落在上下阈之间时由列表熵 H 裁决: H > τ(候选分布越散越不确定)走深检索。论文经验区间 0.2~0.25, > 0.35 会失去自适应",
+        "data": 0.22,
+        "min_value": 0.0,
+        "max_value": 1.0,
+        "secret": false
+    },
+    "familiarity_lambda": {
+        "type": "GsFloatConfig",
+        "title": "温度 softmax 锐度 λ",
+        "desc": "计算列表熵时对探针分数做温度 softmax 的锐度。论文 20~30, 不敏感, 一般无需调整",
+        "data": 20.0,
+        "min_value": 1.0,
+        "max_value": 100.0,
+        "secret": false
+    },
+    "familiarity_probe_k": {
+        "type": "GsIntConfig",
+        "title": "探针候选数 k",
+        "desc": "熟悉度探针拉取的候选 Episode 数(算 s̄/熵 用)。论文 10~20 即稳",
+        "data": 15,
+        "max_value": null,
+        "options": [
+            10,
+            15,
+            20,
+            30
+        ],
+        "secret": false
+    },
+    "MemoryExtra": {
+        "type": "GsDivider",
+        "title": "记忆其他设置",
+        "desc": "记忆其他设置",
+        "data": "记忆其他设置"
+    },
+    "eval_mode": {
+        "type": "GsBoolConfig",
+        "title": "记忆评测模式",
+        "desc": "指定是否启用记忆评测模式, 启用后无法使用 System-2 和 Rerank",
+        "data": false,
+        "secret": false
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "rerank_model_name": {
+        "type": "GsStrConfig",
+        "title": "指定Rerank模型名称",
+        "desc": "指定启用的Rerank模型名称。本地模式填写 fastembed 支持的模型名；远程模式填写服务商提供的 rerank 模型名",
+        "data": "BAAI/bge-reranker-base",
+        "options": [
+            "BAAI/bge-reranker-base",
+            "BAAI/bge-reranker-v2-m3",
+            "bge-reranker-v2-m3",
+            "jina-reranker-v2-base-multilingual",
+            "rerank-multilingual-v3.0"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "base_url": {
+        "type": "GsStrConfig",
+        "title": "Rerank模型API基础URL",
+        "desc": "指定远程 Rerank API 基础URL。一般为服务商 /v1 地址；程序会自动拼接 /rerank",
+        "data": "https://api.siliconflow.cn/v1",
+        "options": [
+            "https://api.siliconflow.cn/v1",
+            "https://api.jina.ai/v1",
+            "https://api.cohere.com/v1",
+            "http://localhost:3000/v1",
+            "http://127.0.0.1:3000/v1"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "api_key": {
+        "type": "GsListStrConfig",
+        "title": "Rerank模型API密钥",
+        "desc": "指定远程 Rerank API 密钥，local 模式无需配置",
+        "data": [
+            "sk-"
+        ],
+        "options": [
+            "sk-"
+        ],
+        "secret": false
+    }
+}

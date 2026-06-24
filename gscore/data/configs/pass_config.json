@@ -1,0 +1,26 @@
+{
+    "_pass_API": {
+        "type": "GsStrConfig",
+        "title": "神奇API",
+        "desc": "设置某种神奇的API",
+        "data": "",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "CaptchaPass": {
+        "type": "GsBoolConfig",
+        "title": "失效项",
+        "desc": "该选项已经无效且可能有一定危险性...",
+        "data": false,
+        "secret": false
+    },
+    "MysPass": {
+        "type": "GsBoolConfig",
+        "title": "无效项",
+        "desc": "该选项已经无效且可能有一定危险性...",
+        "data": false,
+        "secret": false
+    }
+}

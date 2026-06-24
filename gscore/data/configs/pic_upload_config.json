@@ -1,0 +1,138 @@
+{
+    "EnablePicSrv": {
+        "type": "GsBoolConfig",
+        "title": "启用将图片转链接发送",
+        "desc": "发送图片转链接, 适用于某些无法发送本地base64图片的协议端",
+        "data": false,
+        "secret": false
+    },
+    "PicUploader": {
+        "type": "GsStrConfig",
+        "title": "上传图片方式",
+        "desc": "可选s3或smms或custom或local, local需要公网",
+        "data": "local",
+        "options": [
+            "smms",
+            "s3",
+            "local",
+            "custom"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "AutoDelete": {
+        "type": "GsBoolConfig",
+        "title": "上传完后自动删除",
+        "desc": "是否自动删除图片",
+        "data": true,
+        "secret": false
+    },
+    "smms_token": {
+        "type": "GsStrConfig",
+        "title": "sm.ms_token",
+        "desc": "sm.ms的token",
+        "data": "",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "s3_endpoint": {
+        "type": "GsStrConfig",
+        "title": "s3_endpoint",
+        "desc": "终结点url",
+        "data": "",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "s3_access_key": {
+        "type": "GsStrConfig",
+        "title": "s3_access_key",
+        "desc": "AK",
+        "data": "",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "s3_secret_key": {
+        "type": "GsStrConfig",
+        "title": "s3_secret_key",
+        "desc": "SK",
+        "data": "",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "s3_bucket": {
+        "type": "GsStrConfig",
+        "title": "s3_bucket",
+        "desc": "Bucket",
+        "data": "",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "s3_region": {
+        "type": "GsStrConfig",
+        "title": "s3_region",
+        "desc": "Region",
+        "data": "",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "custom_url": {
+        "type": "GsStrConfig",
+        "title": "自定义上传图片API",
+        "desc": "填入上传图片API",
+        "data": "",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "custom_header": {
+        "type": "GsStrConfig",
+        "title": "自定义上传图片Header",
+        "desc": "填入上传图片hader",
+        "data": "",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "PicSrv": {
+        "type": "GsStrConfig",
+        "title": "图片转链接为(需公网)",
+        "desc": "发送图片转链接",
+        "data": "",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "EnableCleanPicSrv": {
+        "type": "GsBoolConfig",
+        "title": "是否定期清理本地图床",
+        "desc": "定期清理图床开关",
+        "data": true,
+        "secret": false
+    },
+    "ScheduledCleanPicSrv": {
+        "type": "GsStrConfig",
+        "title": "本地图床定期清理(秒)",
+        "desc": "定期删除图片",
+        "data": "180",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    }
+}

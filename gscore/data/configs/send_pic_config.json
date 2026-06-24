@@ -1,0 +1,197 @@
+{
+    "onebot": {
+        "type": "GsStrConfig",
+        "title": "OneBot图片发送方式",
+        "desc": "可选link或base64",
+        "data": "base64",
+        "options": [
+            "link",
+            "base64",
+            "link_local",
+            "link_remote"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "red": {
+        "type": "GsStrConfig",
+        "title": "Red图片发送方式",
+        "desc": "可选link或base64",
+        "data": "base64",
+        "options": [
+            "link",
+            "base64",
+            "link_local",
+            "link_remote"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "onebot_v12": {
+        "type": "GsStrConfig",
+        "title": "OneBot V12图片发送方式",
+        "desc": "可选link或base64",
+        "data": "base64",
+        "options": [
+            "link",
+            "base64",
+            "link_local",
+            "link_remote"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "qqguild": {
+        "type": "GsStrConfig",
+        "title": "QQ Guild图片发送方式",
+        "desc": "可选link或base64",
+        "data": "base64",
+        "options": [
+            "link",
+            "base64",
+            "link_local",
+            "link_remote"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "qqgroup": {
+        "type": "GsStrConfig",
+        "title": "QQ Group图片发送方式",
+        "desc": "可选link或base64",
+        "data": "link",
+        "options": [
+            "link",
+            "base64",
+            "link_local",
+            "link_remote"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "telegram": {
+        "type": "GsStrConfig",
+        "title": "Telegram图片发送方式",
+        "desc": "可选link或base64",
+        "data": "base64",
+        "options": [
+            "link",
+            "base64",
+            "link_local",
+            "link_remote"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "discord": {
+        "type": "GsStrConfig",
+        "title": "Discord图片发送方式",
+        "desc": "可选link或base64",
+        "data": "base64",
+        "options": [
+            "link",
+            "base64",
+            "link_local",
+            "link_remote"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "kook": {
+        "type": "GsStrConfig",
+        "title": "KOOK图片发送方式",
+        "desc": "可选link或base64",
+        "data": "base64",
+        "options": [
+            "link",
+            "base64",
+            "link_local",
+            "link_remote"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "dodo": {
+        "type": "GsStrConfig",
+        "title": "DoDo图片发送方式",
+        "desc": "可选link或base64",
+        "data": "base64",
+        "options": [
+            "link",
+            "base64",
+            "link_local",
+            "link_remote"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "feishu": {
+        "type": "GsStrConfig",
+        "title": "飞书图片发送方式",
+        "desc": "可选link或base64",
+        "data": "base64",
+        "options": [
+            "link",
+            "base64",
+            "link_local",
+            "link_remote"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "ntchat": {
+        "type": "GsStrConfig",
+        "title": "NtChat图片发送方式",
+        "desc": "可选link或base64",
+        "data": "base64",
+        "options": [
+            "link",
+            "base64",
+            "link_local",
+            "link_remote"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "villa": {
+        "type": "GsStrConfig",
+        "title": "米游社大别野图片发送方式",
+        "desc": "可选link或base64",
+        "data": "base64",
+        "options": [
+            "link",
+            "base64",
+            "link_local",
+            "link_remote"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "console": {
+        "type": "GsStrConfig",
+        "title": "本地client.py图片发送方式",
+        "desc": "可选link或base64",
+        "data": "link_local",
+        "options": [
+            "link",
+            "base64",
+            "link_local",
+            "link_remote"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    }
+}
