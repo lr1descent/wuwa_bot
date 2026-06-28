@@ -1,4 +1,5 @@
 {
   "napcat-plugin-builtin": true,
-  "napcat-plugin-gscore-adapter": true
+  "napcat-plugin-gscore-adapter": true,
+  "napcat-plugin-local-memes": true
 }

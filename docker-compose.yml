@@ -11,6 +11,7 @@ services:
     volumes:
       - ./napcat/config:/app/napcat/config
       - ./napcat/plugins:/app/napcat/plugins
+      - ./memes:/app/memes:ro
       - ./ntqq:/app/.config/QQ
     networks:
       - ww_network

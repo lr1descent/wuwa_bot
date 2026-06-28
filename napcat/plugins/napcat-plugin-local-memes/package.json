@@ -1,0 +1,19 @@
+{
+  "name": "napcat-plugin-local-memes",
+  "plugin": "本地表情包",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.mjs",
+  "description": "从本地目录按关键词批量发送表情包",
+  "author": "hekun",
+  "dependencies": {
+    "napcat-types": "0.0.16"
+  },
+  "napcat": {
+    "tags": [
+      "工具"
+    ],
+    "minVersion": "4.14.0",
+    "homepage": ""
+  }
+}
