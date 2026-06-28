@@ -1,0 +1,1044 @@
+{"event": "🔒️ 开始保存全局变量, 参数day = 1!", "level": "info", "timestamp": "06-25 00:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 00:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 00:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 00:00:00"}
+{"event": "[早柚核心] 状态已清空!", "level": "success", "timestamp": "06-25 00:00:00"}
+{"event": "[早柚核心] 状态已保存!", "level": "success", "timestamp": "06-25 00:00:00"}
+{"event": "♻️ [早柚核心] 缓存已清除!", "level": "success", "timestamp": "06-25 00:02:00"}
+{"event": "✅ [备份核心] 已成功备份 /gsuid_core/data/GsCore/database_backup/GsData_BAK_2026_25_Jun.db", "level": "success", "timestamp": "06-25 00:03:00"}
+{"event": "♻️ [早柚核心] 数据库已备份!", "level": "success", "timestamp": "06-25 00:03:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 00:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 00:05:34"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 00:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 00:15:34"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 00:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 00:25:34"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 00:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 00:35:34"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 00:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 00:45:34"}
+{"event": "已确保备份目录存在: /gsuid_core/data/GsCore_BACKUP_PATH/2026-06-25-2026-06-25", "level": "info", "timestamp": "06-25 00:55:00"}
+{"event": "♻️ [早柚核心] 已复制文件: /gsuid_core/data/GsData.db -> /gsuid_core/data/GsCore_BACKUP_PATH/2026-06-25-2026-06-25/GsData.db", "level": "success", "timestamp": "06-25 00:55:00"}
+{"event": "已压缩备份目录: /gsuid_core/data/GsCore_BACKUP_PATH/2026-06-25-2026-06-25.zip", "level": "success", "timestamp": "06-25 00:55:00"}
+{"event": "♻️ [早柚核心] 路径已备份!", "level": "success", "timestamp": "06-25 00:55:00"}
+{"event": "开始清理超过 8 天的备份文件...", "level": "info", "timestamp": "06-25 00:55:00"}
+{"event": "✨ 没有发现需要删除的过期备份。", "level": "info", "timestamp": "06-25 00:55:00"}
+{"event": "♻️ [早柚核心] 已删除超过 8 天的备份文件!", "level": "success", "timestamp": "06-25 00:55:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 00:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 00:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 01:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 01:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 01:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 01:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 01:00:00"}
+{"event": "[clean_repeat_user] 共查询到 1 条记录", "level": "info", "timestamp": "06-25 01:02:00"}
+{"event": "[clean_repeat_group] 共查询到 0 条记录", "level": "info", "timestamp": "06-25 01:02:00"}
+{"event": "♻️ [早柚核心] 重复用户和群组已清除!", "level": "success", "timestamp": "06-25 01:02:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 01:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 01:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 01:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 01:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 01:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 01:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 01:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 01:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 01:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 01:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 01:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 01:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 01:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 01:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 01:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 01:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 01:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 01:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 01:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 01:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 01:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 01:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 01:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 01:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 01:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 01:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 01:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 01:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 01:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 01:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 01:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 01:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 01:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 01:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 01:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 01:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 01:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 02:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 02:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 02:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 02:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 02:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 02:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 02:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 02:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 02:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 02:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 02:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 02:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 02:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 02:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 02:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 02:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 02:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 02:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 02:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 02:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 02:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 02:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 02:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 02:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 02:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 02:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 02:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 02:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 02:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 02:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 02:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 02:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 02:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 02:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 02:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 02:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 02:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 02:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 02:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 02:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 02:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 02:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 03:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 03:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 03:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 03:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 03:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 03:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 03:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 03:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 03:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 03:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 03:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 03:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 03:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 03:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 03:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 03:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 03:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 03:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 03:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 03:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 03:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 03:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 03:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 03:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 03:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 03:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 03:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 03:35:34"}
+{"event": "[Core自动任务] 开始更新 [早柚核心]", "level": "info", "timestamp": "06-25 03:40:00"}
+{"event": "", "level": "info", "timestamp": "06-25 03:40:00"}
+{"event": "Resolved 197 packages in 1ms\nAudited 182 packages in 1ms\n", "level": "error", "timestamp": "06-25 03:40:00"}
+{"event": "[Git Async] 执行命令: git rev-parse --git-dir @ /gsuid_core", "level": "info", "timestamp": "06-25 03:40:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 03:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 03:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 03:40:00"}
+{"event": "[Git Async] 命令成功: git rev-parse --git-dir @ /gsuid_core", "level": "success", "timestamp": "06-25 03:40:00"}
+{"event": "[更新] 准备更新 [早柚核心], 更新等级为0", "level": "info", "timestamp": "06-25 03:40:00"}
+{"event": "[更新][早柚核心] 正在执行 git fetch", "level": "info", "timestamp": "06-25 03:40:00"}
+{"event": "[Git Async] 执行命令: git fetch @ /gsuid_core", "level": "info", "timestamp": "06-25 03:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 03:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 03:40:00"}
+{"event": "[Git Async] 命令成功: git fetch @ /gsuid_core", "level": "success", "timestamp": "06-25 03:40:00"}
+{"event": "[Git Async] 执行命令: git branch --show-current @ /gsuid_core", "level": "info", "timestamp": "06-25 03:40:00"}
+{"event": "[Git Async] 命令成功: git branch --show-current @ /gsuid_core", "level": "success", "timestamp": "06-25 03:40:00"}
+{"event": "[Git Async] 执行命令: git log HEAD..origin/master -40 --format=%s @ /gsuid_core", "level": "info", "timestamp": "06-25 03:40:00"}
+{"event": "[Git Async] 命令成功: git log HEAD..origin/master -40 --format=%s @ /gsuid_core", "level": "success", "timestamp": "06-25 03:40:00"}
+{"event": "[Git Async] 执行命令: git pull @ /gsuid_core", "level": "info", "timestamp": "06-25 03:40:00"}
+{"event": "[Git Async] 命令成功: git pull @ /gsuid_core", "level": "success", "timestamp": "06-25 03:40:00"}
+{"event": "[更新][早柚核心] Already up to date.", "level": "info", "timestamp": "06-25 03:40:00"}
+{"event": "[推送主人消息] 任务启动...", "level": "info", "timestamp": "06-25 03:40:00"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "level": "info", "timestamp": "06-25 03:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 03:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 03:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 03:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 03:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 03:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 03:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 03:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 03:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 03:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 04:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 04:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 04:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 04:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 04:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 04:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 04:05:34"}
+{"event": "[Core自动任务] 开始更新 [插件目录]", "level": "info", "timestamp": "06-25 04:10:00"}
+{"event": "[Git Async] 执行命令: git rev-parse --git-dir @ /gsuid_core/gsuid_core/plugins/WutheringWavesUID", "level": "info", "timestamp": "06-25 04:10:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 04:10:00"}
+{"event": "[Git Async] 命令成功: git rev-parse --git-dir @ /gsuid_core/gsuid_core/plugins/WutheringWavesUID", "level": "success", "timestamp": "06-25 04:10:00"}
+{"event": "[更新] 准备更新 [WutheringWavesUID], 更新等级为0", "level": "info", "timestamp": "06-25 04:10:00"}
+{"event": "[更新][WutheringWavesUID] 正在执行 git fetch", "level": "info", "timestamp": "06-25 04:10:00"}
+{"event": "[Git Async] 执行命令: git fetch @ /gsuid_core/gsuid_core/plugins/WutheringWavesUID", "level": "info", "timestamp": "06-25 04:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 04:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 04:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 04:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 04:10:00"}
+{"event": "[Git Async] 命令成功: git fetch @ /gsuid_core/gsuid_core/plugins/WutheringWavesUID", "level": "success", "timestamp": "06-25 04:10:01"}
+{"event": "[Git Async] 执行命令: git branch --show-current @ /gsuid_core/gsuid_core/plugins/WutheringWavesUID", "level": "info", "timestamp": "06-25 04:10:01"}
+{"event": "[Git Async] 命令成功: git branch --show-current @ /gsuid_core/gsuid_core/plugins/WutheringWavesUID", "level": "success", "timestamp": "06-25 04:10:01"}
+{"event": "[Git Async] 执行命令: git log HEAD..origin/master -40 --format=%s @ /gsuid_core/gsuid_core/plugins/WutheringWavesUID", "level": "info", "timestamp": "06-25 04:10:01"}
+{"event": "[Git Async] 命令成功: git log HEAD..origin/master -40 --format=%s @ /gsuid_core/gsuid_core/plugins/WutheringWavesUID", "level": "success", "timestamp": "06-25 04:10:01"}
+{"event": "[Git Async] 执行命令: git pull @ /gsuid_core/gsuid_core/plugins/WutheringWavesUID", "level": "info", "timestamp": "06-25 04:10:01"}
+{"event": "[Git Async] 命令成功: git pull @ /gsuid_core/gsuid_core/plugins/WutheringWavesUID", "level": "success", "timestamp": "06-25 04:10:03"}
+{"event": "[更新][WutheringWavesUID] Already up to date.", "level": "info", "timestamp": "06-25 04:10:03"}
+{"event": "[推送主人消息] 任务启动...", "level": "info", "timestamp": "06-25 04:10:03"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "level": "info", "timestamp": "06-25 04:10:03"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 04:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 04:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 04:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 04:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 04:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 04:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 04:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 04:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 04:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 04:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 04:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 04:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 04:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 04:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 04:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 04:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 04:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 04:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 04:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 04:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 04:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 04:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 04:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 04:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 04:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 04:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 04:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 04:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 04:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 04:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 05:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 05:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 05:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 05:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 05:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 05:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 05:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 05:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 05:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 05:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 05:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 05:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 05:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 05:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 05:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 05:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 05:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 05:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 05:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 05:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 05:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 05:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 05:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 05:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 05:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 05:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 05:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 05:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 05:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 05:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 05:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 05:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 05:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 05:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 05:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 05:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 05:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 05:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 05:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 05:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 05:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 05:55:34"}
+{"event": "🔒️ [网页控制台] 认证加密密钥已轮换 key_id=a80a67f800067144 pubkey_fingerprint=df0c94ca1341f3cc", "level": "info", "timestamp": "06-25 05:55:35"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 06:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 06:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 06:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 06:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 06:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 06:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 06:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 06:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 06:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 06:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 06:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 06:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 06:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 06:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 06:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 06:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 06:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 06:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 06:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 06:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 06:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 06:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 06:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 06:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 06:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 06:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 06:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 06:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 06:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 06:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 06:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 06:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 06:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 06:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 06:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 06:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 06:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 06:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 06:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 06:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 06:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 06:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 07:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 07:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 07:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 07:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 07:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 07:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 07:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 07:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 07:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 07:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 07:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 07:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 07:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 07:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 07:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 07:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 07:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 07:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 07:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 07:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 07:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 07:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 07:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 07:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 07:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 07:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 07:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 07:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 07:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 07:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 07:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 07:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 07:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 07:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 07:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 07:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 07:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 07:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 07:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 07:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 07:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 07:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 08:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 08:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 08:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 08:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 08:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 08:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 08:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 08:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 08:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 08:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 08:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 08:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 08:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 08:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 08:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 08:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 08:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 08:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 08:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 08:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 08:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 08:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 08:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 08:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 08:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 08:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 08:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 08:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 08:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 08:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 08:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 08:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 08:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 08:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 08:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 08:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 08:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 08:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 08:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 08:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 08:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 08:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 09:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 09:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 09:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 09:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 09:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 09:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 09:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 09:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 09:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 09:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 09:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 09:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 09:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 09:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 09:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 09:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 09:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 09:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 09:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 09:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 09:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 09:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 09:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 09:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 09:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 09:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 09:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 09:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 09:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 09:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 09:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 09:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 09:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 09:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 09:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 09:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 09:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 09:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 09:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 09:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 09:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 09:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 10:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 10:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 10:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 10:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 10:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 10:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 10:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 10:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 10:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 10:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 10:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 10:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 10:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 10:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 10:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 10:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 10:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 10:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 10:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 10:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 10:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 10:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 10:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 10:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 10:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 10:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 10:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 10:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 10:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 10:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 10:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 10:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 10:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 10:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 10:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 10:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 10:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 10:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 10:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 10:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 10:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 10:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 11:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 11:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 11:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 11:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 11:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 11:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 11:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 11:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 11:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 11:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 11:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 11:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 11:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 11:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 11:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 11:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 11:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 11:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 11:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 11:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 11:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 11:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 11:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 11:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 11:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 11:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 11:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 11:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 11:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 11:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 11:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 11:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 11:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 11:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 11:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 11:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 11:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 11:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 11:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 11:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 11:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 11:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 12:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 12:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 12:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 12:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 12:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 12:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 12:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 12:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 12:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 12:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 12:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 12:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 12:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 12:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 12:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 12:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 12:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 12:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 12:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 12:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 12:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 12:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 12:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 12:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 12:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 12:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 12:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 12:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 12:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 12:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 12:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 12:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 12:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 12:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 12:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 12:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 12:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 12:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 12:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 12:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 12:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 12:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 13:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 13:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 13:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 13:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 13:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 13:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 13:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 13:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 13:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 13:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 13:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 13:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 13:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 13:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 13:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 13:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 13:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 13:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 13:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 13:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 13:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 13:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 13:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 13:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 13:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 13:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 13:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 13:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 13:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 13:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 13:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 13:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 13:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 13:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 13:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 13:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 13:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 13:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 13:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 13:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 13:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 13:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 14:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 14:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 14:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 14:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 14:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 14:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 14:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 14:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 14:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 14:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 14:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 14:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 14:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 14:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 14:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 14:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-25 14:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 14:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 14:20:00"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='850794952', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww登录')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww登录', command='', text='ww登录', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-25 14:25:16"}
+{"trigger": ["ww登录", "command", "登录"], "event": "[命令触发]", "level": "info", "timestamp": "06-25 14:25:16"}
+{"command": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='850794952', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww登录')], WS_BOT_ID='napcat-3659200651', task_id='5c3fa076-92a5-4ca4-a797-24fbd7961b2c', task_event=None, real_bot_id='onebot', raw_text='ww登录', command='登录', text='', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[命令触发]", "level": "info", "timestamp": "06-25 14:25:16"}
+{"trace_id": "5c3fa076-92a5-4ca4-a797-24fbd7961b2c", "event": "📝 [TraceStart] trace_id=5c3fa076-92a5-4ca4-a797-24fbd7961b2c command=登录 user_id=2802710247", "level": "info", "timestamp": "06-25 14:25:16"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "5c3fa076-92a5-4ca4-a797-24fbd7961b2c", "level": "info", "timestamp": "06-25 14:25:16"}
+{"event": "180.163.29.234:50318 - \"GET /waves/i/3b46238e HTTP/1.1\" 200", "level": "info", "timestamp": "06-25 14:25:16"}
+{"event": "123.173.216.137:23372 - \"GET /waves/i/3b46238e HTTP/1.1\" 200", "level": "info", "timestamp": "06-25 14:25:18"}
+{"event": "123.173.216.137:23513 - \"POST /waves/login HTTP/1.1\" 200", "level": "info", "timestamp": "06-25 14:25:32"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "5c3fa076-92a5-4ca4-a797-24fbd7961b2c", "level": "info", "timestamp": "06-25 14:25:33"}
+{"trace_id": "5c3fa076-92a5-4ca4-a797-24fbd7961b2c", "event": "🏁 [TraceEnd] trace_id=5c3fa076-92a5-4ca4-a797-24fbd7961b2c command=登录 duration=17060ms logs=7", "level": "info", "timestamp": "06-25 14:25:33"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 14:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 14:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 14:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 14:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 14:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 14:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 14:30:00"}
+{"event": "180.101.245.250:44484 - \"GET / HTTP/1.1\" 404", "level": "info", "timestamp": "06-25 14:33:49"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 14:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 14:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 14:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 14:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 14:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 14:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 14:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 14:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 14:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 14:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 14:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 14:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 14:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 14:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 14:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 14:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 15:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 15:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 15:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 15:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 15:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 15:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 15:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 15:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 15:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 15:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 15:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 15:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 15:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 15:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 15:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 15:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 15:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 15:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 15:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 15:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 15:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 15:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 15:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 15:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 15:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 15:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 15:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 15:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 15:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 15:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 15:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 15:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 15:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 15:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 15:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 15:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 15:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 15:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 15:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 15:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 15:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 15:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 16:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 16:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 16:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 16:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 16:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 16:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 16:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 16:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 16:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 16:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 16:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 16:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 16:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 16:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 16:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 16:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 16:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 16:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 16:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 16:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 16:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 16:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 16:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 16:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 16:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 16:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 16:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 16:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 16:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 16:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 16:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 16:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 16:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 16:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 16:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 16:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 16:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 16:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 16:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 16:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 16:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 16:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 17:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 17:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 17:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 17:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 17:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 17:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 17:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 17:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 17:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 17:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 17:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 17:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 17:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 17:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 17:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 17:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 17:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 17:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 17:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 17:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 17:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 17:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 17:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 17:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 17:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 17:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 17:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 17:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 17:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 17:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 17:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 17:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 17:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 17:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 17:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 17:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 17:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 17:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 17:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 17:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 17:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 17:55:34"}
+{"event": "🔒️ [网页控制台] 认证加密密钥已轮换 key_id=abd758ce916a7610 pubkey_fingerprint=7639be61622d72da", "level": "info", "timestamp": "06-25 17:55:35"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 18:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 18:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 18:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 18:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 18:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 18:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 18:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 18:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 18:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 18:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 18:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 18:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 18:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 18:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 18:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 18:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 18:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 18:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 18:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 18:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 18:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 18:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 18:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 18:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 18:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 18:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 18:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 18:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 18:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 18:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 18:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 18:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 18:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 18:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 18:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 18:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 18:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 18:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 18:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 18:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 18:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 18:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 19:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 19:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 19:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 19:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 19:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 19:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 19:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 19:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 19:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 19:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 19:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 19:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 19:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 19:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 19:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 19:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 19:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 19:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 19:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 19:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 19:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 19:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 19:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 19:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 19:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 19:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 19:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 19:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 19:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 19:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 19:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 19:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 19:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 19:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 19:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 19:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 19:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 19:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 19:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 19:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 19:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 19:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 20:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 20:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 20:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 20:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 20:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 20:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 20:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 20:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 20:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 20:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 20:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 20:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 20:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 20:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 20:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 20:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 20:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 20:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 20:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 20:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 20:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 20:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 20:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 20:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 20:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 20:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 20:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 20:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 20:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 20:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 20:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 20:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 20:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 20:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 20:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 20:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 20:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 20:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 20:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 20:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 20:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 20:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 21:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 21:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 21:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 21:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 21:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 21:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 21:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 21:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 21:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 21:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 21:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 21:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 21:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 21:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 21:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 21:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 21:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 21:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 21:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 21:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 21:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 21:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 21:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 21:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 21:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 21:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 21:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 21:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 21:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 21:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 21:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 21:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 21:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 21:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 21:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 21:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 21:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 21:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 21:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 21:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 21:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 21:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 22:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 22:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 22:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 22:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 22:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 22:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 22:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 22:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 22:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 22:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 22:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 22:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 22:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 22:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 22:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 22:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 22:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 22:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 22:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 22:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 22:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 22:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 22:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 22:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 22:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 22:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 22:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 22:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 22:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 22:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 22:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 22:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 22:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 22:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 22:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 22:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 22:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 22:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 22:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 22:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 22:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 22:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 23:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 23:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 23:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 23:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 23:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 23:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 23:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 23:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 23:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 23:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 23:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 23:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 23:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 23:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 23:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 23:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 23:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 23:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 23:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 23:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 23:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 23:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 23:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 23:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 23:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 23:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 23:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 23:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 23:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 23:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 23:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 23:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 23:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 23:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 23:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-25 23:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-25 23:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 17.061386926099658, 'max_runtime': 17.06129532493651, 'max_wait_time': 9.160116314888e-05, 'max_time': 17.061386926099658, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-25 23:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-25 23:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-25 23:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-25 23:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-25 23:55:34"}

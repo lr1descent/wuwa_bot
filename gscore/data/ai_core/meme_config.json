@@ -1,0 +1,59 @@
+{
+    "meme_enable": {
+        "type": "GsBoolConfig",
+        "title": "启用表情包模块",
+        "desc": "总开关，关闭后停止所有表情包采集和发送功能",
+        "data": true,
+        "secret": false
+    },
+    "meme_vlm_enable": {
+        "type": "GsBoolConfig",
+        "title": "启用 VLM 打标",
+        "desc": "总开关，关闭后停止所有 VLM 打标功能",
+        "data": false,
+        "secret": false
+    },
+    "meme_auto_collect": {
+        "type": "GsBoolConfig",
+        "title": "自动采集群聊图片",
+        "desc": "开启后自动监听群聊中的图片并入库",
+        "data": false,
+        "secret": false
+    },
+    "meme_vlm_semaphore": {
+        "type": "GsIntConfig",
+        "title": "VLM 打标并发上限",
+        "desc": "同时进行 VLM 打标的任务数上限",
+        "data": 1,
+        "max_value": null,
+        "options": [],
+        "secret": false
+    },
+    "meme_nsfw_threshold": {
+        "type": "GsFloatConfig",
+        "title": "NSFW 分数阈值(0~1)",
+        "desc": "VLM 返回的 NSFW 分数超过此值时标记为 rejected",
+        "data": 0.6,
+        "min_value": null,
+        "max_value": null,
+        "secret": false
+    },
+    "meme_send_cooldown_sec": {
+        "type": "GsIntConfig",
+        "title": "同一会话发图冷却(秒)",
+        "desc": "同一会话两次发送表情包之间的最小间隔",
+        "data": 60,
+        "max_value": null,
+        "options": [],
+        "secret": false
+    },
+    "meme_search_threshold": {
+        "type": "GsFloatConfig",
+        "title": "表情包搜索相似度阈值(0~1)",
+        "desc": "向量检索的最低相似度分数，低于此值的结果将被视为不匹配。越高越严格，建议 0.3~0.6",
+        "data": 0.4,
+        "min_value": null,
+        "max_value": null,
+        "secret": false
+    }
+}

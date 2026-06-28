@@ -1,0 +1,2 @@
+{"trace_id": "5c3fa076-92a5-4ca4-a797-24fbd7961b2c", "command": "登录", "user_id": "2802710247", "group_id": null, "bot_id": "onebot", "session_id": "napcat-3659200651:onebot:3659200651:private:2802710247", "start_time": 1782368716.1982636, "status": "running", "log_count": 0}
+{"trace_id": "5c3fa076-92a5-4ca4-a797-24fbd7961b2c", "command": "登录", "user_id": "2802710247", "group_id": null, "bot_id": "onebot", "session_id": "napcat-3659200651:onebot:3659200651:private:2802710247", "start_time": 1782368716.1982636, "status": "completed", "log_count": 7, "duration_ms": 17060}

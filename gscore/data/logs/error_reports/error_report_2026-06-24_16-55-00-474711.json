@@ -1,0 +1,8 @@
+{
+    "event": "❌ 插件__init__导入失败, 错误代码: No module named 'utils.image'; 'utils' is not a package",
+    "level": "error",
+    "timestamp": "06-24 16:55:00",
+    "exception": "Traceback (most recent call last):\n  File \"/gsuid_core/gsuid_core/server.py\", line 434, in load_plugins\n    self.cached_import(module_name, filepath, _type)\n  File \"/gsuid_core/gsuid_core/server.py\", line 373, in cached_import\n    spec.loader.exec_module(module)\n  File \"<frozen importlib._bootstrap_external>\", line 999, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/gsuid_core/gsuid_core/plugins/WutheringWavesUID/WutheringWavesUID/wutheringwaves_develop/__init__.py\", line 8, in <module>\n    from ..wutheringwaves_develop.develop import calc_develop_cost\n  File \"/gsuid_core/gsuid_core/plugins/WutheringWavesUID/WutheringWavesUID/wutheringwaves_develop/develop.py\", line 6, in <module>\n    from utils.image.convert import convert_img\nModuleNotFoundError: No module named 'utils.image'; 'utils' is not a package",
+    "_report_timestamp": "2026-06-24_16-55-00-474711",
+    "_log_level": "exception"
+}

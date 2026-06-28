@@ -115,7 +115,7 @@
         "type": "GsStrConfig",
         "title": "Git镜像源",
         "desc": "选择git镜像源，用于加速插件安装和更新。支持镜像源(gitcode/cnb)、代理前缀(ghproxy)和SSH三种模式",
-        "data": "",
+        "data": "https://gitcode.com/gscore-mirror/",
         "options": [
             "",
             "https://gitcode.com/gscore-mirror/",

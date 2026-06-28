@@ -1,0 +1,196 @@
+{
+    "WavesAnnGroups": {
+        "type": "GsDictConfig",
+        "title": "推送公告群组",
+        "desc": "鸣潮公告推送群组",
+        "data": {},
+        "secret": false
+    },
+    "WavesAnnNewIds": {
+        "type": "GsListConfig",
+        "title": "推送公告ID",
+        "desc": "鸣潮公告推送ID列表",
+        "data": [],
+        "secret": false
+    },
+    "WavesAnnOpen": {
+        "type": "GsBoolConfig",
+        "title": "公告推送总开关",
+        "desc": "公告推送总开关",
+        "data": true,
+        "secret": false
+    },
+    "WavesRankUseTokenGroup": {
+        "type": "GsListStrConfig",
+        "title": "有token才能进排行，群管理可设置",
+        "desc": "有token才能进排行，群管理可设置",
+        "data": [],
+        "options": [],
+        "secret": false
+    },
+    "WavesRankNoLimitGroup": {
+        "type": "GsListStrConfig",
+        "title": "无限制进排行，群管理可设置",
+        "desc": "无限制进排行，群管理可设置",
+        "data": [],
+        "options": [],
+        "secret": false
+    },
+    "WavesGuide": {
+        "type": "GsListStrConfig",
+        "title": "角色攻略图提供方",
+        "desc": "使用ww角色攻略时选择的提供方",
+        "data": [
+            "all"
+        ],
+        "options": [
+            "all",
+            "小羊早睡不遭罪",
+            "金铃子攻略组",
+            "結星",
+            "Moealkyne",
+            "小沐XMu"
+        ],
+        "secret": false
+    },
+    "WavesLoginUrl": {
+        "type": "GsStrConfig",
+        "title": "鸣潮登录url",
+        "desc": "用于设置WutheringWavesUID登录界面的配置",
+        "data": "http://43.139.87.230:8765",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "WavesLoginUrlSelf": {
+        "type": "GsBoolConfig",
+        "title": "强制【鸣潮登录url】为自己的域名",
+        "desc": "强制【鸣潮登录url】为自己的域名",
+        "data": true,
+        "secret": false
+    },
+    "WavesTencentWord": {
+        "type": "GsBoolConfig",
+        "title": "腾讯文档",
+        "desc": "腾讯文档",
+        "data": false,
+        "secret": false
+    },
+    "WavesQRLogin": {
+        "type": "GsBoolConfig",
+        "title": "开启后，登录链接变成二维码",
+        "desc": "开启后，登录链接变成二维码",
+        "data": false,
+        "secret": false
+    },
+    "WavesLoginForward": {
+        "type": "GsBoolConfig",
+        "title": "开启后，登录链接变为转发消息",
+        "desc": "开启后，登录链接变为转发消息",
+        "data": false,
+        "secret": false
+    },
+    "WavesOnlySelfCk": {
+        "type": "GsBoolConfig",
+        "title": "所有查询使用自己的ck",
+        "desc": "所有查询使用自己的ck",
+        "data": false,
+        "secret": false
+    },
+    "CardUseOptions2": {
+        "type": "GsStrConfig",
+        "title": "排行面板数据启用规则（重启生效）",
+        "desc": "排行面板数据启用规则",
+        "data": "不使用缓存",
+        "options": [
+            "不使用缓存",
+            "内存缓存"
+        ],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "QQPicCache": {
+        "type": "GsBoolConfig",
+        "title": "排行榜qq头像缓存开关",
+        "desc": "排行榜qq头像缓存开关",
+        "data": false,
+        "secret": false
+    },
+    "RankUseToken": {
+        "type": "GsBoolConfig",
+        "title": "有token才能进排行",
+        "desc": "有token才能进排行",
+        "data": false,
+        "secret": false
+    },
+    "DelInvalidCookie": {
+        "type": "GsBoolConfig",
+        "title": "每天定时删除无效token",
+        "desc": "每天定时删除无效token",
+        "data": false,
+        "secret": false
+    },
+    "AnnMinuteCheck": {
+        "type": "GsIntConfig",
+        "title": "公告推送时间检测（单位min）",
+        "desc": "公告推送时间检测（单位min）",
+        "data": 10,
+        "max_value": 60,
+        "options": [],
+        "secret": false
+    },
+    "RefreshInterval": {
+        "type": "GsIntConfig",
+        "title": "刷新面板间隔，重启生效（单位秒）",
+        "desc": "刷新面板间隔，重启生效（单位秒）",
+        "data": 0,
+        "max_value": 600,
+        "options": [],
+        "secret": false
+    },
+    "RefreshIntervalNotify": {
+        "type": "GsStrConfig",
+        "title": "刷新面板间隔通知文案",
+        "desc": "刷新面板间隔通知文案",
+        "data": "请等待{}s后尝试刷新面板！",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "HideUid": {
+        "type": "GsBoolConfig",
+        "title": "隐藏uid",
+        "desc": "隐藏uid",
+        "data": false,
+        "secret": false
+    },
+    "MaxBindNum": {
+        "type": "GsIntConfig",
+        "title": "绑定特征码限制数量（未登录）",
+        "desc": "绑定特征码限制数量（未登录）",
+        "data": 2,
+        "max_value": 100,
+        "options": [],
+        "secret": false
+    },
+    "WavesToken": {
+        "type": "GsStrConfig",
+        "title": "鸣潮全排行token",
+        "desc": "鸣潮全排行token",
+        "data": "",
+        "options": [],
+        "regex": null,
+        "details": null,
+        "secret": false
+    },
+    "AtCheck": {
+        "type": "GsBoolConfig",
+        "title": "开启可以艾特查询",
+        "desc": "开启可以艾特查询",
+        "data": true,
+        "secret": false
+    }
+}

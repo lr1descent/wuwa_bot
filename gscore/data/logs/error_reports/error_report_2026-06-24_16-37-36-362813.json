@@ -1,0 +1,8 @@
+{
+    "event": "[Git Async] clone 失败: Cloning into '/gsuid_core/gsuid_core/plugins/WutheringWavesUID'...\nremote: <CH.00905403> The project you were looking for could not be found. Request-id is YgBGR4D27f.\nfatal: unable to access 'https://gitcode.com/gscore-mirror/WutheringWavesUID/': The requested URL returned error: 403",
+    "trace_id": "60fa7c6e-4af9-4abe-ac28-f2dba0ce7003",
+    "level": "error",
+    "timestamp": "06-24 16:37:36",
+    "_report_timestamp": "2026-06-24_16-37-36-362813",
+    "_log_level": "error"
+}

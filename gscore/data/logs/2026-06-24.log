@@ -240,3 +240,1149 @@
 {"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 13:50:00"}
 {"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 13:50:00"}
 {"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 13:50:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 14:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 14:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 14:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 14:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 14:00:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 14:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 14:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 14:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 14:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 14:10:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 14:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 14:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 14:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 14:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 14:20:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 14:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 14:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 14:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 14:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 14:30:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 14:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 14:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 14:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 14:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 14:40:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 14:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 14:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 14:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 14:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 14:50:00"}
+{"event": "[GsCore] 收到关闭信号，正在设置 shutdown_event...", "level": "info", "timestamp": "06-24 14:51:43"}
+{"event": "Shutting down", "level": "info", "timestamp": "06-24 14:51:43"}
+{"event": "Waiting for application shutdown.", "level": "info", "timestamp": "06-24 14:51:44"}
+{"event": "[GsCore] 开始关闭流程，设置 shutdown_event...", "level": "info", "timestamp": "06-24 14:51:44"}
+{"event": "⌛ [定时器系统] 程序关闭！定时任务结束！", "level": "info", "timestamp": "06-24 14:51:44"}
+{"positional_args": [["flush_ai_sessions_on_shutdown", "save_global_val", "_flush_user_buffer_on_shutdown", "_stop_rm_cleanup", "close_qdrant_client_on_shutdown"]], "event": "♻ [GsCore] 执行启动Hook函数中！", "level": "info", "timestamp": "06-24 14:51:44"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 14:51:44"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 14:51:44"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 14:51:44"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 14:51:44"}
+{"event": "Application shutdown complete.", "level": "info", "timestamp": "06-24 14:51:46"}
+{"event": "Finished server process [65]", "level": "info", "timestamp": "06-24 14:51:46"}
+{"event": "[GsCore] 收到关闭信号，正在设置 shutdown_event...", "level": "info", "timestamp": "06-24 14:51:46"}
+{"event": "🧠 [GsCore] 切换HF地址，地址: https://hf-mirror.com", "level": "info", "timestamp": "06-24 14:51:48"}
+{"event": "📀 [数据库] 开始初始化...", "level": "info", "timestamp": "06-24 14:51:48"}
+{"event": "💖 [早柚核心]开始加载插件...", "level": "info", "timestamp": "06-24 14:51:48"}
+{"event": "🔍 [早柚核心] 插件发现与依赖检查完成, 耗时: 0.00秒", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "✅ 插件core_command导入成功! 耗时: 0.00秒", "level": "success", "timestamp": "06-24 14:51:49"}
+{"event": "✅ 插件gs_test导入成功! 耗时: 0.00秒", "level": "success", "timestamp": "06-24 14:51:49"}
+{"event": "📥 [早柚核心] 插件模块导入完成, 耗时: 0.43秒", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "🐢 [早柚核心] 共导入 13 个模块, 累计 0.42秒, 最慢 Top 10:", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "    ⏱️   0.24秒  auto_update", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "    ⏱️   0.14秒  user_login", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "    ⏱️   0.01秒  core_ai_control", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "    ⏱️   0.01秒  core_user", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "    ⏱️   0.01秒  core_config_cmd", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "    ⏱️   0.01秒  core_backup", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "    ⏱️   0.00秒  core_command", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "    ⏱️   0.00秒  core_update", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "    ⏱️   0.00秒  install_plugins", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "    ⏱️   0.00秒  core_help", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "💖 [早柚核心] 插件加载完成! 总耗时: 0.67秒", "level": "success", "timestamp": "06-24 14:51:49"}
+{"event": "\n.------..------..------..------..------..------..------.\n|G.--. ||S.--. ||-.--. ||C.--. ||O.--. ||R.--. ||E.--. |\n| :/\\: || :/\\: || (\\/) || :/\\: || :/\\: || :(): || (\\/) |\n| :\\/: || :\\/: || :\\/: || :\\/: || :\\/: || ()() || :\\/: |\n| '--'G|| '--'S|| '--'-|| '--'C|| '--'O|| '--'R|| '--'E|\n`------'`------'`------'`------'`------'`------'`------'\n\n          🌱 [早柚核心] 已启动! 版本 0.10.5 ！\n", "level": "success", "timestamp": "06-24 14:51:49"}
+{"event": "🚀 [GsCore] 启动完成, 耗时: 1.43s, 版本: 0.10.5", "level": "success", "timestamp": "06-24 14:51:49"}
+{"event": "📦 插件: 2 | 🛠️ 服务: 18 | ⚡ 触发器: 26", "level": "success", "timestamp": "06-24 14:51:49"}
+{"event": "Started server process [9]", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "Waiting for application startup.", "level": "info", "timestamp": "06-24 14:51:49"}
+{"positional_args": [["move_database", "create_core_tables", "trans_adapter", "load_global_val"]], "event": "♻ [GsCore] 执行启动前Hook函数中！", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "[数据库] 核心数据库表创建成功!", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "🔒️ 开始加载全局变量! 今日: 2026-06-24", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "🔒️ 全局变量加载完成!", "level": "success", "timestamp": "06-24 14:51:49"}
+{"event": "🔒️ 开始加载流量统计!", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "🔒️ 流量统计加载完成! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "success", "timestamp": "06-24 14:51:49"}
+{"event": "⏲ [定时器系统] 定时任务启动成功！", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "[GsCore资源下载]测速中...", "level": "info", "timestamp": "06-24 14:51:49"}
+{"positional_args": [["init_ai_core", "_init_plugin_commit_versions", "_start_rm_cleanup"]], "event": "♻ [GsCore] 执行启动Hook函数中！", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "Application startup complete.", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "🧠 [AI Core] AI总开关已关闭，跳过 AI 重依赖导入与子系统初始化", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "[Git Async] 执行命令: git rev-parse --short HEAD @ /gsuid_core", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "Uvicorn running on http://0.0.0.0:8765 (Press CTRL+C to quit)", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "[数据库] 核心数据库表创建成功!", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "🔒️ [网页控制台] 认证加密密钥已生成 key_id=6e673f5682708011 pubkey_fingerprint=0c12f0ef19b99ad7", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "🔒️ [网页控制台] 认证密钥轮换定时任务已注册（每 12h）", "level": "info", "timestamp": "06-24 14:51:49"}
+{"event": "💻 [网页控制台] AI 总开关已关闭，跳过 AI 相关 API 路由导入（节省约 150MB 内存）", "level": "info", "timestamp": "06-24 14:51:50"}
+{"event": "💻 [网页控制台] 使用前端路径: /gsuid_core/gsuid_core/webconsole/dist, 版本: 0.0.15", "level": "info", "timestamp": "06-24 14:51:50"}
+{"event": "💻 [网页控制台] 准备挂载前端到 /app, 目录: /gsuid_core/gsuid_core/webconsole/dist", "level": "info", "timestamp": "06-24 14:51:50"}
+{"event": "💻 [网页控制台] 已通过 APIRouter 挂载前端到 /app", "level": "info", "timestamp": "06-24 14:51:50"}
+{"event": "💻 [网页控制台] 尝试挂载WebConsole", "level": "info", "timestamp": "06-24 14:51:50"}
+{"event": "💻 WebConsole挂载成功: http://0.0.0.0:8765/app", "level": "success", "timestamp": "06-24 14:51:50"}
+{"event": "[Git Async] 命令成功: git rev-parse --short HEAD @ /gsuid_core", "level": "success", "timestamp": "06-24 14:51:50"}
+{"event": "[Git] 已初始化插件 commit 版本信息，共 1 个", "level": "info", "timestamp": "06-24 14:51:50"}
+{"event": "🗑️ [ResourceManager] TTL 清理任务已启动 (TTL: 1800s, 间隔: 300s)", "level": "info", "timestamp": "06-24 14:51:50"}
+{"event": "🚀 最快资源站: [Lulu] http://lulush.microgg.cn", "level": "info", "timestamp": "06-24 14:51:53"}
+{"event": "172.20.0.2:50062 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 14:53:08"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 14:53:08"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 14:53:08"}
+{"event": "172.20.0.2:50102 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 14:53:38"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 14:53:38"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 14:53:38"}
+{"event": "172.20.0.2:50136 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 14:54:08"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 14:54:08"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 14:54:08"}
+{"event": "172.20.0.2:50182 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 14:54:38"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 14:54:38"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 14:54:38"}
+{"event": "172.20.0.2:50214 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 14:55:08"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 14:55:08"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 14:55:08"}
+{"event": "172.20.0.2:50258 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 14:55:38"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 14:55:38"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 14:55:38"}
+{"event": "172.20.0.2:50296 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 14:56:08"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 14:56:08"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 14:56:08"}
+{"event": "172.20.0.2:50344 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 14:56:38"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 14:56:38"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 14:56:38"}
+{"event": "172.20.0.2:50376 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 14:57:08"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 14:57:08"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 14:57:08"}
+{"event": "172.20.0.2:50416 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 14:57:38"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 14:57:38"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 14:57:38"}
+{"event": "172.20.0.2:50452 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 14:58:08"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 14:58:08"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 14:58:08"}
+{"event": "172.20.0.2:50490 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 14:58:38"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 14:58:38"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 14:58:38"}
+{"event": "172.20.0.2:50522 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 14:59:08"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 14:59:08"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 14:59:08"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 15:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 15:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 15:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 15:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 15:00:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 15:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 15:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 15:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 15:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 15:10:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 15:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 15:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 15:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 15:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 15:20:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 15:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 15:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 15:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 15:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 15:30:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 15:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 15:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 15:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 15:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 15:40:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 15:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 15:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 15:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 15:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 15:50:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 16:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 16:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 16:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 16:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 16:00:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 16:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 16:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 16:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 16:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 16:10:00"}
+{"event": "172.20.0.2:56398 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 16:19:44"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 16:19:44"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 16:19:44"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 16:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 16:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 16:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 16:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 16:20:00"}
+{"event": "172.20.0.2:56616 - \"WebSocket /onebot/v11/ws\" 403", "level": "info", "timestamp": "06-24 16:20:14"}
+{"event": "connection rejected (403 Forbidden)", "level": "info", "timestamp": "06-24 16:20:14"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 16:20:14"}
+{"event": "172.20.0.2:56818 - \"WebSocket /ws/napcat-3659200651?token=wuwa_bot_hekun0820\" [accepted]", "level": "info", "timestamp": "06-24 16:22:41"}
+{"event": "napcat-3659200651 首次连接", "level": "info", "timestamp": "06-24 16:22:41"}
+{"event": "connection open", "level": "info", "timestamp": "06-24 16:22:41"}
+{"event": "[启动检查] 📝 检查遗留信息...", "level": "info", "timestamp": "06-24 16:22:43"}
+{"event": "[Core重启] 没有找到[Core重启]的订阅, 无推送消息！", "level": "warning", "timestamp": "06-24 16:22:43"}
+{"event": "✅ 遗留信息检查完毕!", "level": "info", "timestamp": "06-24 16:22:43"}
+{"event": "[GsCore] 启动WS服务中...", "level": "info", "timestamp": "06-24 16:22:43"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='634214624', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=6, content=[Message(type='text', data='我们已成功添加为好友，现在可以开始聊天啦～')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='我们已成功添加为好友，现在可以开始聊天啦～', command='', text='我们已成功添加为好友，现在可以开始聊天啦～', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 16:29:14"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 16:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 16:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 16:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 16:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 16:30:00"}
+{"event": "[GsCore] 收到关闭信号，正在设置 shutdown_event...", "level": "info", "timestamp": "06-24 16:30:50"}
+{"event": "Shutting down", "level": "info", "timestamp": "06-24 16:30:50"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 16:30:50"}
+{"event": "napcat-3659200651 已断开，Bot 实例保留等待重连", "level": "warning", "timestamp": "06-24 16:30:50"}
+{"event": "Waiting for application shutdown.", "level": "info", "timestamp": "06-24 16:30:50"}
+{"event": "[GsCore] 开始关闭流程，设置 shutdown_event...", "level": "info", "timestamp": "06-24 16:30:50"}
+{"event": "⌛ [定时器系统] 程序关闭！定时任务结束！", "level": "info", "timestamp": "06-24 16:30:50"}
+{"positional_args": [["flush_ai_sessions_on_shutdown", "save_global_val", "_flush_user_buffer_on_shutdown", "_stop_rm_cleanup", "close_qdrant_client_on_shutdown"]], "event": "♻ [GsCore] 执行启动Hook函数中！", "level": "info", "timestamp": "06-24 16:30:50"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 16:30:50"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 16:30:50"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "info", "timestamp": "06-24 16:30:50"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 16:30:50"}
+{"event": "Application shutdown complete.", "level": "info", "timestamp": "06-24 16:30:52"}
+{"event": "Finished server process [9]", "level": "info", "timestamp": "06-24 16:30:52"}
+{"event": "[GsCore] 收到关闭信号，正在设置 shutdown_event...", "level": "info", "timestamp": "06-24 16:30:52"}
+{"event": "🧠 [GsCore] 切换HF地址，地址: https://hf-mirror.com", "level": "info", "timestamp": "06-24 16:30:55"}
+{"event": "📀 [数据库] 开始初始化...", "level": "info", "timestamp": "06-24 16:30:55"}
+{"event": "💖 [早柚核心]开始加载插件...", "level": "info", "timestamp": "06-24 16:30:55"}
+{"event": "🔍 [早柚核心] 插件发现与依赖检查完成, 耗时: 0.00秒", "level": "info", "timestamp": "06-24 16:30:55"}
+{"event": "✅ 插件core_command导入成功! 耗时: 0.00秒", "level": "success", "timestamp": "06-24 16:30:55"}
+{"event": "✅ 插件gs_test导入成功! 耗时: 0.00秒", "level": "success", "timestamp": "06-24 16:30:56"}
+{"event": "📥 [早柚核心] 插件模块导入完成, 耗时: 0.46秒", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "🐢 [早柚核心] 共导入 13 个模块, 累计 0.45秒, 最慢 Top 10:", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "    ⏱️   0.26秒  auto_update", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "    ⏱️   0.14秒  user_login", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "    ⏱️   0.02秒  core_user", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "    ⏱️   0.01秒  core_ai_control", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "    ⏱️   0.01秒  core_config_cmd", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "    ⏱️   0.01秒  core_backup", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "    ⏱️   0.00秒  core_command", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "    ⏱️   0.00秒  core_update", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "    ⏱️   0.00秒  install_plugins", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "    ⏱️   0.00秒  core_help", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "💖 [早柚核心] 插件加载完成! 总耗时: 0.72秒", "level": "success", "timestamp": "06-24 16:30:56"}
+{"event": "\n.------..------..------..------..------..------..------.\n|G.--. ||S.--. ||-.--. ||C.--. ||O.--. ||R.--. ||E.--. |\n| :/\\: || :/\\: || (\\/) || :/\\: || :/\\: || :(): || (\\/) |\n| :\\/: || :\\/: || :\\/: || :\\/: || :\\/: || ()() || :\\/: |\n| '--'G|| '--'S|| '--'-|| '--'C|| '--'O|| '--'R|| '--'E|\n`------'`------'`------'`------'`------'`------'`------'\n\n          🌱 [早柚核心] 已启动! 版本 0.10.5 ！\n", "level": "success", "timestamp": "06-24 16:30:56"}
+{"event": "🚀 [GsCore] 启动完成, 耗时: 1.47s, 版本: 0.10.5", "level": "success", "timestamp": "06-24 16:30:56"}
+{"event": "📦 插件: 2 | 🛠️ 服务: 18 | ⚡ 触发器: 26", "level": "success", "timestamp": "06-24 16:30:56"}
+{"event": "Started server process [9]", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "Waiting for application startup.", "level": "info", "timestamp": "06-24 16:30:56"}
+{"positional_args": [["move_database", "create_core_tables", "trans_adapter", "load_global_val"]], "event": "♻ [GsCore] 执行启动前Hook函数中！", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "[数据库] 核心数据库表创建成功!", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "🔒️ 开始加载全局变量! 今日: 2026-06-24", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "🔒️ 全局变量加载完成!", "level": "success", "timestamp": "06-24 16:30:56"}
+{"event": "🔒️ 开始加载流量统计!", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "🔒️ 流量统计加载完成! {'req': 0, 'max_qps': 0.0, 'total_count': 0, 'total_time': 0.0, 'max_runtime': 0.0, 'max_wait_time': 0.0, 'max_time': 0.0, 'max_runtime_func': ''}", "level": "success", "timestamp": "06-24 16:30:56"}
+{"event": "⏲ [定时器系统] 定时任务启动成功！", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "[GsCore资源下载]测速中...", "level": "info", "timestamp": "06-24 16:30:56"}
+{"positional_args": [["_init_plugin_commit_versions", "init_ai_core", "_start_rm_cleanup"]], "event": "♻ [GsCore] 执行启动Hook函数中！", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "Application startup complete.", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "[Git Async] 执行命令: git rev-parse --short HEAD @ /gsuid_core", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "🧠 [AI Core] AI总开关已关闭，跳过 AI 重依赖导入与子系统初始化", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "Uvicorn running on http://0.0.0.0:8765 (Press CTRL+C to quit)", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "[Git Async] 命令成功: git rev-parse --short HEAD @ /gsuid_core", "level": "success", "timestamp": "06-24 16:30:56"}
+{"event": "[Git] 已初始化插件 commit 版本信息，共 1 个", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "🗑️ [ResourceManager] TTL 清理任务已启动 (TTL: 1800s, 间隔: 300s)", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "[数据库] 核心数据库表创建成功!", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "🔒️ [网页控制台] 认证加密密钥已生成 key_id=ee31627405d02727 pubkey_fingerprint=15525c2d60d7b0bd", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "🔒️ [网页控制台] 认证密钥轮换定时任务已注册（每 12h）", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "💻 [网页控制台] AI 总开关已关闭，跳过 AI 相关 API 路由导入（节省约 150MB 内存）", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "💻 [网页控制台] 使用前端路径: /gsuid_core/gsuid_core/webconsole/dist, 版本: 0.0.15", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "💻 [网页控制台] 准备挂载前端到 /app, 目录: /gsuid_core/gsuid_core/webconsole/dist", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "💻 [网页控制台] 已通过 APIRouter 挂载前端到 /app", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "💻 [网页控制台] 尝试挂载WebConsole", "level": "info", "timestamp": "06-24 16:30:56"}
+{"event": "💻 WebConsole挂载成功: http://0.0.0.0:8765/app", "level": "success", "timestamp": "06-24 16:30:56"}
+{"event": "🚀 最快资源站: [Lulu] http://lulush.microgg.cn", "level": "info", "timestamp": "06-24 16:30:59"}
+{"event": "172.20.0.2:57470 - \"WebSocket /ws/napcat-3659200651?token=wuwa_bot_hekun0820\" [accepted]", "level": "info", "timestamp": "06-24 16:31:00"}
+{"event": "napcat-3659200651 首次连接", "level": "info", "timestamp": "06-24 16:31:00"}
+{"event": "connection open", "level": "info", "timestamp": "06-24 16:31:00"}
+{"event": "[启动检查] 📝 检查遗留信息...", "level": "info", "timestamp": "06-24 16:31:02"}
+{"event": "[Core重启] 没有找到[Core重启]的订阅, 无推送消息！", "level": "warning", "timestamp": "06-24 16:31:02"}
+{"event": "✅ 遗留信息检查完毕!", "level": "info", "timestamp": "06-24 16:31:02"}
+{"event": "[GsCore] 启动WS服务中...", "level": "info", "timestamp": "06-24 16:31:02"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='2039319738', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='core安装插件WutheringWavesUID')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='core安装插件WutheringWavesUID', command='', text='core安装插件WutheringWavesUID', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 16:31:15"}
+{"trigger": ["core安装插件WutheringWavesUID", "prefix", "安装插件"], "event": "[命令触发]", "level": "info", "timestamp": "06-24 16:31:15"}
+{"command": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='2039319738', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='core安装插件WutheringWavesUID')], WS_BOT_ID='napcat-3659200651', task_id='7b84d25f-e424-4c4a-b4ee-e3baebb91250', task_event=None, real_bot_id='onebot', raw_text='core安装插件WutheringWavesUID', command='安装插件', text='WutheringWavesUID', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[命令触发]", "level": "info", "timestamp": "06-24 16:31:15"}
+{"trace_id": "7b84d25f-e424-4c4a-b4ee-e3baebb91250", "event": "📝 [TraceStart] trace_id=7b84d25f-e424-4c4a-b4ee-e3baebb91250 command=安装插件 user_id=2802710247", "level": "info", "timestamp": "06-24 16:31:15"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "7b84d25f-e424-4c4a-b4ee-e3baebb91250", "level": "info", "timestamp": "06-24 16:31:18"}
+{"event": "稍等...开始安装插件, 地址: https://github.com/tyql688/WutheringWavesUID.git", "trace_id": "7b84d25f-e424-4c4a-b4ee-e3baebb91250", "level": "info", "timestamp": "06-24 16:31:18"}
+{"event": "[Git Async] 执行命令: git -c credential.helper= -c core.askPass= clone --depth 1 --branch master https://github.com/tyql688/WutheringWavesUID.git /gsuid_core/gsuid_core/plugins/WutheringWavesUID @ .", "trace_id": "7b84d25f-e424-4c4a-b4ee-e3baebb91250", "level": "info", "timestamp": "06-24 16:31:18"}
+{"event": "[Git Async] 命令失败(returncode=128): git -c credential.helper= -c core.askPass= clone --depth 1 --branch master https://github.com/tyql688/WutheringWavesUID.git /gsuid_core/gsuid_core/plugins/WutheringWavesUID @ .", "trace_id": "7b84d25f-e424-4c4a-b4ee-e3baebb91250", "level": "warning", "timestamp": "06-24 16:31:19"}
+{"event": "[Git Async] stderr: Cloning into '/gsuid_core/gsuid_core/plugins/WutheringWavesUID'...\nremote: Invalid username or token. Password authentication is not supported for Git operations.\nfatal: Authentication failed for 'https://github.com/tyql688/WutheringWavesUID.git/'", "trace_id": "7b84d25f-e424-4c4a-b4ee-e3baebb91250", "level": "warning", "timestamp": "06-24 16:31:19"}
+{"event": "[Git Async] clone 失败: Cloning into '/gsuid_core/gsuid_core/plugins/WutheringWavesUID'...\nremote: Invalid username or token. Password authentication is not supported for Git operations.\nfatal: Authentication failed for 'https://github.com/tyql688/WutheringWavesUID.git/'", "trace_id": "7b84d25f-e424-4c4a-b4ee-e3baebb91250", "level": "error", "timestamp": "06-24 16:31:19"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "7b84d25f-e424-4c4a-b4ee-e3baebb91250", "level": "info", "timestamp": "06-24 16:31:19"}
+{"trace_id": "7b84d25f-e424-4c4a-b4ee-e3baebb91250", "event": "🏁 [TraceEnd] trace_id=7b84d25f-e424-4c4a-b4ee-e3baebb91250 command=安装插件 duration=4096ms logs=48", "level": "info", "timestamp": "06-24 16:31:19"}
+{"event": "Shutting down", "level": "info", "timestamp": "06-24 16:37:16"}
+{"event": "[GsCore] 收到关闭信号，正在设置 shutdown_event...", "level": "info", "timestamp": "06-24 16:37:16"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 16:37:16"}
+{"event": "napcat-3659200651 已断开，Bot 实例保留等待重连", "level": "warning", "timestamp": "06-24 16:37:16"}
+{"event": "Waiting for application shutdown.", "level": "info", "timestamp": "06-24 16:37:16"}
+{"event": "[GsCore] 开始关闭流程，设置 shutdown_event...", "level": "info", "timestamp": "06-24 16:37:16"}
+{"event": "⌛ [定时器系统] 程序关闭！定时任务结束！", "level": "info", "timestamp": "06-24 16:37:16"}
+{"positional_args": [["flush_ai_sessions_on_shutdown", "save_global_val", "_flush_user_buffer_on_shutdown", "_stop_rm_cleanup", "shutdown_memory_system", "close_qdrant_client_on_shutdown"]], "event": "♻ [GsCore] 执行启动Hook函数中！", "level": "info", "timestamp": "06-24 16:37:16"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 16:37:16"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 16:37:16"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1, 'total_count': 1, 'total_time': 4.097477717325091, 'max_runtime': 4.097382048144937, 'max_wait_time': 9.566918015480042e-05, 'max_time': 4.097477717325091, 'max_runtime_func': 'send_plugins_install'}", "level": "info", "timestamp": "06-24 16:37:16"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 16:37:16"}
+{"event": "Application shutdown complete.", "level": "info", "timestamp": "06-24 16:37:16"}
+{"event": "Finished server process [9]", "level": "info", "timestamp": "06-24 16:37:16"}
+{"event": "[GsCore] 收到关闭信号，正在设置 shutdown_event...", "level": "info", "timestamp": "06-24 16:37:16"}
+{"event": "🧠 [GsCore] 切换HF地址，地址: https://hf-mirror.com", "level": "info", "timestamp": "06-24 16:37:18"}
+{"event": "📀 [数据库] 开始初始化...", "level": "info", "timestamp": "06-24 16:37:18"}
+{"event": "💖 [早柚核心]开始加载插件...", "level": "info", "timestamp": "06-24 16:37:18"}
+{"event": "🔍 [早柚核心] 插件发现与依赖检查完成, 耗时: 0.00秒", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "✅ 插件core_command导入成功! 耗时: 0.00秒", "level": "success", "timestamp": "06-24 16:37:19"}
+{"event": "✅ 插件gs_test导入成功! 耗时: 0.00秒", "level": "success", "timestamp": "06-24 16:37:19"}
+{"event": "📥 [早柚核心] 插件模块导入完成, 耗时: 0.44秒", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "🐢 [早柚核心] 共导入 13 个模块, 累计 0.43秒, 最慢 Top 10:", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "    ⏱️   0.25秒  auto_update", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "    ⏱️   0.14秒  user_login", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "    ⏱️   0.02秒  core_user", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "    ⏱️   0.01秒  core_ai_control", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "    ⏱️   0.01秒  core_config_cmd", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "    ⏱️   0.00秒  core_command", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "    ⏱️   0.00秒  core_update", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "    ⏱️   0.00秒  install_plugins", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "    ⏱️   0.00秒  core_help", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "    ⏱️   0.00秒  core_pm", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "💖 [早柚核心] 插件加载完成! 总耗时: 0.70秒", "level": "success", "timestamp": "06-24 16:37:19"}
+{"event": "\n.------..------..------..------..------..------..------.\n|G.--. ||S.--. ||-.--. ||C.--. ||O.--. ||R.--. ||E.--. |\n| :/\\: || :/\\: || (\\/) || :/\\: || :/\\: || :(): || (\\/) |\n| :\\/: || :\\/: || :\\/: || :\\/: || :\\/: || ()() || :\\/: |\n| '--'G|| '--'S|| '--'-|| '--'C|| '--'O|| '--'R|| '--'E|\n`------'`------'`------'`------'`------'`------'`------'\n\n          🌱 [早柚核心] 已启动! 版本 0.10.5 ！\n", "level": "success", "timestamp": "06-24 16:37:19"}
+{"event": "🚀 [GsCore] 启动完成, 耗时: 1.45s, 版本: 0.10.5", "level": "success", "timestamp": "06-24 16:37:19"}
+{"event": "📦 插件: 2 | 🛠️ 服务: 18 | ⚡ 触发器: 26", "level": "success", "timestamp": "06-24 16:37:19"}
+{"event": "Started server process [9]", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "Waiting for application startup.", "level": "info", "timestamp": "06-24 16:37:19"}
+{"positional_args": [["move_database", "create_core_tables", "trans_adapter", "load_global_val"]], "event": "♻ [GsCore] 执行启动前Hook函数中！", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "[数据库] 核心数据库表创建成功!", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "🔒️ 开始加载全局变量! 今日: 2026-06-24", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "🔒️ 全局变量加载完成!", "level": "success", "timestamp": "06-24 16:37:19"}
+{"event": "🔒️ 开始加载流量统计!", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "🔒️ 流量统计加载完成! {'req': 0, 'max_qps': 1.0, 'total_count': 1, 'total_time': 4.097477717325091, 'max_runtime': 4.097382048144937, 'max_wait_time': 9.566918015480042e-05, 'max_time': 4.097477717325091, 'max_runtime_func': 'send_plugins_install'}", "level": "success", "timestamp": "06-24 16:37:19"}
+{"event": "⏲ [定时器系统] 定时任务启动成功！", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "[GsCore资源下载]测速中...", "level": "info", "timestamp": "06-24 16:37:19"}
+{"positional_args": [["_init_plugin_commit_versions", "init_ai_core", "_start_rm_cleanup"]], "event": "♻ [GsCore] 执行启动Hook函数中！", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "Application startup complete.", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "[Git Async] 执行命令: git rev-parse --short HEAD @ /gsuid_core", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "🧠 [AI Core] AI总开关已关闭，跳过 AI 重依赖导入与子系统初始化", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "Uvicorn running on http://0.0.0.0:8765 (Press CTRL+C to quit)", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "[数据库] 核心数据库表创建成功!", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "🔒️ [网页控制台] 认证加密密钥已生成 key_id=f43e2a8953fb9452 pubkey_fingerprint=fa89387acd2b240e", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "🔒️ [网页控制台] 认证密钥轮换定时任务已注册（每 12h）", "level": "info", "timestamp": "06-24 16:37:19"}
+{"event": "💻 [网页控制台] AI 总开关已关闭，跳过 AI 相关 API 路由导入（节省约 150MB 内存）", "level": "info", "timestamp": "06-24 16:37:20"}
+{"event": "💻 [网页控制台] 使用前端路径: /gsuid_core/gsuid_core/webconsole/dist, 版本: 0.0.15", "level": "info", "timestamp": "06-24 16:37:20"}
+{"event": "💻 [网页控制台] 准备挂载前端到 /app, 目录: /gsuid_core/gsuid_core/webconsole/dist", "level": "info", "timestamp": "06-24 16:37:20"}
+{"event": "💻 [网页控制台] 已通过 APIRouter 挂载前端到 /app", "level": "info", "timestamp": "06-24 16:37:20"}
+{"event": "💻 [网页控制台] 尝试挂载WebConsole", "level": "info", "timestamp": "06-24 16:37:20"}
+{"event": "💻 WebConsole挂载成功: http://0.0.0.0:8765/app", "level": "success", "timestamp": "06-24 16:37:20"}
+{"event": "[Git Async] 命令成功: git rev-parse --short HEAD @ /gsuid_core", "level": "success", "timestamp": "06-24 16:37:20"}
+{"event": "[Git] 已初始化插件 commit 版本信息，共 1 个", "level": "info", "timestamp": "06-24 16:37:20"}
+{"event": "🗑️ [ResourceManager] TTL 清理任务已启动 (TTL: 1800s, 间隔: 300s)", "level": "info", "timestamp": "06-24 16:37:20"}
+{"event": "172.20.0.2:57966 - \"WebSocket /ws/napcat-3659200651?token=wuwa_bot_hekun0820\" [accepted]", "level": "info", "timestamp": "06-24 16:37:21"}
+{"event": "napcat-3659200651 首次连接", "level": "info", "timestamp": "06-24 16:37:21"}
+{"event": "connection open", "level": "info", "timestamp": "06-24 16:37:21"}
+{"event": "🚀 最快资源站: [Lulu] http://lulush.microgg.cn", "level": "info", "timestamp": "06-24 16:37:23"}
+{"event": "[启动检查] 📝 检查遗留信息...", "level": "info", "timestamp": "06-24 16:37:23"}
+{"event": "[Core重启] 没有找到[Core重启]的订阅, 无推送消息！", "level": "warning", "timestamp": "06-24 16:37:23"}
+{"event": "✅ 遗留信息检查完毕!", "level": "info", "timestamp": "06-24 16:37:23"}
+{"event": "[GsCore] 启动WS服务中...", "level": "info", "timestamp": "06-24 16:37:23"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='1968297032', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='https://gitcode.com/gscore-mirror/')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='https://gitcode.com/gscore-mirror/', command='', text='https://gitcode.com/gscore-mirror/', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 16:37:28"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='1466037158', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='core安装插件WutheringWavesUID')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='core安装插件WutheringWavesUID', command='', text='core安装插件WutheringWavesUID', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 16:37:34"}
+{"trigger": ["core安装插件WutheringWavesUID", "prefix", "安装插件"], "event": "[命令触发]", "level": "info", "timestamp": "06-24 16:37:34"}
+{"command": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='1466037158', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='core安装插件WutheringWavesUID')], WS_BOT_ID='napcat-3659200651', task_id='60fa7c6e-4af9-4abe-ac28-f2dba0ce7003', task_event=None, real_bot_id='onebot', raw_text='core安装插件WutheringWavesUID', command='安装插件', text='WutheringWavesUID', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[命令触发]", "level": "info", "timestamp": "06-24 16:37:34"}
+{"trace_id": "60fa7c6e-4af9-4abe-ac28-f2dba0ce7003", "event": "📝 [TraceStart] trace_id=60fa7c6e-4af9-4abe-ac28-f2dba0ce7003 command=安装插件 user_id=2802710247", "level": "info", "timestamp": "06-24 16:37:34"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "60fa7c6e-4af9-4abe-ac28-f2dba0ce7003", "level": "info", "timestamp": "06-24 16:37:35"}
+{"event": "稍等...开始安装插件, 地址: https://gitcode.com/gscore-mirror/WutheringWavesUID", "trace_id": "60fa7c6e-4af9-4abe-ac28-f2dba0ce7003", "level": "info", "timestamp": "06-24 16:37:35"}
+{"event": "[Git Async] 执行命令: git -c credential.helper= -c core.askPass= clone --depth 1 --branch master https://gitcode.com/gscore-mirror/WutheringWavesUID /gsuid_core/gsuid_core/plugins/WutheringWavesUID @ .", "trace_id": "60fa7c6e-4af9-4abe-ac28-f2dba0ce7003", "level": "info", "timestamp": "06-24 16:37:35"}
+{"event": "[Git Async] 命令失败(returncode=128): git -c credential.helper= -c core.askPass= clone --depth 1 --branch master https://gitcode.com/gscore-mirror/WutheringWavesUID /gsuid_core/gsuid_core/plugins/WutheringWavesUID @ .", "trace_id": "60fa7c6e-4af9-4abe-ac28-f2dba0ce7003", "level": "warning", "timestamp": "06-24 16:37:36"}
+{"event": "[Git Async] stderr: Cloning into '/gsuid_core/gsuid_core/plugins/WutheringWavesUID'...\nremote: <CH.00905403> The project you were looking for could not be found. Request-id is YgBGR4D27f.\nfatal: unable to access 'https://gitcode.com/gscore-mirror/WutheringWavesUID/': The requested URL returned error: 403", "trace_id": "60fa7c6e-4af9-4abe-ac28-f2dba0ce7003", "level": "warning", "timestamp": "06-24 16:37:36"}
+{"event": "[Git Async] clone 失败: Cloning into '/gsuid_core/gsuid_core/plugins/WutheringWavesUID'...\nremote: <CH.00905403> The project you were looking for could not be found. Request-id is YgBGR4D27f.\nfatal: unable to access 'https://gitcode.com/gscore-mirror/WutheringWavesUID/': The requested URL returned error: 403", "trace_id": "60fa7c6e-4af9-4abe-ac28-f2dba0ce7003", "level": "error", "timestamp": "06-24 16:37:36"}
+{"event": "[安装插件] 镜像源 https://gitcode.com/gscore-mirror/ 暂未同步 WutheringWavesUID（git: 克隆失败: Cloning into '/gsuid_core/gsuid_core/plugins/WutheringWavesUID'...\nremote: <CH.00905403> The project you were look），自动回退到 GitHub 源: https://github.com/tyql688/WutheringWavesUID.git", "trace_id": "60fa7c6e-4af9-4abe-ac28-f2dba0ce7003", "level": "warning", "timestamp": "06-24 16:37:36"}
+{"event": "[Git Async] 执行命令: git -c credential.helper= -c core.askPass= clone --depth 1 --branch master https://github.com/tyql688/WutheringWavesUID.git /gsuid_core/gsuid_core/plugins/WutheringWavesUID @ .", "trace_id": "60fa7c6e-4af9-4abe-ac28-f2dba0ce7003", "level": "info", "timestamp": "06-24 16:37:36"}
+{"event": "[Git Async] 命令超时(120s): git -c credential.helper= -c core.askPass= clone --depth 1 --branch master https://github.com/tyql688/WutheringWavesUID.git /gsuid_core/gsuid_core/plugins/WutheringWavesUID @ .", "trace_id": "60fa7c6e-4af9-4abe-ac28-f2dba0ce7003", "level": "warning", "timestamp": "06-24 16:39:36"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "60fa7c6e-4af9-4abe-ac28-f2dba0ce7003", "level": "info", "timestamp": "06-24 16:39:36"}
+{"trace_id": "60fa7c6e-4af9-4abe-ac28-f2dba0ce7003", "event": "🏁 [TraceEnd] trace_id=60fa7c6e-4af9-4abe-ac28-f2dba0ce7003 command=安装插件 duration=122320ms logs=51", "level": "info", "timestamp": "06-24 16:39:36"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 16:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 16:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 2, 'total_time': 126.41896453872323, 'max_runtime': 122.32139789499342, 'max_wait_time': 9.566918015480042e-05, 'max_time': 122.32148682139814, 'max_runtime_func': 'send_plugins_install'}", "level": "info", "timestamp": "06-24 16:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 16:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 16:40:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 16:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 16:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 2, 'total_time': 126.41896453872323, 'max_runtime': 122.32139789499342, 'max_wait_time': 9.566918015480042e-05, 'max_time': 122.32148682139814, 'max_runtime_func': 'send_plugins_install'}", "level": "info", "timestamp": "06-24 16:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 16:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 16:50:00"}
+{"event": "[GsCore] 收到关闭信号，正在设置 shutdown_event...", "level": "info", "timestamp": "06-24 16:54:56"}
+{"event": "Shutting down", "level": "info", "timestamp": "06-24 16:54:57"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 16:54:57"}
+{"event": "napcat-3659200651 已断开，Bot 实例保留等待重连", "level": "warning", "timestamp": "06-24 16:54:57"}
+{"event": "Waiting for application shutdown.", "level": "info", "timestamp": "06-24 16:54:57"}
+{"event": "[GsCore] 开始关闭流程，设置 shutdown_event...", "level": "info", "timestamp": "06-24 16:54:57"}
+{"event": "⌛ [定时器系统] 程序关闭！定时任务结束！", "level": "info", "timestamp": "06-24 16:54:57"}
+{"positional_args": [["save_global_val", "flush_ai_sessions_on_shutdown", "_flush_user_buffer_on_shutdown", "_stop_rm_cleanup", "shutdown_memory_system", "close_qdrant_client_on_shutdown"]], "event": "♻ [GsCore] 执行启动Hook函数中！", "level": "info", "timestamp": "06-24 16:54:57"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 16:54:57"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 16:54:57"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 2, 'total_time': 126.41896453872323, 'max_runtime': 122.32139789499342, 'max_wait_time': 9.566918015480042e-05, 'max_time': 122.32148682139814, 'max_runtime_func': 'send_plugins_install'}", "level": "info", "timestamp": "06-24 16:54:57"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 16:54:57"}
+{"event": "Application shutdown complete.", "level": "info", "timestamp": "06-24 16:54:57"}
+{"event": "Finished server process [9]", "level": "info", "timestamp": "06-24 16:54:57"}
+{"event": "[GsCore] 收到关闭信号，正在设置 shutdown_event...", "level": "info", "timestamp": "06-24 16:54:57"}
+{"event": "🧠 [GsCore] 切换HF地址，地址: https://hf-mirror.com", "level": "info", "timestamp": "06-24 16:54:59"}
+{"event": "📀 [数据库] 开始初始化...", "level": "info", "timestamp": "06-24 16:54:59"}
+{"event": "💖 [早柚核心]开始加载插件...", "level": "info", "timestamp": "06-24 16:54:59"}
+{"event": "🔍 [早柚核心] 插件发现与依赖检查完成, 耗时: 0.00秒", "level": "info", "timestamp": "06-24 16:54:59"}
+{"event": "✅ 插件core_command导入成功! 耗时: 0.00秒", "level": "success", "timestamp": "06-24 16:54:59"}
+{"event": "✅ 插件gs_test导入成功! 耗时: 0.00秒", "level": "success", "timestamp": "06-24 16:55:00"}
+{"event": "✅ 插件WutheringWavesUID导入成功! 耗时: 0.00秒", "level": "success", "timestamp": "06-24 16:55:00"}
+{"event": "❌ 插件__init__导入失败, 错误代码: No module named 'utils.image'; 'utils' is not a package", "level": "error", "timestamp": "06-24 16:55:00", "exception": "Traceback (most recent call last):\n  File \"/gsuid_core/gsuid_core/server.py\", line 434, in load_plugins\n    self.cached_import(module_name, filepath, _type)\n  File \"/gsuid_core/gsuid_core/server.py\", line 373, in cached_import\n    spec.loader.exec_module(module)\n  File \"<frozen importlib._bootstrap_external>\", line 999, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/gsuid_core/gsuid_core/plugins/WutheringWavesUID/WutheringWavesUID/wutheringwaves_develop/__init__.py\", line 8, in <module>\n    from ..wutheringwaves_develop.develop import calc_develop_cost\n  File \"/gsuid_core/gsuid_core/plugins/WutheringWavesUID/WutheringWavesUID/wutheringwaves_develop/develop.py\", line 6, in <module>\n    from utils.image.convert import convert_img\nModuleNotFoundError: No module named 'utils.image'; 'utils' is not a package"}
+{"event": "❌ 插件__init__导入失败, 错误代码: No module named 'utils.image'; 'utils' is not a package", "level": "error", "timestamp": "06-24 16:55:01", "exception": "Traceback (most recent call last):\n  File \"/gsuid_core/gsuid_core/server.py\", line 434, in load_plugins\n    self.cached_import(module_name, filepath, _type)\n  File \"/gsuid_core/gsuid_core/server.py\", line 373, in cached_import\n    spec.loader.exec_module(module)\n  File \"<frozen importlib._bootstrap_external>\", line 999, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/gsuid_core/gsuid_core/plugins/WutheringWavesUID/WutheringWavesUID/wutheringwaves_rank/__init__.py\", line 7, in <module>\n    from .draw_all_rank_card import draw_all_rank_card\n  File \"/gsuid_core/gsuid_core/plugins/WutheringWavesUID/WutheringWavesUID/wutheringwaves_rank/draw_all_rank_card.py\", line 9, in <module>\n    from utils.image.convert import convert_img\nModuleNotFoundError: No module named 'utils.image'; 'utils' is not a package"}
+{"event": "[鸣潮][资源文件下载] 正在检查与下载缺失的资源文件，可能需要较长时间，请稍等", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "[GsCore资源下载]测速中...", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "注册任务处理器: waves_score_rank", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "注册任务处理器: waves_abyss_record", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "注册任务处理器: waves_slash_record", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "📥 [早柚核心] 插件模块导入完成, 耗时: 1.46秒", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "🐢 [早柚核心] 共导入 34 个模块, 累计 1.14秒, 最慢 Top 10:", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "    ⏱️   0.26秒  auto_update", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "    ⏱️   0.15秒  wutheringwaves_ann", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "    ⏱️   0.13秒  user_login", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "    ⏱️   0.12秒  wutheringwaves_resource", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "    ⏱️   0.09秒  wutheringwaves_abyss", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "    ⏱️   0.09秒  wutheringwaves_start", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "    ⏱️   0.08秒  wutheringwaves_charlist", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "    ⏱️   0.05秒  wutheringwaves_charinfo", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "    ⏱️   0.02秒  core_user", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "    ⏱️   0.02秒  wutheringwaves_help", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "💖 [早柚核心] 插件加载完成! 总耗时: 1.72秒", "level": "success", "timestamp": "06-24 16:55:01"}
+{"event": "\n.------..------..------..------..------..------..------.\n|G.--. ||S.--. ||-.--. ||C.--. ||O.--. ||R.--. ||E.--. |\n| :/\\: || :/\\: || (\\/) || :/\\: || :/\\: || :(): || (\\/) |\n| :\\/: || :\\/: || :\\/: || :\\/: || :\\/: || ()() || :\\/: |\n| '--'G|| '--'S|| '--'-|| '--'C|| '--'O|| '--'R|| '--'E|\n`------'`------'`------'`------'`------'`------'`------'\n\n          🌱 [早柚核心] 已启动! 版本 0.10.5 ！\n", "level": "success", "timestamp": "06-24 16:55:01"}
+{"event": "🚀 [GsCore] 启动完成, 耗时: 2.46s, 版本: 0.10.5", "level": "success", "timestamp": "06-24 16:55:01"}
+{"event": "📦 插件: 3 | 🛠️ 服务: 61 | ⚡ 触发器: 67", "level": "success", "timestamp": "06-24 16:55:01"}
+{"event": "Started server process [10]", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "Waiting for application startup.", "level": "info", "timestamp": "06-24 16:55:01"}
+{"positional_args": [["move_database", "create_core_tables", "trans_adapter", "load_global_val"]], "event": "♻ [GsCore] 执行启动前Hook函数中！", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "[数据库] 核心数据库表创建成功!", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "🔒️ 开始加载全局变量! 今日: 2026-06-24", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "🔒️ 全局变量加载完成!", "level": "success", "timestamp": "06-24 16:55:01"}
+{"event": "🔒️ 开始加载流量统计!", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "🔒️ 流量统计加载完成! {'req': 0, 'max_qps': 1.0, 'total_count': 2, 'total_time': 126.41896453872323, 'max_runtime': 122.32139789499342, 'max_wait_time': 9.566918015480042e-05, 'max_time': 122.32148682139814, 'max_runtime_func': 'send_plugins_install'}", "level": "success", "timestamp": "06-24 16:55:01"}
+{"event": "⏲ [定时器系统] 定时任务启动成功！", "level": "info", "timestamp": "06-24 16:55:01"}
+{"positional_args": [["_init_plugin_commit_versions", "init_ai_core", "_start_rm_cleanup"]], "event": "♻ [GsCore] 执行启动Hook函数中！", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "Application startup complete.", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "[Git Async] 执行命令: git rev-parse --short HEAD @ /gsuid_core", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "🧠 [AI Core] AI总开关已关闭，跳过 AI 重依赖导入与子系统初始化", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "Uvicorn running on http://0.0.0.0:8765 (Press CTRL+C to quit)", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "[Git Async] 命令成功: git rev-parse --short HEAD @ /gsuid_core", "level": "success", "timestamp": "06-24 16:55:01"}
+{"event": "[Git Async] 执行命令: git rev-parse --short HEAD @ /gsuid_core/gsuid_core/plugins/WutheringWavesUID", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "[数据库] 核心数据库表创建成功!", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "🔒️ [网页控制台] 认证加密密钥已生成 key_id=7f01e73c849ab213 pubkey_fingerprint=58bc3a56e80d5deb", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "🔒️ [网页控制台] 认证密钥轮换定时任务已注册（每 12h）", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "💻 [网页控制台] AI 总开关已关闭，跳过 AI 相关 API 路由导入（节省约 150MB 内存）", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "💻 [网页控制台] 使用前端路径: /gsuid_core/gsuid_core/webconsole/dist, 版本: 0.0.15", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "💻 [网页控制台] 准备挂载前端到 /app, 目录: /gsuid_core/gsuid_core/webconsole/dist", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "💻 [网页控制台] 已通过 APIRouter 挂载前端到 /app", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "💻 [网页控制台] 尝试挂载WebConsole", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "💻 WebConsole挂载成功: http://0.0.0.0:8765/app", "level": "success", "timestamp": "06-24 16:55:01"}
+{"event": "[Git Async] 命令成功: git rev-parse --short HEAD @ /gsuid_core/gsuid_core/plugins/WutheringWavesUID", "level": "success", "timestamp": "06-24 16:55:01"}
+{"event": "[Git] 已初始化插件 commit 版本信息，共 2 个", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "🗑️ [ResourceManager] TTL 清理任务已启动 (TTL: 1800s, 间隔: 300s)", "level": "info", "timestamp": "06-24 16:55:01"}
+{"event": "172.20.0.2:59296 - \"WebSocket /ws/napcat-3659200651?token=wuwa_bot_hekun0820\" [accepted]", "level": "info", "timestamp": "06-24 16:55:02"}
+{"event": "napcat-3659200651 首次连接", "level": "info", "timestamp": "06-24 16:55:02"}
+{"event": "connection open", "level": "info", "timestamp": "06-24 16:55:02"}
+{"event": "[启动检查] 📝 检查遗留信息...", "level": "info", "timestamp": "06-24 16:55:04"}
+{"event": "[Core重启] 没有找到[Core重启]的订阅, 无推送消息！", "level": "warning", "timestamp": "06-24 16:55:04"}
+{"event": "✅ 遗留信息检查完毕!", "level": "info", "timestamp": "06-24 16:55:04"}
+{"event": "[GsCore] 启动WS服务中...", "level": "info", "timestamp": "06-24 16:55:04"}
+{"event": "🚀 最快资源站: [Lulu] http://lulush.microgg.cn", "level": "info", "timestamp": "06-24 16:55:04"}
+{"event": "[Lulu] resource/avatar 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 16:55:04"}
+{"event": "[Lulu] resource/weapon 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 16:55:04"}
+{"event": "[Lulu] resource/role_pile 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 16:55:04"}
+{"event": "[Lulu] resource/role_detail/skill 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 16:55:04"}
+{"event": "[Lulu] resource/role_detail/chains 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 16:55:04"}
+{"event": "[Lulu] resource/share 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 16:55:04"}
+{"event": "[Lulu] resource/phantom 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 16:55:04"}
+{"event": "[Lulu] resource/material 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 16:55:04"}
+{"event": "[Lulu] resource/guide/XMu 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 16:55:04"}
+{"event": "[Lulu] resource/guide/Moealkyne 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 16:55:04"}
+{"event": "[Lulu] resource/guide/JinLingZi 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 16:55:04"}
+{"event": "[Lulu] resource/guide/JieXing 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 16:55:05"}
+{"event": "[Lulu] resource/guide/XiaoYang 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 16:55:05"}
+{"event": "🍱 [资源检查] 插件 WutheringWavesUID 资源库已是最新!", "level": "success", "timestamp": "06-24 16:55:05"}
+{"event": "[鸣潮][资源文件下载] None", "level": "info", "timestamp": "06-24 16:55:05"}
+{"event": "[鸣潮][加载角色极限面板] 数量: 16", "level": "info", "timestamp": "06-24 16:55:05"}
+{"event": "[鸣潮][排行面板数据启用规则 不使用缓存]", "level": "info", "timestamp": "06-24 16:55:05"}
+{"event": "[鸣潮][加载用户面板缓存] 数量: -1", "level": "info", "timestamp": "06-24 16:55:05"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='1714793848', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww 下载全部资源')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww 下载全部资源', command='', text='ww 下载全部资源', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 16:56:47"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 17:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 17:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 2, 'total_time': 126.41896453872323, 'max_runtime': 122.32139789499342, 'max_wait_time': 9.566918015480042e-05, 'max_time': 122.32148682139814, 'max_runtime_func': 'send_plugins_install'}", "level": "info", "timestamp": "06-24 17:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 17:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 17:00:00"}
+{"event": "connection closed", "level": "info", "timestamp": "06-24 17:02:36"}
+{"event": "napcat-3659200651 已断开，Bot 实例保留等待重连", "level": "warning", "timestamp": "06-24 17:02:36"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 17:05:00"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 17:05:00"}
+{"event": "172.20.0.2:60580 - \"WebSocket /ws/napcat-3659200651?token=wuwa_bot_hekun0820\" [accepted]", "level": "info", "timestamp": "06-24 17:09:45"}
+{"event": "napcat-3659200651 断连超过 5 分钟，丢弃旧 Bot 重新创建", "level": "warning", "timestamp": "06-24 17:09:45"}
+{"event": "napcat-3659200651 首次连接（旧实例已超时丢弃）", "level": "info", "timestamp": "06-24 17:09:45"}
+{"event": "connection open", "level": "info", "timestamp": "06-24 17:09:45"}
+{"event": "[启动检查] 📝 检查遗留信息...", "level": "info", "timestamp": "06-24 17:09:47"}
+{"event": "[Core重启] 没有找到[Core重启]的订阅, 无推送消息！", "level": "warning", "timestamp": "06-24 17:09:47"}
+{"event": "✅ 遗留信息检查完毕!", "level": "info", "timestamp": "06-24 17:09:47"}
+{"event": "[GsCore] 启动WS服务中...", "level": "info", "timestamp": "06-24 17:09:47"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 17:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 17:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 2, 'total_time': 126.41896453872323, 'max_runtime': 122.32139789499342, 'max_wait_time': 9.566918015480042e-05, 'max_time': 122.32148682139814, 'max_runtime_func': 'send_plugins_install'}", "level": "info", "timestamp": "06-24 17:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 17:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 17:10:00"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='867105456', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='docker怎么停掉不用的容器？')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='docker怎么停掉不用的容器？', command='', text='docker怎么停掉不用的容器？', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 17:14:38"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='1284220210', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww 下载全部资源')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww 下载全部资源', command='', text='ww 下载全部资源', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 17:14:45"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='836619770', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww 下载全部资源')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww 下载全部资源', command='', text='ww 下载全部资源', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 17:14:52"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='245124874', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww下载全部资源')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww下载全部资源', command='', text='ww下载全部资源', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 17:14:57"}
+{"trigger": ["ww下载全部资源", "fullmatch", "下载全部资源"], "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:14:57"}
+{"command": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='245124874', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww下载全部资源')], WS_BOT_ID='napcat-3659200651', task_id='c89ee266-c835-4536-a564-a2014de82356', task_event=None, real_bot_id='onebot', raw_text='ww下载全部资源', command='下载全部资源', text='', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:14:57"}
+{"trace_id": "c89ee266-c835-4536-a564-a2014de82356", "event": "📝 [TraceStart] trace_id=c89ee266-c835-4536-a564-a2014de82356 command=下载全部资源 user_id=2802710247", "level": "info", "timestamp": "06-24 17:14:57"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "c89ee266-c835-4536-a564-a2014de82356", "level": "info", "timestamp": "06-24 17:15:00"}
+{"event": "[Lulu] resource/avatar 页面中未找到 <pre> 标签!", "trace_id": "c89ee266-c835-4536-a564-a2014de82356", "level": "warning", "timestamp": "06-24 17:15:00"}
+{"event": "[Lulu] resource/weapon 页面中未找到 <pre> 标签!", "trace_id": "c89ee266-c835-4536-a564-a2014de82356", "level": "warning", "timestamp": "06-24 17:15:00"}
+{"event": "[Lulu] resource/role_pile 页面中未找到 <pre> 标签!", "trace_id": "c89ee266-c835-4536-a564-a2014de82356", "level": "warning", "timestamp": "06-24 17:15:00"}
+{"event": "[Lulu] resource/role_detail/skill 页面中未找到 <pre> 标签!", "trace_id": "c89ee266-c835-4536-a564-a2014de82356", "level": "warning", "timestamp": "06-24 17:15:00"}
+{"event": "[Lulu] resource/role_detail/chains 页面中未找到 <pre> 标签!", "trace_id": "c89ee266-c835-4536-a564-a2014de82356", "level": "warning", "timestamp": "06-24 17:15:00"}
+{"event": "[Lulu] resource/share 页面中未找到 <pre> 标签!", "trace_id": "c89ee266-c835-4536-a564-a2014de82356", "level": "warning", "timestamp": "06-24 17:15:00"}
+{"event": "[Lulu] resource/phantom 页面中未找到 <pre> 标签!", "trace_id": "c89ee266-c835-4536-a564-a2014de82356", "level": "warning", "timestamp": "06-24 17:15:00"}
+{"event": "[Lulu] resource/material 页面中未找到 <pre> 标签!", "trace_id": "c89ee266-c835-4536-a564-a2014de82356", "level": "warning", "timestamp": "06-24 17:15:00"}
+{"event": "[Lulu] resource/guide/XMu 页面中未找到 <pre> 标签!", "trace_id": "c89ee266-c835-4536-a564-a2014de82356", "level": "warning", "timestamp": "06-24 17:15:00"}
+{"event": "[Lulu] resource/guide/Moealkyne 页面中未找到 <pre> 标签!", "trace_id": "c89ee266-c835-4536-a564-a2014de82356", "level": "warning", "timestamp": "06-24 17:15:00"}
+{"event": "[Lulu] resource/guide/JinLingZi 页面中未找到 <pre> 标签!", "trace_id": "c89ee266-c835-4536-a564-a2014de82356", "level": "warning", "timestamp": "06-24 17:15:00"}
+{"event": "[Lulu] resource/guide/JieXing 页面中未找到 <pre> 标签!", "trace_id": "c89ee266-c835-4536-a564-a2014de82356", "level": "warning", "timestamp": "06-24 17:15:00"}
+{"event": "[Lulu] resource/guide/XiaoYang 页面中未找到 <pre> 标签!", "trace_id": "c89ee266-c835-4536-a564-a2014de82356", "level": "warning", "timestamp": "06-24 17:15:00"}
+{"event": "🍱 [资源检查] 插件 WutheringWavesUID 资源库已是最新!", "trace_id": "c89ee266-c835-4536-a564-a2014de82356", "level": "success", "timestamp": "06-24 17:15:00"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "c89ee266-c835-4536-a564-a2014de82356", "level": "info", "timestamp": "06-24 17:15:00"}
+{"trace_id": "c89ee266-c835-4536-a564-a2014de82356", "event": "🏁 [TraceEnd] trace_id=c89ee266-c835-4536-a564-a2014de82356 command=下载全部资源 duration=2575ms logs=20", "level": "info", "timestamp": "06-24 17:15:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 17:15:00"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 17:15:00"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='248249397', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww 签到')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww 签到', command='', text='ww 签到', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 17:15:09"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='598594464', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww签到')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww签到', command='', text='ww签到', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 17:15:18"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='1352591900', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww帮助')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww帮助', command='', text='ww帮助', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 17:15:35"}
+{"trigger": ["ww帮助", "fullmatch", "帮助"], "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:15:35"}
+{"command": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='1352591900', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww帮助')], WS_BOT_ID='napcat-3659200651', task_id='de129844-2044-4761-a891-42f956990876', task_event=None, real_bot_id='onebot', raw_text='ww帮助', command='帮助', text='', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:15:35"}
+{"trace_id": "de129844-2044-4761-a891-42f956990876", "event": "📝 [TraceStart] trace_id=de129844-2044-4761-a891-42f956990876 command=帮助 user_id=2802710247", "level": "info", "timestamp": "06-24 17:15:35"}
+{"event": "🚀 [GsCore] 处理图片中....", "level": "info", "timestamp": "06-24 17:15:36"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "de129844-2044-4761-a891-42f956990876", "level": "info", "timestamp": "06-24 17:15:36"}
+{"trace_id": "de129844-2044-4761-a891-42f956990876", "event": "🏁 [TraceEnd] trace_id=de129844-2044-4761-a891-42f956990876 command=帮助 duration=1098ms logs=4", "level": "info", "timestamp": "06-24 17:15:36"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='1675095641', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww 登录')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww 登录', command='', text='ww 登录', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 17:15:56"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='1719664865', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww登录')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww登录', command='', text='ww登录', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 17:15:59"}
+{"trigger": ["ww登录", "command", "登录"], "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:15:59"}
+{"command": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='1719664865', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww登录')], WS_BOT_ID='napcat-3659200651', task_id='868cc0cc-433c-4313-a87b-f35c1fe44c0a', task_event=None, real_bot_id='onebot', raw_text='ww登录', command='登录', text='', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:15:59"}
+{"trace_id": "868cc0cc-433c-4313-a87b-f35c1fe44c0a", "event": "📝 [TraceStart] trace_id=868cc0cc-433c-4313-a87b-f35c1fe44c0a command=登录 user_id=2802710247", "level": "info", "timestamp": "06-24 17:15:59"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "868cc0cc-433c-4313-a87b-f35c1fe44c0a", "level": "info", "timestamp": "06-24 17:16:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 17:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 17:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 1, 'max_qps': 1.0, 'total_count': 4, 'total_time': 130.09423716925085, 'max_runtime': 122.32139789499342, 'max_wait_time': 0.00010262243449687958, 'max_time': 122.32148682139814, 'max_runtime_func': 'send_help_img'}", "level": "info", "timestamp": "06-24 17:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 17:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 17:20:00"}
+{"event": "64.118.140.47:39949 - \"GET /waves/i/3b46238e HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:20:38"}
+{"event": "64.118.140.47:33343 - \"GET /app HTTP/1.1\" 307", "level": "info", "timestamp": "06-24 17:24:39"}
+{"event": "💻 [网页控制台] 收到请求: /app/", "level": "info", "timestamp": "06-24 17:24:39"}
+{"event": "💻 [网页控制台] 返回 index.html, 路径: /gsuid_core/gsuid_core/webconsole/dist/index.html", "level": "info", "timestamp": "06-24 17:24:39"}
+{"event": "64.118.140.47:33343 - \"GET /app/ HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:24:39"}
+{"event": "💻 [网页控制台] 收到请求: /app/assets/js/react-vendor-XgWShXRK.js", "level": "info", "timestamp": "06-24 17:24:40"}
+{"event": "💻 [网页控制台] 尝试提供文件: /gsuid_core/gsuid_core/webconsole/dist/assets/js/react-vendor-XgWShXRK.js", "level": "info", "timestamp": "06-24 17:24:40"}
+{"event": "💻 [网页控制台] 强制设置 /gsuid_core/gsuid_core/webconsole/dist/assets/js/react-vendor-XgWShXRK.js MIME 类型: application/javascript", "level": "info", "timestamp": "06-24 17:24:40"}
+{"event": "64.118.140.47:33185 - \"GET /app/assets/js/react-vendor-XgWShXRK.js HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:24:40"}
+{"event": "💻 [网页控制台] 收到请求: /app/assets/js/index-4c1L_Pkw.js", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "💻 [网页控制台] 尝试提供文件: /gsuid_core/gsuid_core/webconsole/dist/assets/js/index-4c1L_Pkw.js", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "💻 [网页控制台] 强制设置 /gsuid_core/gsuid_core/webconsole/dist/assets/js/index-4c1L_Pkw.js MIME 类型: application/javascript", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "64.118.140.47:33343 - \"GET /app/assets/js/index-4c1L_Pkw.js HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "💻 [网页控制台] 收到请求: /app/assets/js/virtual-twUirrML.js", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "💻 [网页控制台] 尝试提供文件: /gsuid_core/gsuid_core/webconsole/dist/assets/js/virtual-twUirrML.js", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "💻 [网页控制台] 强制设置 /gsuid_core/gsuid_core/webconsole/dist/assets/js/virtual-twUirrML.js MIME 类型: application/javascript", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "64.118.140.47:35911 - \"GET /app/assets/js/virtual-twUirrML.js HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "💻 [网页控制台] 收到请求: /app/assets/js/ui-vendor-BKwDBpoa.js", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "💻 [网页控制台] 尝试提供文件: /gsuid_core/gsuid_core/webconsole/dist/assets/js/ui-vendor-BKwDBpoa.js", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "💻 [网页控制台] 强制设置 /gsuid_core/gsuid_core/webconsole/dist/assets/js/ui-vendor-BKwDBpoa.js MIME 类型: application/javascript", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "64.118.140.47:42511 - \"GET /app/assets/js/ui-vendor-BKwDBpoa.js HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "💻 [网页控制台] 收到请求: /app/assets/index-DuyS6QS9.css", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "💻 [网页控制台] 尝试提供文件: /gsuid_core/gsuid_core/webconsole/dist/assets/index-DuyS6QS9.css", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "💻 [网页控制台] 强制设置 /gsuid_core/gsuid_core/webconsole/dist/assets/index-DuyS6QS9.css MIME 类型: text/css", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "64.118.140.47:41065 - \"GET /app/assets/index-DuyS6QS9.css HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "💻 [网页控制台] 收到请求: /app/assets/js/chart-vendor-Do6V0fNF.js", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "💻 [网页控制台] 尝试提供文件: /gsuid_core/gsuid_core/webconsole/dist/assets/js/chart-vendor-Do6V0fNF.js", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "💻 [网页控制台] 强制设置 /gsuid_core/gsuid_core/webconsole/dist/assets/js/chart-vendor-Do6V0fNF.js MIME 类型: application/javascript", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "64.118.140.47:36325 - \"GET /app/assets/js/chart-vendor-Do6V0fNF.js HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:24:41"}
+{"event": "64.118.140.47:33343 - \"GET /api/auth/me HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:24:56"}
+{"event": "64.118.140.47:44729 - \"GET /api/theme/config HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:24:56"}
+{"event": "64.118.140.47:42259 - \"GET /api/brand HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:24:56"}
+{"event": "64.118.140.47:37707 - \"GET /api/brand/icon?t=1782293096116 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:24:56"}
+{"event": "64.118.140.47:33343 - \"GET /api/auth/admin/exists HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:24:56"}
+{"event": "64.118.140.47:42259 - \"GET /api/brand/icon?t=1782293096707 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:24:57"}
+{"event": "64.118.140.47:44729 - \"GET /api/brand/icon?t=1782293096116 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:24:57"}
+{"event": "64.118.140.47:42259 - \"GET /api/brand/icon?t=1782293096707 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:24:58"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 17:25:00"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 17:25:00"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "868cc0cc-433c-4313-a87b-f35c1fe44c0a", "level": "info", "timestamp": "06-24 17:26:00"}
+{"trace_id": "868cc0cc-433c-4313-a87b-f35c1fe44c0a", "event": "🏁 [TraceEnd] trace_id=868cc0cc-433c-4313-a87b-f35c1fe44c0a command=登录 duration=600945ms logs=6", "level": "info", "timestamp": "06-24 17:26:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 17:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 17:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 5, 'total_time': 731.0403613224626, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 17:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 17:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 17:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 17:35:00"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 17:35:00"}
+{"event": "64.118.140.47:41073 - \"GET /api/auth/pubkey HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:15"}
+{"event": "64.118.140.47:41073 - \"POST /api/auth/register HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:15"}
+{"event": "[Git Async] 执行命令: git rev-parse --short HEAD @ /gsuid_core", "level": "info", "timestamp": "06-24 17:36:15"}
+{"event": "[Git Async] 命令成功: git rev-parse --short HEAD @ /gsuid_core", "level": "success", "timestamp": "06-24 17:36:15"}
+{"event": "64.118.140.47:41073 - \"GET /api/version HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:15"}
+{"event": "64.118.140.47:38081 - \"GET /api/version/bots HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:16"}
+{"event": "64.118.140.47:37977 - \"GET /api/brand/icon?t=1782293096707 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:16"}
+{"event": "64.118.140.47:41269 - \"GET /api/ai/wizard/status?_t=1782293788467 HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 17:36:29"}
+{"event": "64.118.140.47:41269 - \"GET /api/ai/wizard/status?_t=1782293789256 HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 17:36:29"}
+{"event": "64.118.140.47:42627 - \"GET /api/framework-config/list?prefix=GsCore%20AI HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:29"}
+{"event": "64.118.140.47:41269 - \"GET /api/ai/wizard/status?_t=1782293789256 HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 17:36:30"}
+{"event": "64.118.140.47:33351 - \"GET /api/embedding_config/summary HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 17:36:30"}
+{"event": "64.118.140.47:45513 - \"GET /api/provider_config/providers HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 17:36:30"}
+{"event": "64.118.140.47:41307 - \"GET /api/ai/mcp/list HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 17:36:30"}
+{"event": "64.118.140.47:34935 - \"GET /api/provider_config/all_configs HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 17:36:30"}
+{"event": "64.118.140.47:42627 - \"GET /api/framework-config/GsCore%20AI%20%E8%AE%B0%E5%BF%86%E9%85%8D%E7%BD%AE HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:30"}
+{"event": "64.118.140.47:41269 - \"GET /api/framework-config/GsCore%20AI%20AI%E9%85%8D%E7%BD%AE HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:30"}
+{"event": "64.118.140.47:33351 - \"GET /api/framework-config/GsCore%20AI%20%E5%B5%8C%E5%85%A5%E6%A8%A1%E5%9E%8B%E9%85%8D%E7%BD%AE HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:30"}
+{"event": "64.118.140.47:45513 - \"GET /api/framework-config/GsCore%20AI%20Rerank%E6%A8%A1%E5%9E%8B%E9%85%8D%E7%BD%AE HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:30"}
+{"event": "64.118.140.47:41307 - \"GET /api/framework-config/GsCore%20AI%20Tavily%E6%90%9C%E7%B4%A2%E9%85%8D%E7%BD%AE HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:30"}
+{"event": "64.118.140.47:34935 - \"GET /api/framework-config/GsCore%20AI%20Exa%E6%90%9C%E7%B4%A2%E9%85%8D%E7%BD%AE HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:30"}
+{"event": "64.118.140.47:42627 - \"GET /api/framework-config/GsCore%20AI%20MiniMax%E6%90%9C%E7%B4%A2%E9%85%8D%E7%BD%AE HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:30"}
+{"event": "64.118.140.47:41269 - \"GET /api/framework-config/GsCore%20AI%20OpenAI%E5%B5%8C%E5%85%A5%E6%A8%A1%E5%9E%8B%E9%85%8D%E7%BD%AE HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:30"}
+{"event": "64.118.140.47:33351 - \"GET /api/framework-config/GsCore%20AI%20Qdrant%E5%90%91%E9%87%8F%E5%BA%93%E9%85%8D%E7%BD%AE HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:30"}
+{"event": "64.118.140.47:45513 - \"GET /api/framework-config/GsCore%20AI%20MCP%20Server%E9%85%8D%E7%BD%AE HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:30"}
+{"event": "64.118.140.47:41307 - \"GET /api/framework-config/GsCore%20AI%20%E8%A1%A8%E6%83%85%E5%8C%85%E9%85%8D%E7%BD%AE HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:30"}
+{"event": "64.118.140.47:34935 - \"GET /api/ai/mcp-tools-config/list HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 17:36:30"}
+{"event": "64.118.140.47:40797 - \"GET /api/dashboard/users-groups?bot_id=all HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:38"}
+{"event": "64.118.140.47:44763 - \"GET /api/dashboard/daily/commands?date=2026-06-24&bot_id=all HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:38"}
+{"event": "64.118.140.47:35175 - \"GET /api/dashboard/metrics?bot_id=all HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:38"}
+{"event": "64.118.140.47:45737 - \"GET /api/dashboard/bots HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:38"}
+{"event": "64.118.140.47:33047 - \"GET /api/dashboard/commands?bot_id=all HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:38"}
+{"event": "64.118.140.47:40797 - \"GET /api/dashboard/daily/personal-triggers?date=2026-06-24&bot_id=all HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:38"}
+{"event": "64.118.140.47:35917 - \"GET /api/dashboard/daily/group-triggers?date=2026-06-24&bot_id=all HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:38"}
+{"event": "[Git Async] 执行命令: git rev-parse --short HEAD @ /gsuid_core", "level": "info", "timestamp": "06-24 17:36:41"}
+{"event": "64.118.140.47:40797 - \"GET /api/version/bots HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:41"}
+{"event": "[Git Async] 命令成功: git rev-parse --short HEAD @ /gsuid_core", "level": "success", "timestamp": "06-24 17:36:41"}
+{"event": "64.118.140.47:35917 - \"GET /api/version HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:41"}
+{"event": "64.118.140.47:35917 - \"GET /api/database/plugins HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:42"}
+{"event": "64.118.140.47:40797 - \"GET /api/database/table/gsbind/data?page=1&per_page=20 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:45"}
+{"event": "64.118.140.47:37065 - \"GET /api/plugins/icon/WutheringWavesUID?token=2802710247@qq.com:0b33e59d413d987f37f86b44b709988f4754977edf2b2366a0a03490393288c5 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:45"}
+{"event": "64.118.140.47:43489 - \"GET /api/plugins/icon/gsuid_core?token=2802710247@qq.com:0b33e59d413d987f37f86b44b709988f4754977edf2b2366a0a03490393288c5 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:45"}
+{"event": "64.118.140.47:35917 - \"GET /api/database/table/gsbind HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:46"}
+{"event": "64.118.140.47:37877 - \"GET /api/database/table/wavesbind HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:51"}
+{"event": "64.118.140.47:46467 - \"GET /api/database/table/wavesbind/data?page=1&per_page=20 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:52"}
+{"event": "64.118.140.47:46467 - \"GET /api/database/table/wavesuser HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:53"}
+{"event": "64.118.140.47:37877 - \"GET /api/database/table/wavesuser/data?page=1&per_page=20 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:53"}
+{"event": "64.118.140.47:37877 - \"GET /api/database/table/wavespush HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:54"}
+{"event": "64.118.140.47:46467 - \"GET /api/database/table/wavespush/data?page=1&per_page=20 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:54"}
+{"event": "64.118.140.47:37877 - \"GET /api/database/table/wavesuser/data?page=1&per_page=20 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:55"}
+{"event": "64.118.140.47:46467 - \"GET /api/database/table/wavesuser HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:56"}
+{"event": "64.118.140.47:37877 - \"GET /api/database/table/wavesbind HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:56"}
+{"event": "64.118.140.47:35877 - \"GET /api/database/table/wavesbind/data?page=1&per_page=20 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:36:56"}
+{"event": "64.118.140.47:46227 - \"GET /api/plugins/list?_t=1782293824426 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:37:05"}
+{"event": "64.118.140.47:46227 - \"GET /api/plugins/core_command?_t=1782293824989 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:37:05"}
+{"event": "64.118.140.47:39773 - \"GET /api/plugins/icon/core_command?token=2802710247@qq.com:0b33e59d413d987f37f86b44b709988f4754977edf2b2366a0a03490393288c5 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:37:05"}
+{"event": "64.118.140.47:34745 - \"GET /api/plugins/icon/gs_test.py?token=2802710247@qq.com:0b33e59d413d987f37f86b44b709988f4754977edf2b2366a0a03490393288c5 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:37:05"}
+{"event": "64.118.140.47:46227 - \"GET /api/plugins/icon/core_command?token=2802710247@qq.com:0b33e59d413d987f37f86b44b709988f4754977edf2b2366a0a03490393288c5 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:37:05"}
+{"event": "64.118.140.47:46227 - \"GET /api/plugins/WutheringWavesUID?_t=1782293827204 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:37:07"}
+{"event": "64.118.140.47:38473 - \"POST /api/plugins/WutheringWavesUID HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:37:55"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='958897875', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww登录')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww登录', command='', text='ww登录', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 17:39:33"}
+{"trigger": ["ww登录", "command", "登录"], "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:39:33"}
+{"command": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='958897875', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww登录')], WS_BOT_ID='napcat-3659200651', task_id='385df969-521a-47a0-80cb-38b022a2cc92', task_event=None, real_bot_id='onebot', raw_text='ww登录', command='登录', text='', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:39:33"}
+{"trace_id": "385df969-521a-47a0-80cb-38b022a2cc92", "event": "📝 [TraceStart] trace_id=385df969-521a-47a0-80cb-38b022a2cc92 command=登录 user_id=2802710247", "level": "info", "timestamp": "06-24 17:39:33"}
+{"event": "43.139.87.230:42932 - \"POST /waves/token HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 17:39:33"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "385df969-521a-47a0-80cb-38b022a2cc92", "level": "info", "timestamp": "06-24 17:39:33"}
+{"trace_id": "385df969-521a-47a0-80cb-38b022a2cc92", "event": "🏁 [TraceEnd] trace_id=385df969-521a-47a0-80cb-38b022a2cc92 command=登录 duration=34ms logs=4", "level": "info", "timestamp": "06-24 17:39:33"}
+{"event": "💻 [网页控制台] 收到请求: /app/", "level": "info", "timestamp": "06-24 17:39:47"}
+{"event": "💻 [网页控制台] 返回 index.html, 路径: /gsuid_core/gsuid_core/webconsole/dist/index.html", "level": "info", "timestamp": "06-24 17:39:47"}
+{"event": "64.118.140.47:36259 - \"GET /app/ HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:47"}
+{"event": "64.118.140.47:36259 - \"GET /api/ai/wizard/status?_t=1782293987076 HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 17:39:47"}
+{"event": "64.118.140.47:34059 - \"GET /api/auth/me HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:47"}
+{"event": "64.118.140.47:36567 - \"GET /api/theme/config HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:47"}
+{"event": "64.118.140.47:34059 - \"GET /api/plugins/list?_t=1782293987456 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:47"}
+{"event": "64.118.140.47:38517 - \"GET /api/brand HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:47"}
+{"event": "64.118.140.47:44373 - \"GET /api/brand/icon?t=1782293987073 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:48"}
+{"event": "64.118.140.47:34059 - \"GET /api/plugins/core_command?_t=1782293987794 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:48"}
+{"event": "64.118.140.47:36567 - \"GET /api/plugins/icon/core_command?token=2802710247@qq.com:0b33e59d413d987f37f86b44b709988f4754977edf2b2366a0a03490393288c5 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:48"}
+{"event": "64.118.140.47:36259 - \"GET /api/plugins/icon/gs_test.py?token=2802710247@qq.com:0b33e59d413d987f37f86b44b709988f4754977edf2b2366a0a03490393288c5 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:48"}
+{"event": "64.118.140.47:38517 - \"GET /api/brand/icon?t=1782293987929 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:48"}
+{"event": "64.118.140.47:36259 - \"GET /api/brand/icon?t=1782293987929 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:48"}
+{"event": "64.118.140.47:35747 - \"GET /api/brand/icon?t=1782293987073 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:48"}
+{"event": "64.118.140.47:34059 - \"GET /api/brand/icon?t=1782293987929 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:49"}
+{"event": "64.118.140.47:36567 - \"GET /api/plugins/icon/core_command?token=2802710247@qq.com:0b33e59d413d987f37f86b44b709988f4754977edf2b2366a0a03490393288c5 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:49"}
+{"event": "64.118.140.47:36567 - \"GET /api/brand/icon?t=1782293987073 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:49"}
+{"event": "64.118.140.47:38517 - \"GET /api/plugins/gs_test.py?_t=1782293989910 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:50"}
+{"event": "64.118.140.47:36259 - \"GET /api/brand/icon?t=1782293987929 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:50"}
+{"event": "64.118.140.47:34059 - \"GET /api/plugins/icon/gs_test.py?token=2802710247@qq.com:0b33e59d413d987f37f86b44b709988f4754977edf2b2366a0a03490393288c5 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:51"}
+{"event": "64.118.140.47:34059 - \"GET /api/plugins/WutheringWavesUID?_t=1782293990962 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:39:51"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 17:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 17:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 6, 'total_time': 731.0760335251689, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 17:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 17:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 17:40:00"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='2106594751', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww登录')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww登录', command='', text='ww登录', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 17:40:30"}
+{"trigger": ["ww登录", "command", "登录"], "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:40:30"}
+{"command": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='2106594751', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww登录')], WS_BOT_ID='napcat-3659200651', task_id='31c3842f-c1eb-4c01-8792-59a14641595b', task_event=None, real_bot_id='onebot', raw_text='ww登录', command='登录', text='', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:40:30"}
+{"trace_id": "31c3842f-c1eb-4c01-8792-59a14641595b", "event": "📝 [TraceStart] trace_id=31c3842f-c1eb-4c01-8792-59a14641595b command=登录 user_id=2802710247", "level": "info", "timestamp": "06-24 17:40:30"}
+{"event": "43.139.87.230:42990 - \"POST /waves/token HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 17:40:30"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "31c3842f-c1eb-4c01-8792-59a14641595b", "level": "info", "timestamp": "06-24 17:40:30"}
+{"trace_id": "31c3842f-c1eb-4c01-8792-59a14641595b", "event": "🏁 [TraceEnd] trace_id=31c3842f-c1eb-4c01-8792-59a14641595b command=登录 duration=36ms logs=4", "level": "info", "timestamp": "06-24 17:40:30"}
+{"event": "220.196.160.101:36090 - \"GET / HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 17:40:53"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 17:45:00"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 17:45:00"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 17:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 17:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 7, 'total_time': 731.1131640784442, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 17:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 17:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 17:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 17:55:00"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 17:55:00"}
+{"event": "64.118.140.47:43951 - \"POST /api/plugins/WutheringWavesUID HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:55:02"}
+{"event": "[Core重启] 使用默认重启命令: uv run core", "level": "info", "timestamp": "06-24 17:55:31"}
+{"positional_args": [["_flush_user_buffer_on_shutdown", "save_global_val", "save_global_val", "flush_ai_sessions_on_shutdown", "_stop_rm_cleanup", "shutdown_memory_system", "close_qdrant_client_on_shutdown"]], "event": "♻ [GsCore] 执行启动Hook函数中！", "level": "info", "timestamp": "06-24 17:55:31"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 17:55:31"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 17:55:31"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 17:55:31"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 7, 'total_time': 731.1131640784442, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 17:55:31"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 17:55:31"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 7, 'total_time': 731.1131640784442, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 17:55:31"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 17:55:31"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 17:55:31"}
+{"event": "[Core重启] 使用默认重启命令: uv run core", "level": "info", "timestamp": "06-24 17:55:31"}
+{"event": "64.118.140.47:40103 - \"POST /api/system/restart HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:55:31"}
+{"event": "🧠 [GsCore] 切换HF地址，地址: https://hf-mirror.com", "level": "info", "timestamp": "06-24 17:55:33"}
+{"event": "📀 [数据库] 开始初始化...", "level": "info", "timestamp": "06-24 17:55:33"}
+{"event": "💖 [早柚核心]开始加载插件...", "level": "info", "timestamp": "06-24 17:55:33"}
+{"event": "🔍 [早柚核心] 插件发现与依赖检查完成, 耗时: 0.01秒", "level": "info", "timestamp": "06-24 17:55:33"}
+{"event": "✅ 插件core_command导入成功! 耗时: 0.00秒", "level": "success", "timestamp": "06-24 17:55:33"}
+{"event": "✅ 插件gs_test导入成功! 耗时: 0.00秒", "level": "success", "timestamp": "06-24 17:55:34"}
+{"event": "✅ 插件WutheringWavesUID导入成功! 耗时: 0.00秒", "level": "success", "timestamp": "06-24 17:55:34"}
+{"event": "❌ 插件__init__导入失败, 错误代码: No module named 'utils.image'; 'utils' is not a package", "level": "error", "timestamp": "06-24 17:55:34", "exception": "Traceback (most recent call last):\n  File \"/gsuid_core/gsuid_core/server.py\", line 434, in load_plugins\n    self.cached_import(module_name, filepath, _type)\n  File \"/gsuid_core/gsuid_core/server.py\", line 373, in cached_import\n    spec.loader.exec_module(module)\n  File \"<frozen importlib._bootstrap_external>\", line 999, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/gsuid_core/gsuid_core/plugins/WutheringWavesUID/WutheringWavesUID/wutheringwaves_develop/__init__.py\", line 8, in <module>\n    from ..wutheringwaves_develop.develop import calc_develop_cost\n  File \"/gsuid_core/gsuid_core/plugins/WutheringWavesUID/WutheringWavesUID/wutheringwaves_develop/develop.py\", line 6, in <module>\n    from utils.image.convert import convert_img\nModuleNotFoundError: No module named 'utils.image'; 'utils' is not a package"}
+{"event": "❌ 插件__init__导入失败, 错误代码: No module named 'utils.image'; 'utils' is not a package", "level": "error", "timestamp": "06-24 17:55:34", "exception": "Traceback (most recent call last):\n  File \"/gsuid_core/gsuid_core/server.py\", line 434, in load_plugins\n    self.cached_import(module_name, filepath, _type)\n  File \"/gsuid_core/gsuid_core/server.py\", line 373, in cached_import\n    spec.loader.exec_module(module)\n  File \"<frozen importlib._bootstrap_external>\", line 999, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/gsuid_core/gsuid_core/plugins/WutheringWavesUID/WutheringWavesUID/wutheringwaves_rank/__init__.py\", line 7, in <module>\n    from .draw_all_rank_card import draw_all_rank_card\n  File \"/gsuid_core/gsuid_core/plugins/WutheringWavesUID/WutheringWavesUID/wutheringwaves_rank/draw_all_rank_card.py\", line 9, in <module>\n    from utils.image.convert import convert_img\nModuleNotFoundError: No module named 'utils.image'; 'utils' is not a package"}
+{"event": "[鸣潮][资源文件下载] 正在检查与下载缺失的资源文件，可能需要较长时间，请稍等", "level": "info", "timestamp": "06-24 17:55:34"}
+{"event": "[GsCore资源下载]测速中...", "level": "info", "timestamp": "06-24 17:55:34"}
+{"event": "注册任务处理器: waves_score_rank", "level": "info", "timestamp": "06-24 17:55:34"}
+{"event": "注册任务处理器: waves_abyss_record", "level": "info", "timestamp": "06-24 17:55:34"}
+{"event": "注册任务处理器: waves_slash_record", "level": "info", "timestamp": "06-24 17:55:34"}
+{"event": "📥 [早柚核心] 插件模块导入完成, 耗时: 1.29秒", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "🐢 [早柚核心] 共导入 34 个模块, 累计 0.99秒, 最慢 Top 10:", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "    ⏱️   0.27秒  auto_update", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "    ⏱️   0.15秒  user_login", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "    ⏱️   0.10秒  wutheringwaves_resource", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "    ⏱️   0.09秒  wutheringwaves_ann", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "    ⏱️   0.09秒  wutheringwaves_abyss", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "    ⏱️   0.07秒  wutheringwaves_charlist", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "    ⏱️   0.05秒  wutheringwaves_start", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "    ⏱️   0.03秒  wutheringwaves_gachalog", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "    ⏱️   0.02秒  core_user", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "    ⏱️   0.02秒  wutheringwaves_charinfo", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "💖 [早柚核心] 插件加载完成! 总耗时: 1.54秒", "level": "success", "timestamp": "06-24 17:55:35"}
+{"event": "\n.------..------..------..------..------..------..------.\n|G.--. ||S.--. ||-.--. ||C.--. ||O.--. ||R.--. ||E.--. |\n| :/\\: || :/\\: || (\\/) || :/\\: || :/\\: || :(): || (\\/) |\n| :\\/: || :\\/: || :\\/: || :\\/: || :\\/: || ()() || :\\/: |\n| '--'G|| '--'S|| '--'-|| '--'C|| '--'O|| '--'R|| '--'E|\n`------'`------'`------'`------'`------'`------'`------'\n\n          🌱 [早柚核心] 已启动! 版本 0.10.5 ！\n", "level": "success", "timestamp": "06-24 17:55:35"}
+{"event": "🚀 [GsCore] 启动完成, 耗时: 2.29s, 版本: 0.10.5", "level": "success", "timestamp": "06-24 17:55:35"}
+{"event": "📦 插件: 3 | 🛠️ 服务: 61 | ⚡ 触发器: 67", "level": "success", "timestamp": "06-24 17:55:35"}
+{"event": "Started server process [9]", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "Waiting for application startup.", "level": "info", "timestamp": "06-24 17:55:35"}
+{"positional_args": [["move_database", "create_core_tables", "trans_adapter", "load_global_val"]], "event": "♻ [GsCore] 执行启动前Hook函数中！", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "[数据库] 核心数据库表创建成功!", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "🔒️ 开始加载全局变量! 今日: 2026-06-24", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "🔒️ 全局变量加载完成!", "level": "success", "timestamp": "06-24 17:55:35"}
+{"event": "🔒️ 开始加载流量统计!", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "🔒️ 流量统计加载完成! {'req': 0, 'max_qps': 1.0, 'total_count': 7, 'total_time': 731.1131640784442, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "success", "timestamp": "06-24 17:55:35"}
+{"event": "⏲ [定时器系统] 定时任务启动成功！", "level": "info", "timestamp": "06-24 17:55:35"}
+{"positional_args": [["init_ai_core", "_init_plugin_commit_versions", "_start_rm_cleanup"]], "event": "♻ [GsCore] 执行启动Hook函数中！", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "Application startup complete.", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "🧠 [AI Core] AI总开关已关闭，跳过 AI 重依赖导入与子系统初始化", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "[Git Async] 执行命令: git rev-parse --short HEAD @ /gsuid_core", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "Uvicorn running on http://0.0.0.0:8765 (Press CTRL+C to quit)", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "[Git Async] 命令成功: git rev-parse --short HEAD @ /gsuid_core", "level": "success", "timestamp": "06-24 17:55:35"}
+{"event": "[Git Async] 执行命令: git rev-parse --short HEAD @ /gsuid_core/gsuid_core/plugins/WutheringWavesUID", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "[数据库] 核心数据库表创建成功!", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "🔒️ [网页控制台] 认证加密密钥已生成 key_id=244e58480840f582 pubkey_fingerprint=0d8df33412b2e0eb", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "🔒️ [网页控制台] 认证密钥轮换定时任务已注册（每 12h）", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "💻 [网页控制台] AI 总开关已关闭，跳过 AI 相关 API 路由导入（节省约 150MB 内存）", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "💻 [网页控制台] 使用前端路径: /gsuid_core/gsuid_core/webconsole/dist, 版本: 0.0.15", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "💻 [网页控制台] 准备挂载前端到 /app, 目录: /gsuid_core/gsuid_core/webconsole/dist", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "💻 [网页控制台] 已通过 APIRouter 挂载前端到 /app", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "💻 [网页控制台] 尝试挂载WebConsole", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "💻 WebConsole挂载成功: http://0.0.0.0:8765/app", "level": "success", "timestamp": "06-24 17:55:35"}
+{"event": "[Git Async] 命令成功: git rev-parse --short HEAD @ /gsuid_core/gsuid_core/plugins/WutheringWavesUID", "level": "success", "timestamp": "06-24 17:55:35"}
+{"event": "[Git] 已初始化插件 commit 版本信息，共 2 个", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "🗑️ [ResourceManager] TTL 清理任务已启动 (TTL: 1800s, 间隔: 300s)", "level": "info", "timestamp": "06-24 17:55:35"}
+{"event": "172.20.0.2:35332 - \"WebSocket /ws/napcat-3659200651?token=wuwa_bot_hekun0820\" [accepted]", "level": "info", "timestamp": "06-24 17:55:36"}
+{"event": "napcat-3659200651 首次连接", "level": "info", "timestamp": "06-24 17:55:36"}
+{"event": "connection open", "level": "info", "timestamp": "06-24 17:55:36"}
+{"event": "[启动检查] 📝 检查遗留信息...", "level": "info", "timestamp": "06-24 17:55:38"}
+{"event": "[Core重启] 没有找到[Core重启]的订阅, 无推送消息！", "level": "warning", "timestamp": "06-24 17:55:38"}
+{"event": "✅ 遗留信息检查完毕!", "level": "info", "timestamp": "06-24 17:55:38"}
+{"event": "[GsCore] 启动WS服务中...", "level": "info", "timestamp": "06-24 17:55:38"}
+{"event": "🚀 最快资源站: [Lulu] http://lulush.microgg.cn", "level": "info", "timestamp": "06-24 17:55:38"}
+{"event": "64.118.140.47:44067 - \"GET /api/system/health HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:55:38"}
+{"event": "[Lulu] resource/avatar 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 17:55:38"}
+{"event": "[Lulu] resource/weapon 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 17:55:38"}
+{"event": "[Lulu] resource/role_pile 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 17:55:38"}
+{"event": "[Lulu] resource/role_detail/skill 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 17:55:38"}
+{"event": "[Lulu] resource/role_detail/chains 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 17:55:38"}
+{"event": "[Lulu] resource/share 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 17:55:38"}
+{"event": "[Lulu] resource/phantom 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 17:55:38"}
+{"event": "[Lulu] resource/material 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 17:55:39"}
+{"event": "[Lulu] resource/guide/XMu 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 17:55:39"}
+{"event": "[Lulu] resource/guide/Moealkyne 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 17:55:39"}
+{"event": "[Lulu] resource/guide/JinLingZi 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 17:55:39"}
+{"event": "[Lulu] resource/guide/JieXing 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 17:55:39"}
+{"event": "[Lulu] resource/guide/XiaoYang 页面中未找到 <pre> 标签!", "level": "warning", "timestamp": "06-24 17:55:39"}
+{"event": "🍱 [资源检查] 插件 WutheringWavesUID 资源库已是最新!", "level": "success", "timestamp": "06-24 17:55:39"}
+{"event": "[鸣潮][资源文件下载] None", "level": "info", "timestamp": "06-24 17:55:39"}
+{"event": "[鸣潮][加载角色极限面板] 数量: 16", "level": "info", "timestamp": "06-24 17:55:39"}
+{"event": "[鸣潮][排行面板数据启用规则 不使用缓存]", "level": "info", "timestamp": "06-24 17:55:39"}
+{"event": "[鸣潮][加载用户面板缓存] 数量: -1", "level": "info", "timestamp": "06-24 17:55:39"}
+{"event": "💻 [网页控制台] 收到请求: /app/", "level": "info", "timestamp": "06-24 17:55:48"}
+{"event": "💻 [网页控制台] 返回 index.html, 路径: /gsuid_core/gsuid_core/webconsole/dist/index.html", "level": "info", "timestamp": "06-24 17:55:48"}
+{"event": "64.118.140.47:43451 - \"GET /app/ HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:55:48"}
+{"event": "64.118.140.47:43035 - \"GET /api/auth/me HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:55:49"}
+{"event": "64.118.140.47:43451 - \"GET /api/ai/wizard/status?_t=1782294948697 HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 17:55:49"}
+{"event": "64.118.140.47:45311 - \"GET /api/brand HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:55:49"}
+{"event": "64.118.140.47:43035 - \"GET /api/auth/admin/exists HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:55:49"}
+{"event": "64.118.140.47:38637 - \"GET /api/theme/config HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:55:49"}
+{"event": "64.118.140.47:46101 - \"GET /api/brand/icon?t=1782294948694 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:55:49"}
+{"event": "64.118.140.47:45311 - \"GET /api/brand/icon?t=1782294949342 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:55:49"}
+{"event": "64.118.140.47:43035 - \"GET /api/brand/icon?t=1782294948694 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:55:50"}
+{"event": "64.118.140.47:43451 - \"GET /api/brand/icon?t=1782294949342 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:55:50"}
+{"event": "64.118.140.47:42803 - \"GET /api/brand/icon?t=1782294948694 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:55:50"}
+{"event": "64.118.140.47:43451 - \"GET /api/brand/icon?t=1782294949342 HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:55:52"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='1706927358', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww登录')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww登录', command='', text='ww登录', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 17:56:06"}
+{"trigger": ["ww登录", "command", "登录"], "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:56:06"}
+{"command": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='1706927358', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww登录')], WS_BOT_ID='napcat-3659200651', task_id='43bb7705-693a-4d94-abc0-b3586a5f04e5', task_event=None, real_bot_id='onebot', raw_text='ww登录', command='登录', text='', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:56:06"}
+{"trace_id": "43bb7705-693a-4d94-abc0-b3586a5f04e5", "event": "📝 [TraceStart] trace_id=43bb7705-693a-4d94-abc0-b3586a5f04e5 command=登录 user_id=2802710247", "level": "info", "timestamp": "06-24 17:56:06"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "43bb7705-693a-4d94-abc0-b3586a5f04e5", "level": "info", "timestamp": "06-24 17:56:07"}
+{"event": "180.163.29.234:47902 - \"GET /waves/i/3b46238e HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:56:08"}
+{"event": "123.173.216.137:23496 - \"GET /waves/i/3b46238e HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:56:18"}
+{"event": "123.173.216.137:23323 - \"POST /waves/login HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:56:38"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "43bb7705-693a-4d94-abc0-b3586a5f04e5", "level": "info", "timestamp": "06-24 17:56:39"}
+{"trace_id": "43bb7705-693a-4d94-abc0-b3586a5f04e5", "event": "🏁 [TraceEnd] trace_id=43bb7705-693a-4d94-abc0-b3586a5f04e5 command=登录 duration=33545ms logs=7", "level": "info", "timestamp": "06-24 17:56:39"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='1589199944', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww帮助')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww帮助', command='', text='ww帮助', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 17:57:00"}
+{"trigger": ["ww帮助", "fullmatch", "帮助"], "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:57:00"}
+{"command": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='1589199944', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww帮助')], WS_BOT_ID='napcat-3659200651', task_id='5db18f3c-df43-4889-86c5-cf6a66c3b89e', task_event=None, real_bot_id='onebot', raw_text='ww帮助', command='帮助', text='', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:57:00"}
+{"trace_id": "5db18f3c-df43-4889-86c5-cf6a66c3b89e", "event": "📝 [TraceStart] trace_id=5db18f3c-df43-4889-86c5-cf6a66c3b89e command=帮助 user_id=2802710247", "level": "info", "timestamp": "06-24 17:57:00"}
+{"event": "🚀 [GsCore] 处理图片中....", "level": "info", "timestamp": "06-24 17:57:01"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "5db18f3c-df43-4889-86c5-cf6a66c3b89e", "level": "info", "timestamp": "06-24 17:57:01"}
+{"trace_id": "5db18f3c-df43-4889-86c5-cf6a66c3b89e", "event": "🏁 [TraceEnd] trace_id=5db18f3c-df43-4889-86c5-cf6a66c3b89e command=帮助 duration=1104ms logs=4", "level": "info", "timestamp": "06-24 17:57:01"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='721439137', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww练度统计')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww练度统计', command='', text='ww练度统计', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 17:57:13"}
+{"trigger": ["ww练度统计", "regex", "^(\\d+)?(练度|练度统计|角色列表|刷新练度|刷新练度统计|刷新角色列表)$"], "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:57:13"}
+{"command": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='721439137', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww练度统计')], WS_BOT_ID='napcat-3659200651', task_id='3a74de2e-8adc-4cf0-92ba-01712ecde6a3', task_event=None, real_bot_id='onebot', raw_text='ww练度统计', command='|练度统计', text='ww练度统计', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(None, '练度统计'), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:57:13"}
+{"trace_id": "3a74de2e-8adc-4cf0-92ba-01712ecde6a3", "event": "📝 [TraceStart] trace_id=3a74de2e-8adc-4cf0-92ba-01712ecde6a3 command=|练度统计 user_id=2802710247", "level": "info", "timestamp": "06-24 17:57:13"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "3a74de2e-8adc-4cf0-92ba-01712ecde6a3", "level": "info", "timestamp": "06-24 17:57:13"}
+{"trace_id": "3a74de2e-8adc-4cf0-92ba-01712ecde6a3", "event": "🏁 [TraceEnd] trace_id=3a74de2e-8adc-4cf0-92ba-01712ecde6a3 command=|练度统计 duration=21ms logs=4", "level": "info", "timestamp": "06-24 17:57:13"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='1640943458', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww绑定uid')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww绑定uid', command='', text='ww绑定uid', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 17:57:22"}
+{"trigger": ["ww绑定uid", "command", "绑定"], "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:57:22"}
+{"command": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='1640943458', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww绑定uid')], WS_BOT_ID='napcat-3659200651', task_id='f6d7ee2f-c3ce-465a-87ed-f549d8ed3ab4', task_event=None, real_bot_id='onebot', raw_text='ww绑定uid', command='绑定', text='uid', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:57:22"}
+{"trace_id": "f6d7ee2f-c3ce-465a-87ed-f549d8ed3ab4", "event": "📝 [TraceStart] trace_id=f6d7ee2f-c3ce-465a-87ed-f549d8ed3ab4 command=绑定 user_id=2802710247", "level": "info", "timestamp": "06-24 17:57:22"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "f6d7ee2f-c3ce-465a-87ed-f549d8ed3ab4", "level": "info", "timestamp": "06-24 17:57:22"}
+{"trace_id": "f6d7ee2f-c3ce-465a-87ed-f549d8ed3ab4", "event": "🏁 [TraceEnd] trace_id=f6d7ee2f-c3ce-465a-87ed-f549d8ed3ab4 command=绑定 duration=1ms logs=4", "level": "info", "timestamp": "06-24 17:57:22"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='292913210', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww绑定uid126924236')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww绑定uid126924236', command='', text='ww绑定uid126924236', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 17:57:44"}
+{"trigger": ["ww绑定uid126924236", "command", "绑定"], "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:57:44"}
+{"command": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='292913210', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww绑定uid126924236')], WS_BOT_ID='napcat-3659200651', task_id='b41d0953-c179-4d1c-ad7b-5278a1e5cc40', task_event=None, real_bot_id='onebot', raw_text='ww绑定uid126924236', command='绑定', text='uid126924236', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:57:44"}
+{"trace_id": "b41d0953-c179-4d1c-ad7b-5278a1e5cc40", "event": "📝 [TraceStart] trace_id=b41d0953-c179-4d1c-ad7b-5278a1e5cc40 command=绑定 user_id=2802710247", "level": "info", "timestamp": "06-24 17:57:44"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "b41d0953-c179-4d1c-ad7b-5278a1e5cc40", "level": "info", "timestamp": "06-24 17:57:44"}
+{"trace_id": "b41d0953-c179-4d1c-ad7b-5278a1e5cc40", "event": "🏁 [TraceEnd] trace_id=b41d0953-c179-4d1c-ad7b-5278a1e5cc40 command=绑定 duration=11ms logs=5", "level": "info", "timestamp": "06-24 17:57:44"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='981893176', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww登录')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww登录', command='', text='ww登录', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 17:57:50"}
+{"trigger": ["ww登录", "command", "登录"], "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:57:50"}
+{"command": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='981893176', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww登录')], WS_BOT_ID='napcat-3659200651', task_id='1ad4431a-c4b5-44e0-a90e-469d30e860d8', task_event=None, real_bot_id='onebot', raw_text='ww登录', command='登录', text='', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[命令触发]", "level": "info", "timestamp": "06-24 17:57:50"}
+{"trace_id": "1ad4431a-c4b5-44e0-a90e-469d30e860d8", "event": "📝 [TraceStart] trace_id=1ad4431a-c4b5-44e0-a90e-469d30e860d8 command=登录 user_id=2802710247", "level": "info", "timestamp": "06-24 17:57:50"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "1ad4431a-c4b5-44e0-a90e-469d30e860d8", "level": "info", "timestamp": "06-24 17:57:50"}
+{"event": "123.173.216.137:23488 - \"GET /waves/i/3b46238e HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:57:53"}
+{"event": "64.118.140.47:37279 - \"GET /favicon.ico HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 17:57:53"}
+{"event": "64.118.140.47:46079 - \"GET /favicon.ico HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 17:58:20"}
+{"event": "123.173.216.137:23394 - \"POST /waves/login HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 17:58:21"}
+{"event": "msg: 禁止访问 - data: None", "trace_id": "1ad4431a-c4b5-44e0-a90e-469d30e860d8", "level": "warning", "timestamp": "06-24 17:58:23"}
+{"event": "msg: 禁止访问 - data: None", "trace_id": "1ad4431a-c4b5-44e0-a90e-469d30e860d8", "level": "warning", "timestamp": "06-24 17:58:24"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "1ad4431a-c4b5-44e0-a90e-469d30e860d8", "level": "info", "timestamp": "06-24 17:58:24"}
+{"trace_id": "1ad4431a-c4b5-44e0-a90e-469d30e860d8", "event": "🏁 [TraceEnd] trace_id=1ad4431a-c4b5-44e0-a90e-469d30e860d8 command=登录 duration=33956ms logs=12", "level": "info", "timestamp": "06-24 17:58:24"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 18:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 18:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 13, 'total_time': 799.7565501164645, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 18:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 18:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 18:00:00"}
+{"event": "123.173.216.137:23507 - \"GET /waves/i/3b46238e HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 18:00:07"}
+{"event": "64.118.140.47:40919 - \"GET /favicon.ico HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 18:00:08"}
+{"event": "123.173.216.137:23315 - \"GET /waves/i/3b46238e HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 18:00:15"}
+{"event_payload": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='682585486', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww登录')], WS_BOT_ID='napcat-3659200651', task_id='', task_event=None, real_bot_id='onebot', raw_text='ww登录', command='', text='ww登录', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[收到事件]", "level": "info", "timestamp": "06-24 18:00:21"}
+{"trigger": ["ww登录", "command", "登录"], "event": "[命令触发]", "level": "info", "timestamp": "06-24 18:00:21"}
+{"command": "Event(bot_id='onebot', bot_self_id='3659200651', msg_id='682585486', user_type='direct', group_id=None, user_id='2802710247', sender={'user_id': '2802710247', 'nickname': 'Anoxia', 'card': '', 'avatar': 'https://q1.qlogo.cn/g?b=qq&nk=2802710247&s=640'}, user_pm=0, content=[Message(type='text', data='ww登录')], WS_BOT_ID='napcat-3659200651', task_id='a3ac0971-25e8-4820-a0ec-7b9c272f53ee', task_event=None, real_bot_id='onebot', raw_text='ww登录', command='登录', text='', image=None, image_list=[], image_id=None, image_id_list=[], audio_id=None, audio_id_list=[], at=None, at_list=[], is_tome=True, reply=None, file_name=None, file=None, file_type=None, regex_group=(), regex_dict={}, meta_event_type=None, meta_event_data={})", "event": "[命令触发]", "level": "info", "timestamp": "06-24 18:00:21"}
+{"trace_id": "a3ac0971-25e8-4820-a0ec-7b9c272f53ee", "event": "📝 [TraceStart] trace_id=a3ac0971-25e8-4820-a0ec-7b9c272f53ee command=登录 user_id=2802710247", "level": "info", "timestamp": "06-24 18:00:21"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "a3ac0971-25e8-4820-a0ec-7b9c272f53ee", "level": "info", "timestamp": "06-24 18:00:21"}
+{"event": "123.173.216.137:23535 - \"GET /waves/i/3b46238e HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 18:00:22"}
+{"event": "64.118.140.47:46662 - \"GET /favicon.ico HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 18:00:39"}
+{"event": "123.173.216.137:23466 - \"POST /waves/login HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 18:00:40"}
+{"event": "msg: 禁止访问 - data: None", "trace_id": "a3ac0971-25e8-4820-a0ec-7b9c272f53ee", "level": "warning", "timestamp": "06-24 18:00:40"}
+{"event": "msg: 禁止访问 - data: None", "trace_id": "a3ac0971-25e8-4820-a0ec-7b9c272f53ee", "level": "warning", "timestamp": "06-24 18:00:41"}
+{"event": "[发送消息to] onebot - direct - 2802710247", "trace_id": "a3ac0971-25e8-4820-a0ec-7b9c272f53ee", "level": "info", "timestamp": "06-24 18:00:41"}
+{"trace_id": "a3ac0971-25e8-4820-a0ec-7b9c272f53ee", "event": "🏁 [TraceEnd] trace_id=a3ac0971-25e8-4820-a0ec-7b9c272f53ee command=登录 duration=19719ms logs=12", "level": "info", "timestamp": "06-24 18:00:41"}
+{"event": "180.101.245.247:31844 - \"GET /api/ai/wizard/status?_t=1782294948697 HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 18:01:12"}
+{"event": "129.211.166.134:2315 - \"GET /waves/i/3b46238e HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 18:02:47"}
+{"event": "64.118.140.47:42843 - \"GET /favicon.ico HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 18:04:12"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 18:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 18:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 18:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 18:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 18:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 18:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 18:10:00"}
+{"event": "64.118.140.47:40071 - \"GET /favicon.ico HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 18:13:02"}
+{"event": "64.118.140.47:37463 - \"GET /favicon.ico HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 18:13:42"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 18:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 18:15:34"}
+{"event": "64.118.140.47:37331 - \"GET /favicon.ico HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 18:17:28"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 18:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 18:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 18:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 18:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 18:20:00"}
+{"event": "64.118.140.47:37671 - \"GET /favicon.ico HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 18:20:18"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 18:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 18:25:34"}
+{"event": "64.118.140.47:44895 - \"GET /favicon.ico HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 18:28:33"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 18:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 18:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 18:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 18:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 18:30:00"}
+{"event": "64.118.140.47:42751 - \"GET /favicon.ico HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 18:30:44"}
+{"event": "64.118.140.47:41473 - \"GET /favicon.ico HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 18:31:39"}
+{"event": "64.118.140.47:40653 - \"GET /favicon.ico HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 18:35:25"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 18:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 18:35:34"}
+{"event": "64.118.140.47:42803 - \"GET /favicon.ico HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 18:39:57"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 18:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 18:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 18:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 18:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 18:40:00"}
+{"event": "64.118.140.47:33907 - \"GET /favicon.ico HTTP/1.1\" 404", "level": "info", "timestamp": "06-24 18:44:16"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 18:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 18:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 18:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 18:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 18:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 18:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 18:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 18:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 18:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 19:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 19:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 19:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 19:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 19:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 19:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 19:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 19:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 19:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 19:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 19:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 19:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 19:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 19:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 19:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 19:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 19:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 19:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 19:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 19:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 19:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 19:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 19:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 19:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 19:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 19:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 19:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 19:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 19:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 19:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 19:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 19:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 19:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 19:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 19:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 19:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 19:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 19:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 19:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 19:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 19:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 19:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 20:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 20:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 20:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 20:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 20:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 20:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 20:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 20:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 20:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 20:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 20:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 20:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 20:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 20:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 20:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 20:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 20:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 20:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 20:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 20:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 20:25:34"}
+{"event": "129.204.118.204:4696 - \"GET /waves/i/3b46238e HTTP/1.1\" 200", "level": "info", "timestamp": "06-24 20:29:37"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 20:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 20:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 20:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 20:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 20:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 20:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 20:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 20:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 20:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 20:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 20:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 20:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 20:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 20:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 20:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 20:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 20:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 20:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 20:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 20:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 20:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 21:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 21:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 21:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 21:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 21:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 21:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 21:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 21:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 21:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 21:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 21:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 21:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 21:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 21:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 21:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 21:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 21:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 21:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 21:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 21:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 21:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 21:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 21:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 21:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 21:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 21:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 21:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 21:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 21:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 21:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 21:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 21:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 21:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 21:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 21:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 21:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 21:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 21:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 21:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 21:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 21:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 21:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 22:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 22:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 22:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 22:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 22:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 22:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 22:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 22:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 22:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 22:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 22:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 22:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 22:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 22:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 22:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 22:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 22:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 22:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 22:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 22:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 22:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 22:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 22:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 22:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 22:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 22:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 22:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 22:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 22:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 22:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 22:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 22:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 22:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 22:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 22:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 22:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 22:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 22:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 22:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 22:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 22:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 22:55:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 23:00:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 23:00:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 23:00:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 23:00:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 23:00:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 23:05:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 23:05:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 23:10:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 23:10:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 23:10:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 23:10:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 23:10:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 23:15:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 23:15:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 23:20:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 23:20:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 23:20:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 23:20:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 23:20:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 23:25:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 23:25:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 23:30:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 23:30:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 23:30:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 23:30:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 23:30:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 23:35:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 23:35:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 23:40:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 23:40:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 23:40:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 23:40:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 23:40:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 23:45:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 23:45:34"}
+{"event": "🔒️ 开始保存全局变量, 参数day = 0!", "level": "info", "timestamp": "06-24 23:50:00"}
+{"event": "🔒️ 全局变量保存完成!", "level": "success", "timestamp": "06-24 23:50:00"}
+{"event": "🔒️ 开始保存流量统计! {'req': 0, 'max_qps': 1.0, 'total_count': 14, 'total_time': 819.4760870989412, 'max_runtime': 600.9459990691394, 'max_wait_time': 0.0001250840723514557, 'max_time': 600.9461241532117, 'max_runtime_func': 'get_login_msg'}", "level": "info", "timestamp": "06-24 23:50:00"}
+{"event": "🔒️ 流量统计保存完成!", "level": "success", "timestamp": "06-24 23:50:00"}
+{"event": "[早柚核心] 状态已同步!", "level": "success", "timestamp": "06-24 23:50:00"}
+{"event": "[鸣潮公告] 定时任务: 鸣潮公告查询..", "level": "info", "timestamp": "06-24 23:55:34"}
+{"event": "[鸣潮公告] 暂无群订阅", "level": "info", "timestamp": "06-24 23:55:34"}

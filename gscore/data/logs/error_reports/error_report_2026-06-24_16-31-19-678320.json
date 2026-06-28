@@ -1,0 +1,8 @@
+{
+    "event": "[Git Async] clone 失败: Cloning into '/gsuid_core/gsuid_core/plugins/WutheringWavesUID'...\nremote: Invalid username or token. Password authentication is not supported for Git operations.\nfatal: Authentication failed for 'https://github.com/tyql688/WutheringWavesUID.git/'",
+    "trace_id": "7b84d25f-e424-4c4a-b4ee-e3baebb91250",
+    "level": "error",
+    "timestamp": "06-24 16:31:19",
+    "_report_timestamp": "2026-06-24_16-31-19-678320",
+    "_log_level": "error"
+}

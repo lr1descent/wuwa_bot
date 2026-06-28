@@ -1,0 +1,362 @@
+{
+    "name": "WutheringWavesUID",
+    "pm": 6,
+    "priority": 5,
+    "enabled": true,
+    "area": "SV",
+    "black_list": [],
+    "white_list": [],
+    "prefix": [],
+    "force_prefix": [
+        "ww"
+    ],
+    "disable_force_prefix": false,
+    "allow_empty_prefix": false,
+    "sv": {
+        "鸣潮兑换码": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "鸣潮配置": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "鸣潮公告": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "订阅鸣潮公告": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 3,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves帮助": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves替换帮助": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves查询深渊": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves查询全息": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves查询冥海": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "ww角色练度统计": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "资源下载": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 1,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves日历": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves查询体力": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "鸣潮绑定特征码": {
+            "priority": 10,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "鸣潮添加token": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "鸣潮删除token": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves获取ck": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "DIRECT",
+            "white_list": []
+        },
+        "鸣潮删除无效token": {
+            "priority": 1,
+            "enabled": true,
+            "pm": 1,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "库洛登录": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "库洛登录帮助": {
+            "priority": 4,
+            "enabled": true,
+            "pm": 0,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves获取探索度": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "声骸展示": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "鸣潮攻略": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "鸣潮wiki": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves查询信息": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves新获取面板": {
+            "priority": 3,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves新角色面板": {
+            "priority": 4,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves角色面板": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves上传面板图": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 1,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves面板图列表": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 1,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves删除面板图": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 1,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves删除全部面板图": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 1,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves面板图压缩": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 1,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves抽卡记录": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves抽卡记录帮助": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves导入抽卡链接": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "DIRECT",
+            "white_list": []
+        },
+        "waves导入抽卡记录": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "DIRECT",
+            "white_list": []
+        },
+        "waves导出抽卡记录": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves更新记录": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 1,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "鸣潮卡池倒计时": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves角色持有率": {
+            "priority": 5,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves深塔出场率": {
+            "priority": 1,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        },
+        "waves冥想出场率": {
+            "priority": 1,
+            "enabled": true,
+            "pm": 6,
+            "black_list": [],
+            "area": "ALL",
+            "white_list": []
+        }
+    },
+    "alias": []
+}

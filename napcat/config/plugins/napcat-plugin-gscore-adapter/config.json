@@ -1,0 +1,21 @@
+{
+  "gscoreEnable": true,
+  "forwardSelfMessage": false,
+  "commandPrefix": "#早柚",
+  "masterQQ": "",
+  "groupConfigs": {},
+  "gscoreUrl": " ws://gsuid_core:8765",
+  "gscoreToken": "wuwa_bot_hekun0820",
+  "reconnectInterval": 5000,
+  "maxReconnectAttempts": 10,
+  "blacklist": [],
+  "customImageSummary": "",
+  "masterForwardWhenDisabled": false,
+  "silentNoPermission": false,
+  "customForwardInfo": false,
+  "customForwardQQ": "",
+  "customForwardName": "",
+  "disableMultiBot": false,
+  "privateFileForwardEnabled": false,
+  "privateJsonBase64MaxKb": 1024
+}
