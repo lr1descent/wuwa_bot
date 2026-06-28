@@ -165,11 +165,16 @@ test('plugin sends small meme packs as one merged forward message even when they
     raw_message: 'meme西格莉卡'
   });
 
-  assert.equal(calls.length, 1);
-  assert.equal(calls[0].action, 'send_group_forward_msg');
-  assert.equal(calls[0].params.group_id, '123');
-  assert.equal(calls[0].params.messages.length, 12);
-  assert.deepEqual(calls[0].params.messages.map((message) => message.type), Array(12).fill('node'));
+  assert.equal(calls.length, 3);
+  assert.equal(calls[0].action, 'send_msg');
+  assert.equal(calls[0].params.message, '开始推送');
+  assert.equal(calls[1].action, 'send_group_forward_msg');
+  assert.equal(calls[1].params.group_id, '123');
+  assert.equal(calls[1].params.messages.length, 13);
+  assert.equal(calls[1].params.messages[0].data.content[0].data.text, '推送进度 12/12');
+  assert.deepEqual(calls[1].params.messages.map((message) => message.type), Array(13).fill('node'));
+  assert.equal(calls[2].action, 'send_msg');
+  assert.equal(calls[2].params.message, '推送结束');
 });
 
 test('plugin splits large meme packs by cumulative file size', async () => {
@@ -213,13 +218,85 @@ test('plugin splits large meme packs by cumulative file size', async () => {
     raw_message: 'meme西格莉卡'
   });
 
-  assert.equal(calls.length, 3);
+  assert.equal(calls.length, 5);
   assert.deepEqual(calls.map((call) => call.action), [
+    'send_msg',
     'send_group_forward_msg',
     'send_group_forward_msg',
-    'send_group_forward_msg'
+    'send_group_forward_msg',
+    'send_msg'
   ]);
-  assert.deepEqual(calls.map((call) => call.params.messages.length), [2, 2, 2]);
+  assert.deepEqual(calls.slice(1, 4).map((call) => call.params.messages.length), [3, 3, 3]);
+  assert.deepEqual(calls.slice(1, 4).map((call) => call.params.messages[0].data.content[0].data.text), [
+    '推送进度 2/6',
+    '推送进度 4/6',
+    '推送进度 6/6'
+  ]);
+});
+
+test('plugin sends start and end notices and adds progress nodes to every forward batch', async () => {
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'local-memes-'));
+  const dir = path.join(tmp, '西格莉卡');
+  fs.mkdirSync(dir);
+  for (let index = 1; index <= 5; index++) {
+    fs.writeFileSync(path.join(dir, `${index}.gif`), Buffer.alloc(4 * 1024));
+  }
+
+  const calls = [];
+  const infoLogs = [];
+  const ctx = {
+    adapterName: 'test',
+    configPath: path.join(tmp, 'config.json'),
+    pluginManager: { config: {} },
+    actions: {
+      call: async (action, params, adapter, config) => {
+        calls.push({ action, params, adapter, config });
+      }
+    },
+    logger: {
+      info: (message) => infoLogs.push(String(message)),
+      warn: () => {},
+      error: () => {}
+    }
+  };
+
+  await plugin_init(ctx);
+  await plugin_set_config(ctx, {
+    memeRoot: tmp,
+    maxSendCount: 0,
+    forwardBatchMaxKb: 10,
+    forwardBatchIntervalMs: 0
+  });
+  await plugin_onmessage(ctx, {
+    message_type: 'private',
+    user_id: 456,
+    self_id: 789,
+    raw_message: 'meme西格莉卡'
+  });
+
+  assert.equal(calls.length, 5);
+  assert.equal(calls[0].action, 'send_msg');
+  assert.equal(calls[0].params.message, '开始推送');
+  assert.deepEqual(calls.slice(1, 4).map((call) => call.action), [
+    'send_private_forward_msg',
+    'send_private_forward_msg',
+    'send_private_forward_msg'
+  ]);
+  assert.equal(calls[4].action, 'send_msg');
+  assert.equal(calls[4].params.message, '推送结束');
+
+  assert.deepEqual(calls.slice(1, 4).map((call) => {
+    const progressNode = call.params.messages[0];
+    return progressNode.data.content[0].data.text;
+  }), [
+    '推送进度 2/5',
+    '推送进度 4/5',
+    '推送进度 5/5'
+  ]);
+
+  assert.ok(infoLogs.some((message) => message.includes('推送进度 2/5')));
+  assert.ok(infoLogs.some((message) => message.includes('推送进度 4/5')));
+  assert.ok(infoLogs.some((message) => message.includes('推送进度 5/5')));
 });
 
 test('plugin treats maxSendCount zero as sending all meme files', async () => {
@@ -262,8 +339,14 @@ test('plugin treats maxSendCount zero as sending all meme files', async () => {
     raw_message: 'meme西格莉卡'
   });
 
-  assert.equal(calls.length, 1);
-  assert.equal(calls[0].params.messages.length, 6);
+  assert.equal(calls.length, 3);
+  assert.equal(calls[0].action, 'send_msg');
+  assert.equal(calls[0].params.message, '开始推送');
+  assert.equal(calls[1].action, 'send_group_forward_msg');
+  assert.equal(calls[1].params.messages.length, 7);
+  assert.equal(calls[1].params.messages[0].data.content[0].data.text, '推送进度 6/6');
+  assert.equal(calls[2].action, 'send_msg');
+  assert.equal(calls[2].params.message, '推送结束');
 });
 
 test('plugin sends meme list as text with pack counts and sizes', async () => {

@@ -241,6 +241,22 @@ export function buildForwardMessageNode(filePath, options = {}) {
   };
 }
 
+function buildForwardTextMessageNode(text, options = {}) {
+  return {
+    type: 'node',
+    data: {
+      user_id: String(options.userId || currentConfig.forwardUserId || DEFAULT_CONFIG.forwardUserId),
+      nickname: String(options.nickname || currentConfig.forwardNickname || DEFAULT_CONFIG.forwardNickname),
+      content: [{
+        type: 'text',
+        data: {
+          text: String(text)
+        }
+      }]
+    }
+  };
+}
+
 function buildSendParams(event, message) {
   return {
     message,
@@ -360,8 +376,19 @@ async function handleMemeCommand(ctx, event) {
   const fileBatches = splitIntoBatchesBySize(filesToSend, currentConfig.forwardBatchMaxKb);
   logger?.info(`发送本地表情包：${parsed.keyword}，数量 ${filesToSend.length}/${files.length}，批次 ${fileBatches.length}，目录 ${dir}`);
 
+  await sendMessage(ctx, event, '开始推送');
+  logger?.info(`开始推送本地表情包：${parsed.keyword}，总数 ${filesToSend.length}，批次 ${fileBatches.length}`);
+
+  let pushedCount = 0;
   for (const [batchIndex, fileBatch] of fileBatches.entries()) {
-    const messages = fileBatch.map((file) => buildForwardMessageNode(file));
+    pushedCount += fileBatch.length;
+    const progressText = `推送进度 ${pushedCount}/${filesToSend.length}`;
+    const messages = [
+      buildForwardTextMessageNode(progressText),
+      ...fileBatch.map((file) => buildForwardMessageNode(file))
+    ];
+
+    logger?.info(`发送本地表情包进度：${parsed.keyword}，批次 ${batchIndex + 1}/${fileBatches.length}，${progressText}，本批 ${fileBatch.length} 张`);
     try {
       await sendForwardMessages(ctx, event, messages);
     } catch (error) {
@@ -372,6 +399,9 @@ async function handleMemeCommand(ctx, event) {
       await sleep(currentConfig.forwardBatchIntervalMs);
     }
   }
+
+  await sendMessage(ctx, event, '推送结束');
+  logger?.info(`推送本地表情包结束：${parsed.keyword}，总数 ${filesToSend.length}/${files.length}`);
 
   return true;
 }
