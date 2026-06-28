@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "main": "index.mjs",
-  "description": "从本地目录按关键词批量发送表情包",
+  "description": "从本地目录按关键词合并转发表情包",
   "author": "hekun",
   "dependencies": {
     "napcat-types": "0.0.16"

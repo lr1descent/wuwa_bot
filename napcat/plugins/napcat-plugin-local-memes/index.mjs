@@ -8,7 +8,8 @@ const DEFAULT_CONFIG = {
   memeRoot: '/app/memes',
   allowedExtensions: ['.gif', '.png', '.jpg', '.jpeg', '.webp'],
   maxSendCount: 50,
-  sendIntervalMs: 500
+  forwardUserId: '10000',
+  forwardNickname: '本地表情包'
 };
 
 const collator = new Intl.Collator('zh-CN', {
@@ -36,12 +37,6 @@ function normalizeExtensions(value) {
   return extensions.length > 0 ? [...new Set(extensions)] : DEFAULT_CONFIG.allowedExtensions;
 }
 
-function normalizeNonNegativeNumber(value, fallback) {
-  const number = Number(value);
-  if (!Number.isFinite(number)) return fallback;
-  return Math.max(0, Math.floor(number));
-}
-
 function normalizePositiveNumber(value, fallback) {
   const number = Number(value);
   if (!Number.isFinite(number)) return fallback;
@@ -63,7 +58,12 @@ export function sanitizeConfig(raw) {
     memeRoot,
     allowedExtensions: normalizeExtensions(input.allowedExtensions),
     maxSendCount: normalizePositiveNumber(input.maxSendCount, DEFAULT_CONFIG.maxSendCount),
-    sendIntervalMs: normalizeNonNegativeNumber(input.sendIntervalMs, DEFAULT_CONFIG.sendIntervalMs)
+    forwardUserId: typeof input.forwardUserId === 'string' && input.forwardUserId.trim()
+      ? input.forwardUserId.trim()
+      : DEFAULT_CONFIG.forwardUserId,
+    forwardNickname: typeof input.forwardNickname === 'string' && input.forwardNickname.trim()
+      ? input.forwardNickname.trim()
+      : DEFAULT_CONFIG.forwardNickname
   };
 }
 
@@ -100,13 +100,14 @@ function buildConfigUi(ctx) {
   if (!ctx.NapCatConfig) return [];
 
   return ctx.NapCatConfig.combine(
-    ctx.NapCatConfig.html('<div style="padding: 12px; border-radius: 8px; background: rgba(0,0,0,0.05);"><b>本地表情包</b><br><span style="font-size: 12px;">发送 meme关键词，从本地目录逐张发送表情包。</span></div>'),
+    ctx.NapCatConfig.html('<div style="padding: 12px; border-radius: 8px; background: rgba(0,0,0,0.05);"><b>本地表情包</b><br><span style="font-size: 12px;">发送 meme关键词，从本地目录以合并转发发送表情包。</span></div>'),
     ctx.NapCatConfig.boolean('enabled', '启用表情包指令', DEFAULT_CONFIG.enabled, '关闭后不处理 meme关键词 指令'),
     ctx.NapCatConfig.text('commandPrefix', '指令前缀', DEFAULT_CONFIG.commandPrefix, '例如 meme，对应 meme西格莉卡'),
     ctx.NapCatConfig.text('memeRoot', '容器内表情包目录', DEFAULT_CONFIG.memeRoot, 'Docker 默认挂载为 /app/memes'),
     ctx.NapCatConfig.text('allowedExtensions', '允许的扩展名', DEFAULT_CONFIG.allowedExtensions.join(','), '逗号分隔，例如 .gif,.png,.jpg,.jpeg,.webp'),
     ctx.NapCatConfig.number('maxSendCount', '单次最多发送数量', DEFAULT_CONFIG.maxSendCount, '防止一次发送过多图片'),
-    ctx.NapCatConfig.number('sendIntervalMs', '发送间隔毫秒', DEFAULT_CONFIG.sendIntervalMs, '每张图片之间的等待时间')
+    ctx.NapCatConfig.text('forwardUserId', '合并转发显示 QQ', DEFAULT_CONFIG.forwardUserId, '合并转发节点里显示的 QQ 号'),
+    ctx.NapCatConfig.text('forwardNickname', '合并转发显示昵称', DEFAULT_CONFIG.forwardNickname, '合并转发节点里显示的昵称')
   );
 }
 
@@ -161,6 +162,17 @@ export function buildImageSegment(filePath) {
   };
 }
 
+export function buildForwardMessageNode(filePath, options = {}) {
+  return {
+    type: 'node',
+    data: {
+      user_id: String(options.userId || currentConfig.forwardUserId || DEFAULT_CONFIG.forwardUserId),
+      nickname: String(options.nickname || currentConfig.forwardNickname || DEFAULT_CONFIG.forwardNickname),
+      content: [buildImageSegment(filePath)]
+    }
+  };
+}
+
 function buildSendParams(event, message) {
   return {
     message,
@@ -170,13 +182,40 @@ function buildSendParams(event, message) {
   };
 }
 
+export function buildForwardSendCall(event, messages) {
+  if (event.message_type === 'group' && event.group_id) {
+    return {
+      action: 'send_group_forward_msg',
+      params: {
+        group_id: String(event.group_id),
+        messages
+      }
+    };
+  }
+
+  if (event.message_type === 'private' && event.user_id) {
+    return {
+      action: 'send_private_forward_msg',
+      params: {
+        user_id: String(event.user_id),
+        messages
+      }
+    };
+  }
+
+  return null;
+}
+
 async function sendMessage(ctx, event, message) {
   const params = buildSendParams(event, message);
   await ctx.actions.call('send_msg', params, ctx.adapterName, ctx.pluginManager.config);
 }
 
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+async function sendForwardMessages(ctx, event, messages) {
+  const call = buildForwardSendCall(event, messages);
+  if (!call) return;
+
+  await ctx.actions.call(call.action, call.params, ctx.adapterName, ctx.pluginManager.config);
 }
 
 async function handleMemeCommand(ctx, event) {
@@ -207,16 +246,11 @@ async function handleMemeCommand(ctx, event) {
   const filesToSend = files.slice(0, currentConfig.maxSendCount);
   logger?.info(`发送本地表情包：${parsed.keyword}，数量 ${filesToSend.length}/${files.length}，目录 ${dir}`);
 
-  for (const file of filesToSend) {
-    try {
-      await sendMessage(ctx, event, [buildImageSegment(file)]);
-    } catch (error) {
-      logger?.warn(`发送表情包失败：${file}`, error);
-    }
-
-    if (currentConfig.sendIntervalMs > 0) {
-      await sleep(currentConfig.sendIntervalMs);
-    }
+  const messages = filesToSend.map((file) => buildForwardMessageNode(file));
+  try {
+    await sendForwardMessages(ctx, event, messages);
+  } catch (error) {
+    logger?.warn(`发送合并转发表情包失败：${parsed.keyword}`, error);
   }
 
   return true;

@@ -11,4 +11,4 @@ memes/
     002.png
 ```
 
-Send `meme西格莉卡` to the bot to send all supported images in that folder.
+Send `meme西格莉卡` to the bot to send all supported images in that folder as one merged forward message.
