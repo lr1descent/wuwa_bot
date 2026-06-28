@@ -8,6 +8,8 @@ const DEFAULT_CONFIG = {
   memeRoot: '/app/memes',
   allowedExtensions: ['.gif', '.png', '.jpg', '.jpeg', '.webp'],
   maxSendCount: 50,
+  forwardBatchMaxKb: 40960,
+  forwardBatchIntervalMs: 1500,
   forwardUserId: '10000',
   forwardNickname: '本地表情包'
 };
@@ -43,6 +45,12 @@ function normalizePositiveNumber(value, fallback) {
   return Math.max(1, Math.floor(number));
 }
 
+function normalizeNonNegativeNumber(value, fallback) {
+  const number = Number(value);
+  if (!Number.isFinite(number)) return fallback;
+  return Math.max(0, Math.floor(number));
+}
+
 export function sanitizeConfig(raw) {
   const input = raw && typeof raw === 'object' ? raw : {};
   const commandPrefix = typeof input.commandPrefix === 'string' && input.commandPrefix.trim()
@@ -58,6 +66,8 @@ export function sanitizeConfig(raw) {
     memeRoot,
     allowedExtensions: normalizeExtensions(input.allowedExtensions),
     maxSendCount: normalizePositiveNumber(input.maxSendCount, DEFAULT_CONFIG.maxSendCount),
+    forwardBatchMaxKb: normalizePositiveNumber(input.forwardBatchMaxKb, DEFAULT_CONFIG.forwardBatchMaxKb),
+    forwardBatchIntervalMs: normalizeNonNegativeNumber(input.forwardBatchIntervalMs, DEFAULT_CONFIG.forwardBatchIntervalMs),
     forwardUserId: typeof input.forwardUserId === 'string' && input.forwardUserId.trim()
       ? input.forwardUserId.trim()
       : DEFAULT_CONFIG.forwardUserId,
@@ -106,6 +116,8 @@ function buildConfigUi(ctx) {
     ctx.NapCatConfig.text('memeRoot', '容器内表情包目录', DEFAULT_CONFIG.memeRoot, 'Docker 默认挂载为 /app/memes'),
     ctx.NapCatConfig.text('allowedExtensions', '允许的扩展名', DEFAULT_CONFIG.allowedExtensions.join(','), '逗号分隔，例如 .gif,.png,.jpg,.jpeg,.webp'),
     ctx.NapCatConfig.number('maxSendCount', '单次最多发送数量', DEFAULT_CONFIG.maxSendCount, '防止一次发送过多图片'),
+    ctx.NapCatConfig.number('forwardBatchMaxKb', '单批最大体积(KB)', DEFAULT_CONFIG.forwardBatchMaxKb, '超过该累计体积后自动拆成下一条合并转发'),
+    ctx.NapCatConfig.number('forwardBatchIntervalMs', '批次间隔毫秒', DEFAULT_CONFIG.forwardBatchIntervalMs, '多条合并转发之间的等待时间'),
     ctx.NapCatConfig.text('forwardUserId', '合并转发显示 QQ', DEFAULT_CONFIG.forwardUserId, '合并转发节点里显示的 QQ 号'),
     ctx.NapCatConfig.text('forwardNickname', '合并转发显示昵称', DEFAULT_CONFIG.forwardNickname, '合并转发节点里显示的昵称')
   );
@@ -218,6 +230,43 @@ async function sendForwardMessages(ctx, event, messages) {
   await ctx.actions.call(call.action, call.params, ctx.adapterName, ctx.pluginManager.config);
 }
 
+function getFileSize(filePath) {
+  try {
+    return fs.statSync(filePath).size;
+  } catch {
+    return 0;
+  }
+}
+
+function splitIntoBatchesBySize(files, maxBatchKb) {
+  const maxBatchBytes = normalizePositiveNumber(maxBatchKb, DEFAULT_CONFIG.forwardBatchMaxKb) * 1024;
+  const batches = [];
+  let currentBatch = [];
+  let currentBatchBytes = 0;
+
+  for (const file of files) {
+    const fileSize = getFileSize(file);
+    if (currentBatch.length > 0 && currentBatchBytes + fileSize > maxBatchBytes) {
+      batches.push(currentBatch);
+      currentBatch = [];
+      currentBatchBytes = 0;
+    }
+
+    currentBatch.push(file);
+    currentBatchBytes += fileSize;
+  }
+
+  if (currentBatch.length > 0) {
+    batches.push(currentBatch);
+  }
+
+  return batches;
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 async function handleMemeCommand(ctx, event) {
   if (!currentConfig.enabled) return false;
   if (event.message_type !== 'group' && event.message_type !== 'private') return false;
@@ -244,13 +293,20 @@ async function handleMemeCommand(ctx, event) {
   }
 
   const filesToSend = files.slice(0, currentConfig.maxSendCount);
-  logger?.info(`发送本地表情包：${parsed.keyword}，数量 ${filesToSend.length}/${files.length}，目录 ${dir}`);
+  const fileBatches = splitIntoBatchesBySize(filesToSend, currentConfig.forwardBatchMaxKb);
+  logger?.info(`发送本地表情包：${parsed.keyword}，数量 ${filesToSend.length}/${files.length}，批次 ${fileBatches.length}，目录 ${dir}`);
 
-  const messages = filesToSend.map((file) => buildForwardMessageNode(file));
-  try {
-    await sendForwardMessages(ctx, event, messages);
-  } catch (error) {
-    logger?.warn(`发送合并转发表情包失败：${parsed.keyword}`, error);
+  for (const [batchIndex, fileBatch] of fileBatches.entries()) {
+    const messages = fileBatch.map((file) => buildForwardMessageNode(file));
+    try {
+      await sendForwardMessages(ctx, event, messages);
+    } catch (error) {
+      logger?.warn(`发送合并转发表情包失败：${parsed.keyword}，批次 ${batchIndex + 1}/${fileBatches.length}`, error);
+    }
+
+    if (batchIndex < fileBatches.length - 1 && currentConfig.forwardBatchIntervalMs > 0) {
+      await sleep(currentConfig.forwardBatchIntervalMs);
+    }
   }
 
   return true;

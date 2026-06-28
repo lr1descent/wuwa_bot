@@ -89,12 +89,13 @@ test('buildForwardSendCall uses dedicated forward actions for group and private 
   });
 });
 
-test('plugin sends meme files as one merged forward message', async () => {
+test('plugin sends small meme packs as one merged forward message even when they contain many files', async () => {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'local-memes-'));
   const dir = path.join(tmp, '西格莉卡');
   fs.mkdirSync(dir);
-  fs.writeFileSync(path.join(dir, '1.gif'), 'gif');
-  fs.writeFileSync(path.join(dir, '2.gif'), 'gif');
+  for (let index = 1; index <= 12; index++) {
+    fs.writeFileSync(path.join(dir, `${index}.gif`), 'gif');
+  }
 
   const calls = [];
   const ctx = {
@@ -116,7 +117,10 @@ test('plugin sends meme files as one merged forward message', async () => {
   await plugin_init(ctx);
   await plugin_set_config(ctx, {
     memeRoot: tmp,
-    maxSendCount: 10
+    maxSendCount: 12,
+    forwardBatchSize: 5,
+    forwardBatchMaxKb: 64,
+    forwardBatchIntervalMs: 0
   });
   await plugin_onmessage(ctx, {
     message_type: 'group',
@@ -129,8 +133,58 @@ test('plugin sends meme files as one merged forward message', async () => {
   assert.equal(calls.length, 1);
   assert.equal(calls[0].action, 'send_group_forward_msg');
   assert.equal(calls[0].params.group_id, '123');
-  assert.equal(calls[0].params.messages.length, 2);
-  assert.deepEqual(calls[0].params.messages.map((message) => message.type), ['node', 'node']);
+  assert.equal(calls[0].params.messages.length, 12);
+  assert.deepEqual(calls[0].params.messages.map((message) => message.type), Array(12).fill('node'));
+});
+
+test('plugin splits large meme packs by cumulative file size', async () => {
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'local-memes-'));
+  const dir = path.join(tmp, '西格莉卡');
+  fs.mkdirSync(dir);
+  for (let index = 1; index <= 6; index++) {
+    fs.writeFileSync(path.join(dir, `${index}.gif`), Buffer.alloc(4 * 1024));
+  }
+
+  const calls = [];
+  const ctx = {
+    adapterName: 'test',
+    configPath: path.join(tmp, 'config.json'),
+    pluginManager: { config: {} },
+    actions: {
+      call: async (action, params, adapter, config) => {
+        calls.push({ action, params, adapter, config });
+      }
+    },
+    logger: {
+      info: () => {},
+      warn: () => {},
+      error: () => {}
+    }
+  };
+
+  await plugin_init(ctx);
+  await plugin_set_config(ctx, {
+    memeRoot: tmp,
+    maxSendCount: 6,
+    forwardBatchSize: 99,
+    forwardBatchMaxKb: 10,
+    forwardBatchIntervalMs: 0
+  });
+  await plugin_onmessage(ctx, {
+    message_type: 'group',
+    group_id: 123,
+    user_id: 456,
+    self_id: 789,
+    raw_message: 'meme西格莉卡'
+  });
+
+  assert.equal(calls.length, 3);
+  assert.deepEqual(calls.map((call) => call.action), [
+    'send_group_forward_msg',
+    'send_group_forward_msg',
+    'send_group_forward_msg'
+  ]);
+  assert.deepEqual(calls.map((call) => call.params.messages.length), [2, 2, 2]);
 });
 
 test('sanitizeConfig keeps safe defaults and normalizes extensions', () => {
@@ -139,6 +193,9 @@ test('sanitizeConfig keeps safe defaults and normalizes extensions', () => {
     commandPrefix: ' meme ',
     memeRoot: ' /custom/memes ',
     maxSendCount: 5,
+    forwardBatchSize: 4,
+    forwardBatchMaxKb: 16,
+    forwardBatchIntervalMs: -1,
     allowedExtensions: '.gif, png, .TXT',
     forwardUserId: ' 12345 ',
     forwardNickname: ' 表情仓库 '
@@ -148,6 +205,8 @@ test('sanitizeConfig keeps safe defaults and normalizes extensions', () => {
   assert.equal(config.commandPrefix, 'meme');
   assert.equal(config.memeRoot, '/custom/memes');
   assert.equal(config.maxSendCount, 5);
+  assert.equal(config.forwardBatchMaxKb, 16);
+  assert.equal(config.forwardBatchIntervalMs, 0);
   assert.deepEqual(config.allowedExtensions, ['.gif', '.png', '.txt']);
   assert.equal(config.forwardUserId, '12345');
   assert.equal(config.forwardNickname, '表情仓库');
