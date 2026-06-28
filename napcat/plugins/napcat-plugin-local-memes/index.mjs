@@ -7,8 +7,8 @@ const DEFAULT_CONFIG = {
   commandPrefix: 'meme',
   memeRoot: '/app/memes',
   allowedExtensions: ['.gif', '.png', '.jpg', '.jpeg', '.webp'],
-  maxSendCount: 50,
-  forwardBatchMaxKb: 40960,
+  maxSendCount: 0,
+  forwardBatchMaxKb: 12288,
   forwardBatchIntervalMs: 1500,
   forwardUserId: '10000',
   forwardNickname: '本地表情包'
@@ -45,6 +45,12 @@ function normalizePositiveNumber(value, fallback) {
   return Math.max(1, Math.floor(number));
 }
 
+function normalizeNonNegativeInteger(value, fallback) {
+  const number = Number(value);
+  if (!Number.isFinite(number)) return fallback;
+  return Math.max(0, Math.floor(number));
+}
+
 function normalizeNonNegativeNumber(value, fallback) {
   const number = Number(value);
   if (!Number.isFinite(number)) return fallback;
@@ -65,7 +71,7 @@ export function sanitizeConfig(raw) {
     commandPrefix,
     memeRoot,
     allowedExtensions: normalizeExtensions(input.allowedExtensions),
-    maxSendCount: normalizePositiveNumber(input.maxSendCount, DEFAULT_CONFIG.maxSendCount),
+    maxSendCount: normalizeNonNegativeInteger(input.maxSendCount, DEFAULT_CONFIG.maxSendCount),
     forwardBatchMaxKb: normalizePositiveNumber(input.forwardBatchMaxKb, DEFAULT_CONFIG.forwardBatchMaxKb),
     forwardBatchIntervalMs: normalizeNonNegativeNumber(input.forwardBatchIntervalMs, DEFAULT_CONFIG.forwardBatchIntervalMs),
     forwardUserId: typeof input.forwardUserId === 'string' && input.forwardUserId.trim()
@@ -115,7 +121,7 @@ function buildConfigUi(ctx) {
     ctx.NapCatConfig.text('commandPrefix', '指令前缀', DEFAULT_CONFIG.commandPrefix, '例如 meme，对应 meme西格莉卡'),
     ctx.NapCatConfig.text('memeRoot', '容器内表情包目录', DEFAULT_CONFIG.memeRoot, 'Docker 默认挂载为 /app/memes'),
     ctx.NapCatConfig.text('allowedExtensions', '允许的扩展名', DEFAULT_CONFIG.allowedExtensions.join(','), '逗号分隔，例如 .gif,.png,.jpg,.jpeg,.webp'),
-    ctx.NapCatConfig.number('maxSendCount', '单次最多发送数量', DEFAULT_CONFIG.maxSendCount, '防止一次发送过多图片'),
+    ctx.NapCatConfig.number('maxSendCount', '单次最多发送数量', DEFAULT_CONFIG.maxSendCount, '0 表示发送全部表情包'),
     ctx.NapCatConfig.number('forwardBatchMaxKb', '单批最大体积(KB)', DEFAULT_CONFIG.forwardBatchMaxKb, '超过该累计体积后自动拆成下一条合并转发'),
     ctx.NapCatConfig.number('forwardBatchIntervalMs', '批次间隔毫秒', DEFAULT_CONFIG.forwardBatchIntervalMs, '多条合并转发之间的等待时间'),
     ctx.NapCatConfig.text('forwardUserId', '合并转发显示 QQ', DEFAULT_CONFIG.forwardUserId, '合并转发节点里显示的 QQ 号'),
@@ -348,7 +354,9 @@ async function handleMemeCommand(ctx, event) {
     return true;
   }
 
-  const filesToSend = files.slice(0, currentConfig.maxSendCount);
+  const filesToSend = currentConfig.maxSendCount > 0
+    ? files.slice(0, currentConfig.maxSendCount)
+    : files;
   const fileBatches = splitIntoBatchesBySize(filesToSend, currentConfig.forwardBatchMaxKb);
   logger?.info(`发送本地表情包：${parsed.keyword}，数量 ${filesToSend.length}/${files.length}，批次 ${fileBatches.length}，目录 ${dir}`);
 

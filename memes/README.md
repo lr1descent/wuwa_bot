@@ -18,5 +18,5 @@ Send `meme list` to show all first-level meme packs with supported image counts 
 file sizes.
 
 Large meme packs are split into batches by the plugin. `maxSendCount` controls the total
-number of images for one command, and `forwardBatchMaxKb` controls the maximum cumulative
-file size for each merged forward message.
+number of images for one command; `0` means all images. `forwardBatchMaxKb` controls the
+maximum cumulative file size for each merged forward message.

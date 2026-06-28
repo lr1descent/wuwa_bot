@@ -222,6 +222,50 @@ test('plugin splits large meme packs by cumulative file size', async () => {
   assert.deepEqual(calls.map((call) => call.params.messages.length), [2, 2, 2]);
 });
 
+test('plugin treats maxSendCount zero as sending all meme files', async () => {
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'local-memes-'));
+  const dir = path.join(tmp, '西格莉卡');
+  fs.mkdirSync(dir);
+  for (let index = 1; index <= 6; index++) {
+    fs.writeFileSync(path.join(dir, `${index}.gif`), 'gif');
+  }
+
+  const calls = [];
+  const ctx = {
+    adapterName: 'test',
+    configPath: path.join(tmp, 'config.json'),
+    pluginManager: { config: {} },
+    actions: {
+      call: async (action, params, adapter, config) => {
+        calls.push({ action, params, adapter, config });
+      }
+    },
+    logger: {
+      info: () => {},
+      warn: () => {},
+      error: () => {}
+    }
+  };
+
+  await plugin_init(ctx);
+  await plugin_set_config(ctx, {
+    memeRoot: tmp,
+    maxSendCount: 0,
+    forwardBatchMaxKb: 64,
+    forwardBatchIntervalMs: 0
+  });
+  await plugin_onmessage(ctx, {
+    message_type: 'group',
+    group_id: 123,
+    user_id: 456,
+    self_id: 789,
+    raw_message: 'meme西格莉卡'
+  });
+
+  assert.equal(calls.length, 1);
+  assert.equal(calls[0].params.messages.length, 6);
+});
+
 test('plugin sends meme list as text with pack counts and sizes', async () => {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'local-memes-'));
   const xglk = path.join(tmp, '西格莉卡');
@@ -275,7 +319,7 @@ test('sanitizeConfig keeps safe defaults and normalizes extensions', () => {
     enabled: false,
     commandPrefix: ' meme ',
     memeRoot: ' /custom/memes ',
-    maxSendCount: 5,
+    maxSendCount: 0,
     forwardBatchSize: 4,
     forwardBatchMaxKb: 16,
     forwardBatchIntervalMs: -1,
@@ -287,10 +331,17 @@ test('sanitizeConfig keeps safe defaults and normalizes extensions', () => {
   assert.equal(config.enabled, false);
   assert.equal(config.commandPrefix, 'meme');
   assert.equal(config.memeRoot, '/custom/memes');
-  assert.equal(config.maxSendCount, 5);
+  assert.equal(config.maxSendCount, 0);
   assert.equal(config.forwardBatchMaxKb, 16);
   assert.equal(config.forwardBatchIntervalMs, 0);
   assert.deepEqual(config.allowedExtensions, ['.gif', '.png', '.txt']);
   assert.equal(config.forwardUserId, '12345');
   assert.equal(config.forwardNickname, '表情仓库');
+});
+
+test('sanitizeConfig defaults to full send and a conservative forward batch size', () => {
+  const config = sanitizeConfig({});
+
+  assert.equal(config.maxSendCount, 0);
+  assert.equal(config.forwardBatchMaxKb, 12288);
 });
