@@ -131,8 +131,11 @@ export function parseMemeCommand(rawMessage, commandPrefix = DEFAULT_CONFIG.comm
   if (!message || !prefix) return null;
   if (!message.toLowerCase().startsWith(prefix.toLowerCase())) return null;
 
+  const rest = message.slice(prefix.length);
+  if (/^[A-Za-z0-9_]/.test(rest)) return null;
+
   return {
-    keyword: message.slice(prefix.length).trim()
+    keyword: rest.trim()
   };
 }
 
@@ -163,6 +166,53 @@ export function listMemeFiles(memeRoot, keyword, allowedExtensions = DEFAULT_CON
     .filter((entry) => entry.isFile() && allowed.has(path.extname(entry.name).toLowerCase()))
     .map((entry) => path.join(dir, entry.name))
     .sort((a, b) => collator.compare(path.basename(a), path.basename(b)));
+}
+
+export function listMemePacks(memeRoot, allowedExtensions = DEFAULT_CONFIG.allowedExtensions) {
+  const root = path.resolve(String(memeRoot || DEFAULT_CONFIG.memeRoot));
+  if (!fs.existsSync(root)) return [];
+
+  const stat = fs.statSync(root);
+  if (!stat.isDirectory()) return [];
+
+  return fs.readdirSync(root, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => {
+      const files = listMemeFiles(root, entry.name, allowedExtensions);
+      return {
+        name: entry.name,
+        count: files.length,
+        totalBytes: files.reduce((total, file) => total + getFileSize(file), 0)
+      };
+    })
+    .sort((a, b) => collator.compare(a.name, b.name));
+}
+
+export function formatFileSize(bytes) {
+  const size = Number(bytes);
+  if (!Number.isFinite(size) || size <= 0) return '0 B';
+
+  const units = ['B', 'KB', 'MB', 'GB'];
+  let value = size;
+  let unitIndex = 0;
+  while (value >= 1024 && unitIndex < units.length - 1) {
+    value /= 1024;
+    unitIndex += 1;
+  }
+
+  const rounded = Number.isInteger(value) ? String(value) : value.toFixed(1).replace(/\.0$/, '');
+  return `${rounded} ${units[unitIndex]}`;
+}
+
+export function buildMemeListMessage(packs) {
+  if (!Array.isArray(packs) || packs.length === 0) {
+    return '当前没有可用表情包';
+  }
+
+  return [
+    '当前表情包：',
+    ...packs.map((pack) => `- ${pack.name}：${pack.count} 张，${formatFileSize(pack.totalBytes)}`)
+  ].join('\n');
 }
 
 export function buildImageSegment(filePath) {
@@ -275,8 +325,14 @@ async function handleMemeCommand(ctx, event) {
   const parsed = parseMemeCommand(event.raw_message || '', currentConfig.commandPrefix);
   if (!parsed) return false;
 
+  if (parsed.keyword.toLowerCase() === 'list') {
+    const packs = listMemePacks(currentConfig.memeRoot, currentConfig.allowedExtensions);
+    await sendMessage(ctx, event, buildMemeListMessage(packs));
+    return true;
+  }
+
   if (!parsed.keyword) {
-    await sendMessage(ctx, event, `用法：${currentConfig.commandPrefix}西格莉卡`);
+    await sendMessage(ctx, event, `用法：${currentConfig.commandPrefix}西格莉卡\n${currentConfig.commandPrefix} list`);
     return true;
   }
 

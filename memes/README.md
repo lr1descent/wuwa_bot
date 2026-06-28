@@ -11,7 +11,11 @@ memes/
     002.png
 ```
 
-Send `meme西格莉卡` to the bot to send supported images in that folder as merged forward messages.
+Send `meme西格莉卡`, `meme 西格莉卡`, or `meme        西格莉卡` to the bot to
+send supported images in that folder as merged forward messages.
+
+Send `meme list` to show all first-level meme packs with supported image counts and total
+file sizes.
 
 Large meme packs are split into batches by the plugin. `maxSendCount` controls the total
 number of images for one command, and `forwardBatchMaxKb` controls the maximum cumulative
